@@ -1,0 +1,46 @@
+name: Build check
+
+# Builds the site without touching GitHub Pages, so a broken template or a bad
+# bit of YAML shows up here even if Pages is not configured. Runs on pushes and
+# pull requests to main.
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true
+
+      - name: Build with Jekyll (strict)
+        run: bundle exec jekyll build --trace --strict_front_matter
+        env:
+          JEKYLL_ENV: production
+
+      - name: Report what was built
+        run: |
+          echo "posts built: $(find _site/post -name index.html | wc -l)"
+          echo "pages built: $(find _site -maxdepth 2 -name index.html | wc -l)"
+          echo "total size:  $(du -sh _site | cut -f1)"
+          for p in index.html about-hil about-us publications events courses blog contact 404.html; do
+            if [ -e "_site/$p" ] || [ -e "_site/$p/index.html" ]; then
+              echo "  ok      $p"
+            else
+              echo "  MISSING $p"; exit 1
+            fi
+          done
