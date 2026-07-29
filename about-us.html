@@ -5,26 +5,17 @@ permalink: /about-us/
 description: The people of the Humanities Innovation Lab at the University of Lethbridge.
 ---
 
-<div class="page-header">
-  <div class="wrap">
-    <h1>About us</h1>
-    <p class="page-header__sub">The researchers, students, and affiliates of the Humanities Innovation Lab.</p>
-  </div>
-</div>
-
-<section class="section">
+{%- comment -%}
+  The Wix page had no title block — it opened straight onto the first bio, with
+  the photograph alternating right, left, right down the page. There was no role
+  line here either; roles appear only in the home-page member grid.
+{%- endcomment -%}
+<section class="section section--flush-top">
   <div class="wrap">
     {% for m in site.data.members %}
-    <article class="bio" id="{{ m.name | slugify }}">
-      <div class="bio__photo">
-        {% if m.photo %}
-        <img src="{{ m.photo | relative_url }}" alt="{{ m.name | escape }}" loading="lazy">
-        {% endif %}
-      </div>
-
+    <article class="bio{% cycle '', ' bio--flip' %}" id="{{ m.name | slugify }}">
       <div class="bio__text">
         <h2 class="bio__name">{{ m.name }}</h2>
-        <p class="bio__role">{{ m.role }}</p>
         <div class="bio__body">{{ m.bio }}</div>
 
         {% if m.email or m.website %}
@@ -32,6 +23,12 @@ description: The people of the Humanities Innovation Lab at the University of Le
           {% if m.email %}<a href="mailto:{{ m.email }}">Get in touch</a>{% endif %}
           {% if m.website %}<a href="{{ m.website }}" target="_blank" rel="noopener">Website</a>{% endif %}
         </div>
+        {% endif %}
+      </div>
+
+      <div class="bio__media">
+        {% if m.photo %}
+        <img class="bio__photo" src="{{ m.photo | relative_url }}" alt="{{ m.name | escape }}" loading="lazy">
         {% endif %}
       </div>
     </article>

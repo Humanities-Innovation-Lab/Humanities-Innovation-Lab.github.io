@@ -5,25 +5,22 @@ permalink: /courses/
 description: A database of vetted resources on the lab's key topics.
 ---
 
-<div class="page-header page-header--image"
-     style="background-image:url('{{ '/assets/img/11062b_901541c3ff9449f89228990fd9295365.jpeg' | relative_url }}')">
-  <div class="wrap">
-    <h1>HIL Resources Index</h1>
-    <p class="page-header__sub">A database of vetted resources on our lab's key topics</p>
-  </div>
+<div class="wrap phead">
+  <h1>HIL Resources Index</h1>
+  <p class="phead__sub">A database of vetted resources on our lab's key topics</p>
 </div>
 
-<section class="section">
+<section class="section section--flush-top">
   <div class="wrap">
     {% for g in site.data.resources %}
-    <div class="res-group">
-      <h2 class="res-group__title">{{ g.group }}</h2>
-      <div class="res-grid">
+    <div class="rgroup">
+      <h2 class="rgroup__title">{{ g.group }}</h2>
+      <div class="rgrid">
         {% for r in g.items %}
         <article class="res">
           <h3 class="res__name">{{ r.name }}</h3>
           <p class="res__desc">{{ r.description }}</p>
-          <a class="res__link" href="{{ r.url }}" target="_blank" rel="noopener">Visit &rarr;</a>
+          <a class="res__link" href="{{ r.url }}" target="_blank" rel="noopener">Visit</a>
         </article>
         {% endfor %}
       </div>

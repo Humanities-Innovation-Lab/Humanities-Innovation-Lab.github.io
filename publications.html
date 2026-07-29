@@ -5,22 +5,19 @@ permalink: /publications/
 description: Books, chapters, and articles produced in the Humanities Innovation Lab.
 ---
 
-<div class="page-header page-header--image"
-     style="background-image:url('{{ '/assets/img/11062b_a8e02c8aa0224828af8dd6d4d28a3a0c.jpg' | relative_url }}')">
-  <div class="wrap">
-    <h1>Publications</h1>
-    <p class="page-header__sub">Books, Chapters, and Articles produced in the Humanities Innovation Lab</p>
-  </div>
+<div class="wrap phead">
+  <h1>Publications</h1>
+  <p class="phead__sub">Books, Chapters, and Articles produced in the Humanities Innovation Lab</p>
 </div>
 
-<section class="section">
+<section class="section section--flush-top">
   <div class="wrap">
-    <div class="pub-list">
+    <div class="plist">
       {% for pub in site.data.publications %}
-      <article class="pub">
-        <div class="pub__cite">{{ pub.citation }}</div>
+      <article class="pitem">
+        <div>{{ pub.citation }}</div>
         {% if pub.doi or pub.pdf %}
-        <div class="pub__links">
+        <div class="pitem__links">
           {% if pub.doi %}<a href="{{ pub.doi }}" target="_blank" rel="noopener">DOI</a>{% endif %}
           {% if pub.pdf %}<a href="{{ pub.pdf }}" target="_blank" rel="noopener">PDF</a>{% endif %}
         </div>
@@ -29,10 +26,9 @@ description: Books, chapters, and articles produced in the Humanities Innovation
       {% endfor %}
     </div>
 
-    <p style="margin-top:2.5rem;color:var(--muted);font-size:0.92rem;">
+    <p class="pitem__meta" style="margin-top:2rem;">
       The lab's outputs are also collected in its
-      <a href="{{ site.social.zenodo }}" target="_blank" rel="noopener"
-         style="color:var(--accent-dark);text-decoration:underline;">Zenodo community</a>.
+      <a class="u" href="{{ site.social.zenodo }}" target="_blank" rel="noopener">Zenodo community</a>.
     </p>
   </div>
 </section>

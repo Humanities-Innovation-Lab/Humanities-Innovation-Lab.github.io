@@ -1,37 +1,33 @@
 {%- comment -%}
-  Mirrors the Wix navigation: five primary items plus a "More" group holding
-  Publications, Events, and Resources.
+  Matches the Wix header: the logo lockup at 315px, a hairline rule beneath it,
+  then the nav row. Links are sentence case at 15px, not uppercase.
+  The Wix "Log In" item was a Wix members feature and has no equivalent here.
 {%- endcomment -%}
 <header class="nav">
   <div class="nav__inner">
-    <a class="nav__brand" href="{{ '/' | relative_url }}">
-      <span class="nav__site-name">Humanities Innovation Lab</span>
-      <span class="nav__site-sub">University of Lethbridge</span>
+    <a class="nav__logo" href="{{ '/' | relative_url }}">
+      <img src="{{ '/assets/img/b46f88_39122a9d3426422abbe0513a0c028477.png' | relative_url }}"
+           alt="Humanities Innovation Lab" width="315" height="170">
     </a>
 
-    <button class="nav__toggle" type="button" aria-label="Open navigation" aria-expanded="false"
-            onclick="var l=document.querySelector('.nav__links');l.classList.toggle('open');this.setAttribute('aria-expanded',l.classList.contains('open'));">
-      <span></span><span></span><span></span>
-    </button>
+    <hr class="nav__rule">
 
-    <nav class="nav__links" aria-label="Main navigation">
-      <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} class="is-current"{% endif %}>Home</a>
-      <a href="{{ '/about-hil/' | relative_url }}"{% if page.url contains '/about-hil' %} class="is-current"{% endif %}>Projects</a>
-      <a href="{{ '/about-us/' | relative_url }}"{% if page.url contains '/about-us' %} class="is-current"{% endif %}>About us</a>
-      <a href="{{ '/blog/' | relative_url }}"{% if page.url contains '/blog' or page.layout == 'post' %} class="is-current"{% endif %}>Blog</a>
-      <a href="{{ '/contact/' | relative_url }}"{% if page.url contains '/contact' %} class="is-current"{% endif %}>Contact</a>
+    <div class="nav__bar">
+      <nav class="nav__links" aria-label="Main navigation">
+        <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} class="is-current"{% endif %}>Home</a>
+        <a href="{{ '/about-hil/' | relative_url }}"{% if page.url contains '/about-hil' %} class="is-current"{% endif %}>Projects</a>
+        <a href="{{ '/about-us/' | relative_url }}"{% if page.url contains '/about-us' %} class="is-current"{% endif %}>About us</a>
+        <a href="{{ '/blog/' | relative_url }}"{% if page.url contains '/blog' or page.layout == 'post' %} class="is-current"{% endif %}>Blog</a>
+        <a href="{{ '/contact/' | relative_url }}"{% if page.url contains '/contact' %} class="is-current"{% endif %}>Contact</a>
+        <a href="{{ '/publications/' | relative_url }}"{% if page.url contains '/publications' %} class="is-current"{% endif %}>Publications</a>
+        <a href="{{ '/events/' | relative_url }}"{% if page.url contains '/events' %} class="is-current"{% endif %}>Events</a>
+        <a href="{{ '/courses/' | relative_url }}"{% if page.url contains '/courses' %} class="is-current"{% endif %}>Resources</a>
+      </nav>
 
-      <div class="nav__more">
-        <button class="nav__more-btn" type="button" aria-expanded="false"
-                onclick="var d=this.parentNode;d.classList.toggle('open');this.setAttribute('aria-expanded',d.classList.contains('open'));">
-          More <span class="nav__caret" aria-hidden="true">▾</span>
-        </button>
-        <div class="nav__more-menu">
-          <a href="{{ '/publications/' | relative_url }}">Publications</a>
-          <a href="{{ '/events/' | relative_url }}">Events</a>
-          <a href="{{ '/courses/' | relative_url }}">Resources</a>
-        </div>
-      </div>
-    </nav>
+      <button class="nav__toggle" type="button" aria-label="Open navigation" aria-expanded="false"
+              onclick="var l=document.querySelector('.nav__links');l.classList.toggle('open');this.setAttribute('aria-expanded',l.classList.contains('open'));">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
   </div>
 </header>

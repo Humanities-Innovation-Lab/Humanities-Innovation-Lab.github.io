@@ -5,28 +5,29 @@ permalink: /about-hil/
 description: Current research hosted in the Humanities Innovation Lab.
 ---
 
-<div class="page-header page-header--image"
-     style="background-image:url('{{ '/assets/img/nsplsh_776b4669376d436c6f566f.jpg' | relative_url }}')">
-  <div class="wrap">
-    <h1>Projects</h1>
-    <p class="page-header__sub">Current research hosted in the HIL</p>
-  </div>
+<div class="wrap phead">
+  <h1>Projects</h1>
+  <p class="phead__sub">Current research hosted in the HIL</p>
 </div>
 
-<section class="section">
+<section class="section section--flush-top">
   <div class="wrap">
     {% for p in site.data.projects %}
-    <article class="project" id="{{ p.title | slugify }}">
-      <div class="project__media">
-        {% if p.image %}
-        <img src="{{ p.image | relative_url }}" alt="{{ p.image_alt | default: p.title | escape }}" loading="lazy">
+    <article class="bio{% cycle '', ' bio--flip' %}" id="{{ p.title | slugify }}">
+      <div class="bio__text">
+        <h2 class="bio__name">{{ p.title }}</h2>
+        <div class="bio__body">{{ p.body }}</div>
+        {% if p.url %}
+        <div class="bio__links">
+          <a href="{{ p.url }}" target="_blank" rel="noopener">Read more</a>
+        </div>
         {% endif %}
       </div>
-      <div class="project__text">
-        <h2 class="project__title">{{ p.title }}</h2>
-        <div class="project__body">{{ p.body }}</div>
-        {% if p.url %}
-        <a class="btn btn--outline" href="{{ p.url }}" target="_blank" rel="noopener">Read more</a>
+
+      <div class="bio__media">
+        {% if p.image %}
+        <img class="bio__photo" src="{{ p.image | relative_url }}"
+             alt="{{ p.image_alt | default: p.title | escape }}" loading="lazy">
         {% endif %}
       </div>
     </article>

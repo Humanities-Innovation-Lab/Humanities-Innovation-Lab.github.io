@@ -5,17 +5,14 @@ permalink: /blog/
 description: News, notes, and tutorials from the Humanities Innovation Lab.
 ---
 
-<div class="page-header">
-  <div class="wrap">
-    <h1>Blog</h1>
-    <p class="page-header__sub">News, notes, and tutorials from the lab.</p>
-  </div>
+<div class="wrap phead">
+  <h1>Blog</h1>
+  <p class="phead__sub">News, notes, and tutorials from the lab.</p>
 </div>
 
-<section class="section">
+<section class="section section--flush-top">
   <div class="wrap">
 
-    {%- comment -%} Collect the categories actually used across the posts. {%- endcomment -%}
     {%- assign cats = "" | split: "" -%}
     {%- for post in site.posts -%}
       {%- for cat in post.categories -%}
@@ -35,28 +32,32 @@ description: News, notes, and tutorials from the Humanities Innovation Lab.
       <p class="blog-count" id="blog-count"></p>
     </div>
 
-    <div class="cards" id="blog-list">
+    <div class="postcards" id="blog-list">
       {% for post in site.posts %}
       {%- capture cat_slugs -%}
         {%- if post.categories.size > 0 -%}
           {%- for c in post.categories -%}{{ c | slugify }} {% endfor -%}
         {%- else -%}uncategorised{%- endif -%}
       {%- endcapture -%}
-      <article class="card" data-category="{{ cat_slugs | strip }}">
+      <article class="postcard" data-category="{{ cat_slugs | strip }}">
         <a href="{{ post.url | relative_url }}">
           {% if post.image %}
-          <div class="card__thumb">
+          <div class="postcard__thumb">
             <img src="{{ post.image | relative_url }}" alt="{{ post.title | escape }}" loading="lazy">
           </div>
           {% endif %}
-          <div class="card__body">
-            <div class="card__meta">
-              <span>{{ post.date | date: "%b %-d, %Y" }}</span>
-              {% if post.categories.first %}<span class="card__tag">{{ post.categories.first }}</span>{% endif %}
+          <div class="postcard__body">
+            <div class="postcard__byline">
+              <img class="postcard__avatar"
+                   src="{{ '/assets/img/b46f88_39122a9d3426422abbe0513a0c028477.png' | relative_url }}"
+                   alt="" loading="lazy">
+              <span class="postcard__who">
+                <strong>{{ post.author | default: "Humanities Innovation Lab" }}</strong>
+                {{ post.date | date: "%b %-d, %Y" }}
+              </span>
             </div>
-            <h3 class="card__title">{{ post.title }}</h3>
-            {% if post.description %}<p class="card__excerpt">{{ post.description }}</p>{% endif %}
-            <span class="card__link">Read more &rarr;</span>
+            <h3 class="postcard__title">{{ post.title }}</h3>
+            {% if post.description %}<p class="postcard__excerpt">{{ post.description }}</p>{% endif %}
           </div>
         </a>
       </article>
@@ -73,7 +74,7 @@ description: News, notes, and tutorials from the Humanities Innovation Lab.
   (function () {
     var list = document.getElementById("blog-list");
     if (!list) return;
-    var cards = Array.prototype.slice.call(list.querySelectorAll(".card"));
+    var cards = Array.prototype.slice.call(list.querySelectorAll(".postcard"));
     var chips = Array.prototype.slice.call(document.querySelectorAll(".blog-chip"));
     var countEl = document.getElementById("blog-count");
     var emptyEl = document.getElementById("blog-empty");
@@ -94,12 +95,9 @@ description: News, notes, and tutorials from the Humanities Innovation Lab.
     }
 
     chips.forEach(function (chip) {
-      chip.addEventListener("click", function () {
-        apply(chip.getAttribute("data-filter"));
-      });
+      chip.addEventListener("click", function () { apply(chip.getAttribute("data-filter")); });
     });
 
-    // Allow /blog/#news to open pre-filtered (post pages link this way).
     var hash = (window.location.hash || "").replace("#", "");
     var known = chips.map(function (c) { return c.getAttribute("data-filter"); });
     apply(known.indexOf(hash) !== -1 ? hash : "all");

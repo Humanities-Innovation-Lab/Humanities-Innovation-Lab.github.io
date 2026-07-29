@@ -5,6 +5,7 @@
 
 - name: "Barbara Bordalejo"
   role: "Co-director"
+  director: true
   photo: /assets/img/61b914_c28bd939fe134baf8e33d0c103948fb7.jpg
   photo_grid: /assets/img/dd4b55_244dbfcf07b94141a3fa4adecacae89b.jpg
   email: barbara.bordalejo@uleth.ca
@@ -26,6 +27,7 @@
 
 - name: "Daniel O'Donnell"
   role: "Co-director"
+  director: true
   photo: /assets/img/61b914_c9ba6bfef8c34e8986c64036e5969b31.jpg
   photo_grid: /assets/img/dd4b55_f8d539e839bd4c22a91299d37e8de812.jpg
   website: https://people.uleth.ca/~daniel.odonnell
