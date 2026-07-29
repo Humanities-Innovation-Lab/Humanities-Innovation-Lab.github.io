@@ -15,5 +15,3 @@ It is common for African leaders and presidents to be questioned about intersect
 ```
 Sanity and insanity are time and space bound, and until “a worldview that affirms the African experience…” (Asante, 1987), and those of countries in the ‘Global South’ are acknowledged and respected, we are all pretending to be sane. Egbe bere, ugo bere (Let the eagle perch, let the kite perch).
 ```
-
-![](/assets/img/94c606_95cbbda9ecb340839277b40119ae9eac.webp)

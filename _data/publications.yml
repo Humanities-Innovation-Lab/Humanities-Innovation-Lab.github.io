@@ -1,5 +1,29 @@
-# Books, chapters, and articles produced in the lab.
-# Add new entries at the top. `citation` is HTML so titles can be italicised.
+# Books, chapters, and articles produced in the lab, newest first.
+#
+# Compiled from the lab's Zenodo community (zenodo.org/communities/hil), taking
+# only records typed as publications — articles and conference papers. The
+# community's 37 presentations, 3 lessons, 2 posters, 2 datasets and 2 videos are
+# not listed here. Two records were deliberately excluded:
+#   * "The Digital Medievalist Project" (2004) — its own description says it is a
+#     redacted grant application, not a publication.
+#   * duplicate presentation deposits that accompany the two conference papers.
+#
+# `citation` is HTML so journal titles can be italicised.
+
+- citation: |
+    Bordalejo, Barbara, Julia Neugarten, and Joris J. Van Zundert. 2025. “Fifty
+    Shades of Twilight: A Computational Approach to Textual Adaptation.”
+    <em>Digital Studies / Le champ numérique</em>.
+  doi: https://doi.org/10.16995/dscn.18703
+  zenodo: https://zenodo.org/records/17741117
+
+- citation: |
+    Bordalejo, Barbara, Daniel O’Donnell, Davide Pafumi, and Morgan Pearce. 2025.
+    “Adapting a Research Tool for Teaching in a Post-Pandemic World: Textual
+    Communities and Critical Digital Pedagogy in the Context of a Comprehensive
+    Liberal Arts Research University.” <em>Digital Humanities Quarterly</em> 19 (2).
+  doi: https://doi.org/10.5281/zenodo.15610703
+  zenodo: https://zenodo.org/records/15610703
 
 - citation: |
     Bordalejo, Barbara, Davide Pafumi, Frank Onuh, A. K. M. Iftekhar Khalid, Morgan
@@ -9,3 +33,18 @@
     Education</em> 22 (1): 6.
   doi: https://doi.org/10.1186/s41239-025-00505-5
   pdf: https://educationaltechnologyjournal.springeropen.com/counter/pdf/10.1186/s41239-025-00505-5.pdf
+  zenodo: https://zenodo.org/records/15014534
+
+- citation: |
+    O’Donnell, Daniel, Nathan Woods, and Barbara Bordalejo. 2023. “Small Data
+    projects/Big Data research: contemporary problems and historical solutions.”
+    Peer-reviewed long abstract, <em>Digital Humanities 2022</em>, Tokyo.
+  doi: https://doi.org/10.5281/zenodo.8403803
+  zenodo: https://zenodo.org/records/8403803
+
+- citation: |
+    Woods, Nathan, Barbara Bordalejo, and Daniel O’Donnell. 2023. “Data Problems in
+    the Humanities, or ‘When everybody is special, no one is’?” Peer-reviewed long
+    abstract, <em>Digital Humanities 2023</em>, Graz.
+  doi: https://doi.org/10.5281/zenodo.8403789
+  zenodo: https://zenodo.org/records/8403789

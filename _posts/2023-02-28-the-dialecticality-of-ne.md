@@ -8,7 +8,6 @@ author: "frankonuh"
 wix_url: "https://www.humanitiesinnovationlab.ca/post/the-dialecticality-of-ne"
 ---
 
-![](/assets/img/94c606_f32e8e1743364c8fb86eab5d77ff7d24.jpg)
 
 Nigeria possesses a distinctive linguistic topography attributable to its over 500 indigenous languages. However, English is a widely spoken language in the country, due to its colonial history and the fact that it serves as the lingua franca for communication between the different ethnic groups. But this language contact has created a nativized variety of English with its distinct lexicon, phonology, syntax, and pragmatic norms, suitably placing Nigerian English (NE) in the category of New Englishes (a term used to denote English varieties that have evolved in postcolonial settings).
 

@@ -17,5 +17,3 @@ Litmap also allows me to store and organize my research materials in an efficien
 While the description I have provided does not encompass all the features and functions of the tool, I encourage you to explore it on your own - [https://www.litmaps.com/](https://www.litmaps.com/) - to determine if it meets your research needs.
 
 Image source: scoop.it
-
-![](/assets/img/94c606_7415f901ac3347b680930a81b9492233.jpg)

@@ -10,8 +10,6 @@ wix_url: "https://www.humanitiesinnovationlab.ca/post/my-graduate-journey-and-hu
 
 I am from the Department of English. I completed my MA in English in January 2023. I started the program in January 2021. I spent most of my time during the last two years (January 2021–January 2023) at the Humanities Innovation Lab (Digital Humanities Lab). I will always remember the lab because the people there are always creative, communicative and supportive. I may need more adjectives to describe how good they are.
 
-![](/assets/img/c03d20_e32590eb84c54dd9aa7dfc665a979763.jpg)
-
 The most favorable time of the week was our weekly lab meeting. It was a 90-minute session usually held on Monday or Tuesday with formal and informal discussions about academic progress. We, all members of the lab, were asked the following three magic questions:
 
 1. What were you doing in the last week?

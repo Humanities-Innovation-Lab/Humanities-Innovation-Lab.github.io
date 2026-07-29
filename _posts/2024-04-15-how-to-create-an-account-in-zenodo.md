@@ -34,5 +34,3 @@ This guide is designed to help students in Digital Humanities create an account 
 ## Conclusion
 
 Creating an account on Zenodo empowers you to participate actively in the global academic community, sharing your research and accessing others' contributions. It's an essential tool for scholars in Digital Humanities, facilitating open access to a wide array of scholarly materials.
-
-![](/assets/img/61b914_5b6400ba96354b5d9ad9b36864ba27b7.jpg)

@@ -8,7 +8,6 @@ author: "Barbara Bordalejo"
 wix_url: "https://www.humanitiesinnovationlab.ca/post/the-rise-of-fast-books-or-instant-mash-ain-t-mashed-potatoes"
 ---
 
-![](/assets/img/dd4b55_61695b0257ee45a3a8e302ad7bc0e32f.jpeg)
 
 Last week, Dan posted a few [notes on bookbinding](https://www.humanitiesinnovationlab.ca/post/changes-in-binding-methods-technological-change-or-change-in-technique) in which he wondered about the swiftness of the 19-century binding in reference to the Coptic and Gothic ones we had learned in the previous days. After musing whether technology or technique (method) had changed, he states: “in this case it isn’t clear that it is the technology that improved but the method.”
 

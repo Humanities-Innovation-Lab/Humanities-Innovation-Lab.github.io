@@ -21,7 +21,11 @@
         <a href="{{ '/contact/' | relative_url }}"{% if page.url contains '/contact' %} class="is-current"{% endif %}>Contact</a>
         <a href="{{ '/publications/' | relative_url }}"{% if page.url contains '/publications' %} class="is-current"{% endif %}>Publications</a>
         <a href="{{ '/events/' | relative_url }}"{% if page.url contains '/events' %} class="is-current"{% endif %}>Events</a>
-        <a href="{{ '/courses/' | relative_url }}"{% if page.url contains '/courses' %} class="is-current"{% endif %}>Resources</a>
+        {%- comment -%}
+          Resources is retired: courses.html and _data/resources.yml stay in the
+          repo, but the page is no longer linked from the navigation. Restore the
+          link here to bring it back.
+        {%- endcomment -%}
       </nav>
 
       <button class="nav__toggle" type="button" aria-label="Open navigation" aria-expanded="false"

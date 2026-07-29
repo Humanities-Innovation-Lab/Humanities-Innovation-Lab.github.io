@@ -8,7 +8,6 @@ author: "Barbara Bordalejo"
 wix_url: "https://www.humanitiesinnovationlab.ca/post/tell-me-what-ink-you-use-to-draw-your-experimental-animals-and-i-ll-tell-you-who-you-subjugated"
 ---
 
-![](/assets/img/nsplsh_24d78d21d1f4416cba84b6e24b9aadd8.jpg)
 
 Thanks to the paleography class, I have been thinking a lot about handwriting.
 

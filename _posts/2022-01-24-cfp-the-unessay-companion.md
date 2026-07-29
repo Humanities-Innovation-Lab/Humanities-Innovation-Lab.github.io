@@ -56,5 +56,3 @@ wix_url: "https://www.humanitiesinnovationlab.ca/post/cfp-the-unessay-companion"
 **Daniel P. O’Donnell, University of Lethbridge,** [**daniel.odonnell@uleth.ca**](mailto:daniel.odonnell@uleth.ca)
 
 **Ryan Cordell, University of Illinois Urbana-Champaign,** [**rcordell@illinois.edu**](mailto:rcordell@illinois.edu)
-
-![](/assets/img/dd4b55_9992c4dfa34f40799b779d606b603c8a.jpeg)

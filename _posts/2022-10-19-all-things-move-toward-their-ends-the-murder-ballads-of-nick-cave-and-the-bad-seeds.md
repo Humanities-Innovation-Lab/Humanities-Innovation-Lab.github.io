@@ -8,7 +8,6 @@ author: "morganpearce3"
 wix_url: "https://www.humanitiesinnovationlab.ca/post/all-things-move-toward-their-ends-the-murder-ballads-of-nick-cave-and-the-bad-seeds"
 ---
 
-![](/assets/img/c91d8d_462190c90b10431cb98622d5491025d9.jpg)
 
 The cover for the album *Murder Ballads* (https://genius.com/albums/Nick-cave-and-the-bad-seeds/Murder-ballads)
 

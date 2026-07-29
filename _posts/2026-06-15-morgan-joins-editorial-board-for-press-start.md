@@ -16,5 +16,3 @@ We are proud to announce that Morgan has been accepted as a member of the Editor
 Morgan is grateful for her time with The Journal Incubator, which helped prepare her for this opportunity by giving her experience with academic publishing and collaborative editorial work. Special thanks go to Dan and Barbara for their mentorship in academic journals and the editorial process, as well as to Davide, Khalid, and all of her past teammates at the Incubator.
 
 ![](/assets/img/61b914_ab0fbb94e2cb406ba195305ab237d136.png)
-
-![](/assets/img/61b914_e6f0ae87ea8f4c35b1e9472cc14ca886.png)

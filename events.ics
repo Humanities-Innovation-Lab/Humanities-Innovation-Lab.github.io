@@ -1,0 +1,35 @@
+---
+layout: null
+permalink: /events.ics
+sitemap: false
+---
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Humanities Innovation Lab//Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Humanities Innovation Lab events
+X-WR-TIMEZONE:America/Edmonton
+{%- comment -%}
+  All-day VEVENTs: the times on the Wix listings were free text, not structured
+  data, so the original time string is carried in the description instead of being
+  parsed. DTEND is exclusive, hence the +1 day.
+{%- endcomment -%}
+{%- for e in site.data.events %}
+{%- assign start = e.date | date: "%Y%m%d" -%}
+{%- assign end = e.date | date: "%s" | plus: 86400 | date: "%Y%m%d" -%}
+{%- capture desc -%}
+{%- if e.when %}{{ e.when }}{% endif %}{% if e.description %} — {{ e.description }}{% endif %}{% if e.link %} {{ e.link }}{% endif %}
+{%- endcapture -%}
+BEGIN:VEVENT
+UID:{{ e.title | slugify }}-{{ start }}@humanitiesinnovationlab.ca
+DTSTAMP:{{ site.time | date: "%Y%m%dT%H%M%SZ" }}
+DTSTART;VALUE=DATE:{{ start }}
+DTEND;VALUE=DATE:{{ end }}
+SUMMARY:{{ e.title | replace: ";", "\;" | replace: ",", "\," | strip_newlines }}
+{% if e.where %}LOCATION:{{ e.where | replace: ";", "\;" | replace: ",", "\," | strip_newlines }}
+{% endif %}DESCRIPTION:{{ desc | strip | replace: ";", "\;" | replace: ",", "\," | strip_newlines }}
+{% if e.link %}URL:{{ e.link }}
+{% endif %}END:VEVENT
+{%- endfor %}
+END:VCALENDAR

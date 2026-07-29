@@ -14,6 +14,4 @@ Khalid and Jocelyn took the Python Fundamentals course, where they learned the b
 
 Davide took the course *L’IA décryptée : fondements techniques et enjeux en SHS*. Taught entirely in French, the course covered topics ranging from text extraction to machine learning, as well as the theories surrounding these processes. Davide especially appreciated that the course offered a nuanced perspective on AI, emphasizing that AI is not a “magic wand,” but rather a tool with limitations that must be understood and studied in order to be used effectively.
 
-![Khalid, Davide, and Jocelyn](/assets/img/61b914_498d35749b8f45d1b9e80c5768b7c2af.jpg)
-
 Khalid, Davide, and Jocelyn

@@ -18,5 +18,3 @@ Watch or listen to the full conversation:
 **YouTube:** [https://www.youtube.com/watch?v=9zRl9NhCfIM](https://www.youtube.com/watch?v=9zRl9NhCfIM)
 
 **Spotify:** [https://open.spotify.com/episode/4xexCzwohOecSWMGpLkmHP](https://open.spotify.com/episode/4xexCzwohOecSWMGpLkmHP)
-
-![](/assets/img/61b914_7363d2f581084d498bb94a823ade0645.jpg)

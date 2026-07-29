@@ -9,7 +9,6 @@ author: "Barbara Bordalejo"
 wix_url: "https://www.humanitiesinnovationlab.ca/post/reading-softly"
 ---
 
-![](/assets/img/dd4b55_5f28edd843a04852a12458b6008b8b34.jpg)
 
 Today, I misread a student blog in which there was a discussion of “reading softly” in reference to Dimaline’s *The Marrow Thieves*. The student was writing about “threading softly” when analyzing indigenous literature because there is a danger of imposing settler interpretations that might become limiting rather than expansive. In a way, what the student was saying also aligned with what I had understood in my misreading. It got me thinking. I like the idea of reading softly because it implies a gentle approach to the materials being studied. Instead of coming up with grand, sharp-edged theories (deconstruction, structuralism, new criticism), one could approach texts directly, at face value, but make an effort to shed one's biases and history.
 

@@ -10,5 +10,3 @@ wix_url: "https://www.humanitiesinnovationlab.ca/post/the-lab-attended-dh-2023-i
 ---
 
 Nathan, Dan, and Barbara presented their paper titled 'Data Problems in the Humanities, or "When everybody is special,no one is”?' at DH2023, sponsored by ADHO, in Graz Austria, from July 10-14th.
-
-![](/assets/img/61b914_0c8575fb37b040fc93a9054fd6ae0c02.png)

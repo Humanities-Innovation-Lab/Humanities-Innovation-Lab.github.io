@@ -61,6 +61,11 @@ body {
 
 img { max-width: 100%; height: auto; display: block; }
 a { color: inherit; text-decoration: none; }
+
+/* The blog filter toggles the `hidden` attribute. Components below set
+   `display: flex`, which would otherwise beat the UA stylesheet's
+   `[hidden] { display: none }` and leave hidden cards visible. */
+[hidden] { display: none !important; }
 ul, ol { list-style: none; }
 button { font: inherit; color: inherit; background: none; border: 0; cursor: pointer; }
 
@@ -330,6 +335,73 @@ p:last-child { margin-bottom: 0; }
 .pitem__links a:hover { opacity: 0.7; }
 .pitem__meta { color: var(--muted); }
 .pitem__title { font-family: var(--font-head); font-size: 1.25rem; margin-bottom: 0.4rem; }
+
+/* ============================================================
+   EVENTS CALENDAR
+   ============================================================ */
+
+.cal { margin-bottom: 3.5rem; }
+
+.cal__bar { display: flex; align-items: center; justify-content: center; gap: 1.5rem; margin-bottom: 1.25rem; }
+.cal__month { font-size: 1.5rem; min-width: 12ch; text-align: center; }
+.cal__nav {
+  width: 40px; height: 40px;
+  border: 1px solid var(--rule);
+  color: var(--text);
+  font-size: 1rem;
+  transition: background 0.2s var(--ease), border-color 0.2s var(--ease);
+}
+.cal__nav:hover { background: var(--panel); border-color: var(--text); }
+
+.cal__caption { position: absolute; left: -9999px; }
+
+.cal__grid { width: 100%; border-collapse: collapse; table-layout: fixed; }
+.cal__grid th {
+  font-family: var(--font-body);
+  font-weight: 300;
+  font-size: 0.78rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+  padding: 0 0 0.65rem;
+}
+.cal__grid th abbr { text-decoration: none; }
+.cal__grid td { border: 1px solid rgba(255, 255, 255, 0.12); padding: 0; height: 76px; vertical-align: top; }
+.cal__pad { background: rgba(255, 255, 255, 0.02); }
+
+.cal__day {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.35rem;
+  width: 100%;
+  height: 100%;
+  padding: 0.5rem 0.6rem;
+  color: var(--muted);
+  text-align: left;
+}
+.cal__num { font-size: 0.875rem; line-height: 1; }
+
+.cal__day--has { color: var(--text); cursor: pointer; transition: background 0.2s var(--ease); }
+.cal__day--has:hover { background: var(--panel); }
+.cal__day--has .cal__num { font-weight: 400; }
+.cal__dot { width: 7px; height: 7px; border-radius: 50%; background: var(--text); }
+.cal__day--on { background: var(--text); color: var(--bg); }
+.cal__day--on .cal__dot { background: var(--bg); }
+
+.cal__foot { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem; margin-top: 1rem; }
+.cal__hint { color: var(--muted); font-size: 0.875rem; }
+.cal__ics { font-size: 0.875rem; text-decoration: underline; text-underline-offset: 0.15em; }
+.cal__ics:hover { opacity: 0.7; }
+
+.evlist-head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem; }
+.evlist-head .rgroup__title { margin-bottom: 1.25rem; }
+
+@media (max-width: 620px) {
+  .cal__grid td { height: 56px; }
+  .cal__day { padding: 0.35rem 0.4rem; }
+  .cal__num { font-size: 0.78rem; }
+}
 
 .rgroup + .rgroup { margin-top: 3rem; }
 .rgroup__title { font-size: 1.375rem; padding-bottom: 0.7rem; border-bottom: 1px solid var(--rule); margin-bottom: 1.5rem; }

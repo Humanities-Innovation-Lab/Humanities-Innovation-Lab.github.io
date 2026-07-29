@@ -7,4 +7,3 @@ author: "Humanities Innovation Lab"
 wix_url: "https://www.humanitiesinnovationlab.ca/post/guest-speaker-in-the-humanities-innovation-lab"
 ---
 
-![](/assets/img/61b914_e56a07e2110f4a1fbdaa8f7b12c4487d.jpg)

@@ -28,5 +28,3 @@ Using a two-fold computational linguistic approach (measuring lexical richness t
 - **Dates:** March 20-22, 2025
 
 ![](/assets/img/61b914_3d54dfb0c5cf4bea9bc86efa1eb5e0b5.png)
-
-![](/assets/img/61b914_4ac5ca7635734736a9602ea4686e111a.jpg)

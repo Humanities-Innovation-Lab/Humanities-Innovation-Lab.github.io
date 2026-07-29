@@ -14,5 +14,3 @@ The Humanities Innovation Lab welcomes its newest member, Frank Onuh, who will w
 Frank obtained his undergraduate degree in 2013 at Nnamdi Azikiwe University and his M.A. in 2019 at Benson Idahosa University. He has taught foundation classes in Pragmatics, Sociolinguistics, Discourse Analysis, and CALL (Computer Assisted Language Learning).
 
 Frank arrived from Nigeria during a week in which our city is being blasted by a cold front. We hope he is keeping warm.
-
-![](/assets/img/fe4d61_d33e4324685d465fa186420f94d131a5.jpg)

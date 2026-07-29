@@ -8,7 +8,6 @@ author: "khalid"
 wix_url: "https://www.humanitiesinnovationlab.ca/post/artificial-intelligence-and-english"
 ---
 
-![](/assets/img/c03d20_07ceee5314ca4f58abe37119a44379f4.png)
 
 When I described at a dining table Artificial Intelligence (AI) as a postcolonial tool, it seemed to the eyes of listeners, “Are you serious?” AI is vastly seen as an assistant to humans, and it will give us some facilities so that our lives will be easier than earlier. Yes! Artificial intelligence works for humans. In stories, we see that inert objects are working at the command of a master. In the story of Aladdin, a magic carpet is carrying Aladdin and his girl friend to places where they like to go. In other stories, a pair of shoes carries a person, and a piece of cloth can make someone invisible. Nils Nilsson saw the root of AI in literature, and he referred in his book, *The Quest for Artificial Intelligence* to Hephaistos, the lame blacksmith god from Homer’s *Iliad*, constructed the self-propelled chairs called “tripods" and “golden attendants" to help him get around. Nilsson also mentioned the Greek myth, *Metamorphoses*, “Pygmalian sculpts an ivory statue of a beautiful maiden, Galatea, which Venus brings to life.”
 

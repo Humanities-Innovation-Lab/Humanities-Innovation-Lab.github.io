@@ -14,6 +14,4 @@ Also as a student, reading Spengler's The Decline of the West, I felt sad to bel
 
 It took me years to reassess myself and understand that I am Western and Judeo-Christian by education but not by birth, class, or social standing. My education, much like the one of Rushdie, Ishiguro, or Borges, circled Western literary, artistic, and scientific accomplishments.
 
-![](/assets/img/dd4b55_50dedd55b48d489ab5d3c4fb46ad3f05.jpg)
-
 Yet, there are parts of me that taught other beliefs and other stories, and those also influence what I am. It would be as much of a mistake to only try to understand the later part without acknowledging the former. This is true for other writers and scholars of colour too.

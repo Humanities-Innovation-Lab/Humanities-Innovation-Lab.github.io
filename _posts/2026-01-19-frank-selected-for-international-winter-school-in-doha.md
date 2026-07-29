@@ -22,5 +22,3 @@ Frank also expressed gratitude to **Professor Ahmed Al-Rawi** for sharing the op
 The presentation slides are available [here](https://doi.org/10.5281/zenodo.18220326)on **Zenodo** , and the full paper will be shared upon publication. Frank also noted his appreciation for the **University of Lethbridge** for supporting emerging scholars and fostering opportunities for academic growth.
 
 Frank also expressed gratitude to God for the opportunity to participate in the program
-
-![](/assets/img/61b914_b7f75b3ce1944c9db2e08794693c30b8.jpg)

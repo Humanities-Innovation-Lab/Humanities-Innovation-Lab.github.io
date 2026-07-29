@@ -41,6 +41,4 @@ Khalid Presenting
 
 Nathan and Dan presenting with Davide off screen.
 
-![Nathan, Davide, and Jocelyn](/assets/img/61b914_7587e14943674cacaf44c41ae2b907b3.jpg)
-
 Nathan, Davide, and Jocelyn

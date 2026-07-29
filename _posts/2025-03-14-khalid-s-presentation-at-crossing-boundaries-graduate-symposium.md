@@ -21,6 +21,4 @@ Artificial intelligence (AI) is often heralded as an objective and transformativ
 
 Congratulations and good luck to Khalid and Frank!
 
-![](/assets/img/28350a_db534ae36a4e4995bcc3eefdf1de8c1e.png)
-
 ####

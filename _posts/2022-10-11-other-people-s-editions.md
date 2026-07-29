@@ -10,8 +10,6 @@ wix_url: "https://www.humanitiesinnovationlab.ca/post/other-people-s-editions"
 
 Although I have been working with digital editions for a long time, this past week, I was faced with a completely divergent perspective for the first time in a very long time. As part of the Textual Communities workshop, I asked to use *Cædmon’s Hymn* transcriptions which form the base for Dan O’Donnell’s edition (2008)
 
-![The text of Cædmon's Hymn on the margin of folio 99r mss. Mg.](/assets/img/dd4b55_7394ebe67a0043b789deab27434bc37a.png)
-
 Screenshot of Cædmon’s Hymn’s A Multimedia Study, Edition and Archive (O'Donnell 2008) https://caedmon.seenet.org/htm/transcription/mg/facsimile.html
 
 .Because the texts were transcribed in SGML, we had to re-code them into XML for the workshop. Re-coding someone’s code is both a challenge and an opportunity,

@@ -8,7 +8,6 @@ author: "Barbara Bordalejo"
 wix_url: "https://www.humanitiesinnovationlab.ca/post/why-should-one-read-the-canterbury-tales-today"
 ---
 
-![](/assets/img/dd4b55_7f9518b9971b437c8a1389e8b5619a0c.jpeg)
 
 This morning I was asked about the *Canterbury Tales*. The question was questionable (perhaps I will write about that some other time) because of its wording and range. For the purposes of this answer, I am going to answer by understanding it as "Why should one read the *Canterbury Tales* today? "
 

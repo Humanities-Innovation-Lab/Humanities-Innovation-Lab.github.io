@@ -9,7 +9,6 @@ author: "frankonuh"
 wix_url: "https://www.humanitiesinnovationlab.ca/post/until-the-lion-speaks"
 ---
 
-![](/assets/img/94c606_0a570dd0b1804761937fc1a063203131.png)
 
 The persistent categorization of African languages within Western linguistic frameworks is a troubling remnant of colonial thinking that continues to plague academic discourse. African scholars must unite and challenge these Eurocentric classifications and reclaim the linguistic heritage on their own terms. Afrikaans, often misclassified as purely Indo-European, is an example of how Western paradigms fail to capture the true essence and origins of African languages.
 

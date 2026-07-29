@@ -9,7 +9,6 @@ author: "frankonuh"
 wix_url: "https://www.humanitiesinnovationlab.ca/post/from-bytes-to-brainwaves-visuals-of-the-evolution-of-ai-models"
 ---
 
-![](/assets/img/94c606_492f837c8e5d41ccb1ceb8630d9e7899.png)
 
 ![](/assets/img/94c606_81704b4012aa4d38b8eb3b12f2ae946e.png)
 

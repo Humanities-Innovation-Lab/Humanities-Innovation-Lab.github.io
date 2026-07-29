@@ -8,7 +8,6 @@ author: "morganpearce3"
 wix_url: "https://www.humanitiesinnovationlab.ca/post/pentiment-art-writing-and-change"
 ---
 
-![](/assets/img/c91d8d_686260ab20244fcfa4164e52c93a3c26.png)
 
 "Italian *pentimento* **repentance, remorse** (*a*1257), **change of opinion** (1630), **correction** (*a*1827)*"* (OED).
 

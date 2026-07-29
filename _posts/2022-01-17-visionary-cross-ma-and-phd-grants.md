@@ -40,5 +40,3 @@ We are offering funding for a Ph.D. or M.A. within a lively and diverse working 
 Lethbridge is a medium-sized city with a mild climate for the Canadian Prairies. It is located on the lands of the Blackfoot confederacy.
 
 Please contact professor Daniel O’Donnell ([daniel.odonnell@uleth.ca](mailto:daniel.odonnell@uleth.ca)), for an informal conversation. The deadline for a September start is February 2nd.
-
-![](/assets/img/dd4b55_d72d6b72e43d41d2a141c24697a14d73.jpg)

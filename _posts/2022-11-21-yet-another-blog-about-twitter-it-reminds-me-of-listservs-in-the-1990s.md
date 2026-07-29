@@ -27,5 +27,3 @@ It was with the rise of Donald Trump that things really seemed to go off the rai
 As I write this, I realise that I have seen something like this before — on listserves. These too had a very similar trajectory — starting out in the 1980s as the wonderful new “salon” and then degenerating in the mid-1990s into flame-wars so bad that at least one academic listserv I was on had to shut down to cool tempers off.
 
 I wonder now as we see people discussing what Twitter was and has become in the aftermath of the Musk takeover, if this might not be Twitter’s mid-1990s moment: the point at which people realise their previous approach was not working and switch to a much more productive interaction with the platform. It’s been a decade or more since I last saw a flamewar on a list-serv. Could this be the start of something new on short-message social networks?
-
-![](/assets/img/b46f88_f63bf70b6153410cb197ad26b005f613.png)

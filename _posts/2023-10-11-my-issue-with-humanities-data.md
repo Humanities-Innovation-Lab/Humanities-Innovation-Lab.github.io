@@ -8,7 +8,6 @@ author: "Barbara Bordalejo"
 wix_url: "https://www.humanitiesinnovationlab.ca/post/my-issue-with-humanities-data"
 ---
 
-![](/assets/img/dd4b55_1c54405320c4457194e706389ac95024.png)
 
 Each of my doctorates presents different computational approaches to the study of texts. Both were written between 1999 and 2003 and were heavily influenced by my collaborators, a group led by Christopher Howe, head of the biochemistry lab at the University of Cambridge. As I worked as part of the STEMMA (Studies of Textual Evolution of Manuscripts through Mathematical Analysis) project, surrounded by scientists, I might have accidentally adopted their terminology. I am certain I was not trying to make a point about data or whether I, as a humanist, could have any such thing. The materials I was working with, including full-text transcriptions, unregularized, regularized, and lineated collations, were meant to be ingested and processed by computers.
 

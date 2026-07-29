@@ -21,5 +21,3 @@ I didn’t envision the degree to which the act of choosing the original materia
 As I perused my draft syllabus for potential errors, I found myself wanting to take this class. To learn anew those things that are made possible for people who read handwritten documents. What a moment of discovery to find that I can now teach the classes I would have wished to take.
 
 Not only I found some joy in this, but also I understood that this is exactly what I should be doing. Teaching the things I have been practicing for so much time. The things I learned not from a class or a book but from the everyday work with manuscripts that now spans a quarter of a century. That is a long time to be doing anything. Years ago, Mary Carruthers said to me that paleography is like wine tasting; it is not just about knowledge but about experience. Chaucer also wrote something about that…
-
-![](/assets/img/dd4b55_eda8ded9aaa24697a76edd35d44d86f5.jpg)

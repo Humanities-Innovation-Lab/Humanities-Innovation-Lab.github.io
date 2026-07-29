@@ -12,8 +12,6 @@ Continuing my journey through the game *Pentiment,* I came across an especially 
 
 Throughout the game, you are able to choose different dialogue options to respond to other characters. These options are influenced by the background you have chosen for your character (Andreas) and his education, previous experiences, etc. Occasionally, especially when engaging in more complex conversation, a thought bubble appears. If you select this, the game allows you to consider your options from a variety of viewpoints.
 
-![](/assets/img/c91d8d_caf3c4597d89497a9244ec98dc041a5d.png)
-
 Four characters reflect the variety of responses you can give. Prester John will always favour options that take God and Christianity into account. Saint Grobian will encourage you to choose dialogue options that are on the more crude side. Socrates will lean towards dialogue options that are more rational or thoughtful, and Beatrice (from The Divine Comedy) will lean towards more empathetic and understanding responses.
 
 In the first act of the game, you become dependent on these internal conversations to mull over dialogue options. This allows you to consider how you might affect the person you are talking to, or further consequences that your words might have (for example, suggesting to the abbot that he should look into Martin Luther's work might upset him, but talking to a more open-minded lord might fare better). The point is that: **the game establishes this system and makes you dependent on it in order to better 'play' the people in the game.**

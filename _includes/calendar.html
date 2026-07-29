@@ -1,0 +1,139 @@
+{%- comment -%}
+  A month-grid calendar built from _data/events.yml. Every lab event currently
+  sits in 2022, so the calendar opens on the most recent month that actually has
+  one rather than on today's (empty) month.
+{%- endcomment -%}
+
+<div class="cal" id="cal" data-empty-note="No events this month.">
+  <div class="cal__bar">
+    <button class="cal__nav" type="button" id="cal-prev" aria-label="Previous month">&larr;</button>
+    <h3 class="cal__month" id="cal-month" aria-live="polite">&nbsp;</h3>
+    <button class="cal__nav" type="button" id="cal-next" aria-label="Next month">&rarr;</button>
+  </div>
+
+  <table class="cal__grid">
+    <caption class="cal__caption">Lab events by month. Days carrying an event are marked; choose one to see it.</caption>
+    <thead>
+      <tr>
+        <th scope="col"><abbr title="Sunday">Sun</abbr></th>
+        <th scope="col"><abbr title="Monday">Mon</abbr></th>
+        <th scope="col"><abbr title="Tuesday">Tue</abbr></th>
+        <th scope="col"><abbr title="Wednesday">Wed</abbr></th>
+        <th scope="col"><abbr title="Thursday">Thu</abbr></th>
+        <th scope="col"><abbr title="Friday">Fri</abbr></th>
+        <th scope="col"><abbr title="Saturday">Sat</abbr></th>
+      </tr>
+    </thead>
+    <tbody id="cal-body"></tbody>
+  </table>
+
+  <div class="cal__foot">
+    <p class="cal__hint" id="cal-hint"></p>
+    <a class="cal__ics" href="{{ '/events.ics' | relative_url }}">Add to your calendar (.ics)</a>
+  </div>
+</div>
+
+<script>
+  (function () {
+    // Events come straight from _data/events.yml.
+    var EVENTS = [
+      {%- for e in site.data.events %}
+      {
+        date: {{ e.date | date: "%Y-%m-%d" | jsonify }},
+        title: {{ e.title | jsonify }},
+        when: {{ e.when | default: "" | jsonify }},
+        where: {{ e.where | default: "" | jsonify }},
+        description: {{ e.description | default: "" | jsonify }},
+        link: {{ e.link | default: "" | jsonify }},
+        linkText: {{ e.link_text | default: "Details" | jsonify }}
+      }{% unless forloop.last %},{% endunless %}
+      {%- endfor %}
+    ];
+
+    var MONTHS = ["January","February","March","April","May","June",
+                  "July","August","September","October","November","December"];
+
+    var cal = document.getElementById("cal");
+    if (!cal || !EVENTS.length) { if (cal) cal.hidden = true; return; }
+
+    var body = document.getElementById("cal-body");
+    var label = document.getElementById("cal-month");
+    var hint = document.getElementById("cal-hint");
+
+    // Index events by ISO date string.
+    var byDate = {};
+    EVENTS.forEach(function (e) { (byDate[e.date] = byDate[e.date] || []).push(e); });
+
+    var sorted = EVENTS.map(function (e) { return e.date; }).sort();
+    var newest = sorted[sorted.length - 1].split("-");
+    var view = { y: +newest[0], m: +newest[1] - 1 };
+
+    function pad(n) { return (n < 10 ? "0" : "") + n; }
+    function iso(y, m, d) { return y + "-" + pad(m + 1) + "-" + pad(d); }
+
+    function render() {
+      label.textContent = MONTHS[view.m] + " " + view.y;
+      body.innerHTML = "";
+
+      var first = new Date(view.y, view.m, 1).getDay();      // 0 = Sunday
+      var days = new Date(view.y, view.m + 1, 0).getDate();
+      var count = 0;
+      var row = document.createElement("tr");
+
+      for (var i = 0; i < first; i++) {
+        row.appendChild(document.createElement("td")).className = "cal__pad";
+      }
+
+      for (var d = 1; d <= days; d++) {
+        if ((first + d - 1) % 7 === 0 && d !== 1) {
+          body.appendChild(row);
+          row = document.createElement("tr");
+        }
+        var key = iso(view.y, view.m, d);
+        var list = byDate[key] || [];
+        var cell = document.createElement("td");
+
+        if (list.length) {
+          count += list.length;
+          var btn = document.createElement("button");
+          btn.type = "button";
+          btn.className = "cal__day cal__day--has";
+          btn.setAttribute("data-date", key);
+          btn.setAttribute("aria-label", d + " " + MONTHS[view.m] + ": " + list.length +
+                           (list.length === 1 ? " event" : " events"));
+          btn.innerHTML = '<span class="cal__num">' + d + '</span><span class="cal__dot" aria-hidden="true"></span>';
+          btn.addEventListener("click", function () { select(this.getAttribute("data-date"), this); });
+          cell.appendChild(btn);
+        } else {
+          cell.innerHTML = '<span class="cal__day"><span class="cal__num">' + d + '</span></span>';
+        }
+        row.appendChild(cell);
+      }
+
+      while (row.children.length < 7) {
+        row.appendChild(document.createElement("td")).className = "cal__pad";
+      }
+      body.appendChild(row);
+
+      hint.textContent = count
+        ? count + (count === 1 ? " event" : " events") + " this month"
+        : cal.getAttribute("data-empty-note");
+    }
+
+    // Selecting a day filters the list of events below the calendar.
+    function select(key, btn) {
+      cal.querySelectorAll(".cal__day--on").forEach(function (b) { b.classList.remove("cal__day--on"); });
+      if (btn) btn.classList.add("cal__day--on");
+      window.dispatchEvent(new CustomEvent("hil:calendar-select", { detail: { date: key } }));
+    }
+
+    document.getElementById("cal-prev").addEventListener("click", function () {
+      view.m--; if (view.m < 0) { view.m = 11; view.y--; } render();
+    });
+    document.getElementById("cal-next").addEventListener("click", function () {
+      view.m++; if (view.m > 11) { view.m = 0; view.y++; } render();
+    });
+
+    render();
+  })();
+</script>

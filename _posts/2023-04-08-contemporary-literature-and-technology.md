@@ -51,5 +51,3 @@ as it licks the broken ledge, as it flows up the cliffs,
 as it flicks across the tracks"
 
 Both poets have their own approaches in writing their thought. I don't see much metrical conventions or rhyming patterns to reflect their flow of thought. The general readers may have some possible difficulty to understand the context readily and they need an explanation from someone who understands the poems well. However, the poets seem pursued their own idiosyncrasy or their own liberty in expression. Thus, it may be observed that in contemporary period, poets have their own conventions, own publishing platform, individual independence to use their own ideas, perspectives, desire and motives rather than follow the century-old established literary rules.
-
-![](/assets/img/c03d20_6adc1202cceb4c6bad608ab72043e039.jpg)

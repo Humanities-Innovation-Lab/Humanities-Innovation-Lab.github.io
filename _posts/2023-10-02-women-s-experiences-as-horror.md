@@ -18,8 +18,6 @@ One of my favourite examples of this is *The Closing Shift*, a game where you pl
 
 The game starts by you getting in your car to go to work, where you end up finding a phone on the ground. You see a man desperately looking for something nearby, and realize it is the phone you found. You return it to him, and it is an otherwise normal interaction. However, over the course of you going to work and making drinks for other customers, you see the man showing up on security camera footage. You also start to get weird notes, and seeing evidence of *someone* breaking into the building. While this is all happening, you are also subject to the creepiness of other customers as well - a man comes in with no shirt and starts dancing for you while asking for compliments. Girls outside the coffee shop discuss the rise in stalker cases, and chat about the creepy guy on the bus. Eventually, as the game comes to a close, you have the option to defend yourself against the stalker and drop something on him from the roof, or you can end up killed by him if you don't notice him in the cooler. It seems like a good or bad ending is possible.
 
-![](/assets/img/c91d8d_f8510f8d28f64e0e9db63852cd400564.jpg)
-
 Returning home after grabbing your missing phone
 
 Except, even in the "good" ending, where you defend yourself, get the help of a detective, and the police end up believing you....you still end up in danger. You go home after the police take care of everything, and sit down to watch TV. You realize your phone is missing, and get up after hearing it ringing - from outside. You go to grab it, return home, and then a man jumps at you from your closet. The screen fades to the credits.

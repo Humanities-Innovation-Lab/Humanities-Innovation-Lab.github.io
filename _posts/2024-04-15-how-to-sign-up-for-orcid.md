@@ -35,5 +35,3 @@ This guide assists students in the field of Digital Humanities with the creation
 ## Conclusion
 
 Setting up an ORCID account is a crucial step for students in Digital Humanities, as it ensures that your scholarly work is correctly attributed to you throughout your academic career. It also simplifies the management and sharing of your professional information with publishers, funding agencies, and institutions.
-
-![](/assets/img/61b914_d6eb55dd9e294163bd06b4e3bc14f3ee.png)

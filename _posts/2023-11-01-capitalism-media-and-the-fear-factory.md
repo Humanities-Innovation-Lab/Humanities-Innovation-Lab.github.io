@@ -9,7 +9,6 @@ author: "frankonuh"
 wix_url: "https://www.humanitiesinnovationlab.ca/post/capitalism-media-and-the-fear-factory"
 ---
 
-![](/assets/img/94c606_066b88e9ba714a12893e1b1c91543743.png)
 
 On a sweltering afternoon in 2019, I tuned into international news channels via YouTube, only to find the world engulfed in chaos. Leading nations like China, the US, and the UK were epicenters of palpable dread. Their advanced development did little to mitigate this fear; rather, it seemed to amplify it. Observing my friends in these countries gripped by panic and uncertainty, I felt a profound sense of pity. As is my custom, I offered prayers that they might remain resilient against the wave of fear sweeping through media channels. Curiously, when I switched to my national news outlets, the atmosphere was remarkably different—this pervasive fear was notably absent. Yet, days later, as international funding was pledged to combat this fear, my local media found its voice, and the dissemination of fear commenced.
 

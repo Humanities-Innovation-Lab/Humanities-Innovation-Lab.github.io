@@ -12,11 +12,18 @@ description: Workshops, lectures, and reading groups hosted by the Humanities In
 
 <section class="section section--flush-top">
   <div class="wrap">
-    <div class="plist">
+    {% include calendar.html %}
+
+    <div class="evlist-head">
+      <h2 class="rgroup__title" id="evlist-title">All events</h2>
+      <button class="blog-chip" type="button" id="ev-reset" hidden>Show all</button>
+    </div>
+
+    <div class="plist" id="evlist">
       {% for e in site.data.events %}
-      <article class="pitem">
-        <p class="pitem__meta">{{ e.date | date: "%a, %b %d, %Y" }}</p>
-        <h2 class="pitem__title">{{ e.title }}</h2>
+      <article class="pitem" data-date="{{ e.date | date: '%Y-%m-%d' }}">
+        <p class="pitem__meta">{{ e.date | date: "%A, %-d %B %Y" }}</p>
+        <h3 class="pitem__title">{{ e.title }}</h3>
         {% if e.when %}<p class="pitem__meta">{{ e.when }}</p>{% endif %}
         {% if e.where %}<p class="pitem__meta">{{ e.where }}</p>{% endif %}
         {% if e.description %}<p style="margin-top:0.7rem;">{{ e.description }}</p>{% endif %}
@@ -28,5 +35,39 @@ description: Workshops, lectures, and reading groups hosted by the Humanities In
       </article>
       {% endfor %}
     </div>
+
+    <p class="blog-empty" id="evlist-empty" hidden>No events on that day.</p>
   </div>
 </section>
+
+<script>
+  // Choosing a day in the calendar narrows the list beneath it.
+  (function () {
+    var list = document.getElementById("evlist");
+    if (!list) return;
+    var items = Array.prototype.slice.call(list.querySelectorAll(".pitem"));
+    var title = document.getElementById("evlist-title");
+    var reset = document.getElementById("ev-reset");
+    var empty = document.getElementById("evlist-empty");
+
+    function show(date) {
+      var visible = 0;
+      items.forEach(function (el) {
+        var match = !date || el.getAttribute("data-date") === date;
+        el.hidden = !match;
+        if (match) visible++;
+      });
+      if (empty) empty.hidden = visible !== 0;
+      if (reset) reset.hidden = !date;
+      if (title) {
+        title.textContent = date
+          ? new Date(date + "T12:00:00").toLocaleDateString(undefined,
+              { weekday: "long", day: "numeric", month: "long", year: "numeric" })
+          : "All events";
+      }
+    }
+
+    window.addEventListener("hil:calendar-select", function (e) { show(e.detail.date); });
+    if (reset) reset.addEventListener("click", function () { show(null); });
+  })();
+</script>

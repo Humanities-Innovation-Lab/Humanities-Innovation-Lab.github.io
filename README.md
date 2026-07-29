@@ -60,8 +60,9 @@ Do this only once you are ready to move the domain off Wix.
 ├── about-hil.html         Projects        → /about-hil/
 ├── about-us.html          People          → /about-us/
 ├── publications.html      → /publications/
-├── events.html            → /events/
-├── courses.html           Resources       → /courses/
+├── events.html            calendar + list → /events/
+├── events.ics             generated calendar feed → /events.ics
+├── courses.html           Resources — RETIRED, see below → /courses/
 ├── blog.html              archive + filter → /blog/
 └── contact.html           → /contact/
 ```
@@ -99,6 +100,16 @@ in use, so a new category needs no extra wiring.
 `_data/`. Nothing else needs touching — every page loops over these lists. Member
 bios are HTML so that inline links survive.
 
+Adding an event to `_data/events.yml` puts it in three places at once: the month
+calendar, the list beneath it, and `/events.ics`. Only `title` and `date` are
+required; `when`, `where`, `description`, `link`, and `link_text` are optional.
+The calendar opens on the most recent month that has an event, not on today's.
+
+**The Resources page is retired.** `courses.html` and `_data/resources.yml` are
+still in the repo and still build at `/courses/`, but the page is unlinked from
+the navigation and excluded from the sitemap. To bring it back, restore the nav
+link in `_includes/nav.html` and drop `sitemap: false` from `courses.html`.
+
 **Images.** Drop them in `assets/img/` and reference them as
 `/assets/img/filename.jpg`. Keep the long edge at or under about 1800px.
 
@@ -131,3 +142,13 @@ site follows.
 - **Categories.** 55 posts carry a category on Wix (News 40, Blogs 9,
   Tutorials 6); the other 57 have none there either. The blog filter therefore
   includes an "Uncategorised" chip.
+- **Duplicate post images.** Wix repeated each post's featured image at the foot
+  of the body, so every migrated post showed it twice. The inline copy was removed
+  from 83 posts; the 20 posts that carry a genuinely different second image keep
+  it.
+- **Publications** are compiled from the lab's Zenodo community, taking only
+  records typed as publications (3 articles, 2 conference papers). The community's
+  other 51 deposits are presentations, lessons, posters, datasets, and videos.
+  Deliberately excluded: the 2004 "Digital Medievalist Project" record, which its
+  own description identifies as a redacted grant application rather than a
+  publication.

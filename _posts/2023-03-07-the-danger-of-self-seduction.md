@@ -8,7 +8,6 @@ author: "frankonuh"
 wix_url: "https://www.humanitiesinnovationlab.ca/post/the-danger-of-self-seduction"
 ---
 
-![](/assets/img/94c606_f5b0c6dfcde74bf0b4577a5f3a8735e5.jpg)
 
 Translation is a crucial aspect of global communication, as it enables information to be disseminated across linguistic and cultural boundaries. However, translations can also be used to perpetuate neocolonial power dynamics. Self-seductive translation is a phenomenon that often encourages the overlooking of power inequality and neocolonial domination. This type of translation involves selectively translating certain aspects of a text to reinforce dominant power structures. Even the literary masterpieces of Chinua Achebe and Wole Soyinka are not immune to this issue. Various aspects of their works, such as characters, words, and themes, have been affected by self-seductive tendencies in translation, resulting in the loss of their original socio-cultural essence.
 

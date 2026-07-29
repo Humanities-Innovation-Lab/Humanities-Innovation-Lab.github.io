@@ -8,7 +8,6 @@ author: "khalid"
 wix_url: "https://www.humanitiesinnovationlab.ca/post/learning-objects-to-open-educational-resources"
 ---
 
-![](/assets/img/c03d20_69f2b6ab146445528eb8f5b84aeec49e.jpg)
 
 The terms are recent historical issues because of the advent and the availability of new internet technology and its intervention. Wayne Hodgins used the term for "learning objects" in 1994 for the first time. Hodgins explained learning objects as "a new conceptual model for content creation and distribution" and he envisioned that knowledge captured in the internet could be analyzed, reused and shared with others, and could be used to create a new knowledge. The concept became popular to instructional designers and educators for designing digital materials.
 

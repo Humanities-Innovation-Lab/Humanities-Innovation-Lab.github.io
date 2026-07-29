@@ -20,5 +20,3 @@ Over four days, participants gained hands-on experience with a range of digital 
 One of the highlights of the workshop was its practical impact on participants’ academic and professional journeys. The skills acquired were not just theoretical but also applicable to real-world research and teaching.
 
 Missed this session? Stay tuned for future workshops and resources to continue your journey into the digital humanities!
-
-![](/assets/img/61b914_8cb8df005a044d49bce51442a7ee8362.png)

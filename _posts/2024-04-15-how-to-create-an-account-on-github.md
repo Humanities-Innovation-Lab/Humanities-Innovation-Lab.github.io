@@ -47,5 +47,3 @@ In GitHub Desktop or GitKraken, you can check your settings by revisiting the "P
 ## Conclusion
 
 You have now successfully set up your GitHub account and a Git client using GUI applications, without needing to use the terminal. These tools will help you manage your projects and collaborate with others through a user-friendly interface. As you become more comfortable, you may explore additional features and settings to enhance your version control experience.
-
-![](/assets/img/61b914_11cc3e47f49d47028fae09579a945b91.png)

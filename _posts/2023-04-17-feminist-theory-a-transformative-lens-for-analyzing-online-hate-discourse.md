@@ -10,8 +10,6 @@ wix_url: "https://www.humanitiesinnovationlab.ca/post/feminist-theory-a-transfor
 
 This blog post summarizes my takeaway from one of my courses, *Feminism, Gender and Sovereignty.* Initially, I was unsure how feminist theory could relate to my research interests. However, as I began to engage with the concepts and ideas within the course, I realized that adopting a feminist perspective could provide me with a powerful new lens to analyze Nigerian online hate discourse. Specifically
 
-![](/assets/img/94c606_4aa5d52cbdb54a6a86df9e78c2136e06.jpg)
-
 , incorporating feminist perspectives in my research can: Here are three ways that feminist theory can enrich my research:
 
 1. Identify Gendered Patterns: It can help me spot gendered patterns in hate discourse. Hate speech and abusive language often have a gendered dimension that can be overlooked. By paying attention to these patterns, I can gain a deeper understanding of the problem and suggest more effective solutions.

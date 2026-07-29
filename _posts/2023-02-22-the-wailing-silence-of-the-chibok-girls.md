@@ -8,7 +8,6 @@ author: "frankonuh"
 wix_url: "https://www.humanitiesinnovationlab.ca/post/the-wailing-silence-of-the-chibok-girls"
 ---
 
-![](/assets/img/94c606_932c4de085e04607876c122f1532da4d.jpg)
 
 The plight of girls in northern Nigeria is a recurring issue that continues to linger. The [#BringBackOurGirls](https://www.humanitiesinnovationlab.ca/blog/hashtags/BringBackOurGirls) campaign, which began in 2014, was a clarion call to the world about the desperate situation these girls face.
 

@@ -9,7 +9,6 @@ author: "Barbara Bordalejo"
 wix_url: "https://www.humanitiesinnovationlab.ca/post/dh-and-the-forest-of-methodologies"
 ---
 
-![](/assets/img/dd4b55_b8b6fe7e3a4744f78052ffc33a0c78dd.jpg)
 
 Between the 22nd and the 25th of April, the Humanities Innovation Lab, sponsored by the Faculty of Arts and Sciences, offered a Digital Humanities workshop for beginners. Although it was an enormous amount of work, those four jam-packed days resulted in a series of priceless revelations.
 

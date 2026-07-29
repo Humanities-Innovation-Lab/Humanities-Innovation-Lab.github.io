@@ -8,7 +8,6 @@ author: "Barbara Bordalejo"
 wix_url: "https://www.humanitiesinnovationlab.ca/post/the-decline-of-the-sacred"
 ---
 
-![](/assets/img/dd4b55_dc1db4f7ca724680b5f1517226ed6299.jpg)
 
 Books at the Bodleian by Dollymoon (https://commons.wikimedia.org/wiki/User:Dollymoon)
 

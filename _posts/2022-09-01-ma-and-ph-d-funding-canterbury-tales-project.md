@@ -51,5 +51,3 @@ We are offering funding for a Ph.D. or M.A. within a lively and diverse working 
 Lethbridge is a medium-sized city with a mild climate for the Canadian Prairies. It is located on the lands of the Blackfoot confederacy.
 
 Please contact the project director, Barbara Bordalejo, for an informal conversation. The deadline for a January start is October 1st (applications can also be accepted for starts in May or September 2023).
-
-![](/assets/img/dd4b55_1a01cfe4926146ecaa3768580d70358d.jpeg)

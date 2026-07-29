@@ -27,6 +27,4 @@ This paper examines how *Pentiment* (Obsidian Entertainment, 2023) uses medieval
 - **Location:** University of Waterloo, Ontario
 - **Dates:** March 3–6, 2025
 
-![](/assets/img/28350a_b1b84ddfacf04fbd8b100f8b4aec9678.jpg)
-
 ![](/assets/img/28350a_f916740ddf374dd6a0dcd298704d0d37.jpg)

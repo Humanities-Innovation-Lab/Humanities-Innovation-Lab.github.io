@@ -8,7 +8,6 @@ author: "Barbara Bordalejo"
 wix_url: "https://www.humanitiesinnovationlab.ca/post/do-you-like-ethics"
 ---
 
-![](/assets/img/nsplsh_39f539a5761c4dbc9e5047f2ee922dfd.jpg)
 
 Should everyone take ethics classes? The data course highlights the problem of the need for more training in various educational sectors, particularly mathematics and computer sciences. A cursory glance at a few pure math programs reveals that algebra and calculus are paired during the first year, while upper-year classes teach differential geometry, and analytical number theory, any Humanities, particularly philosophy courses are entirely absent from the mandatory curriculum ( see examples of math programs for [Harvard](https://www.math.harvard.edu/undergraduate/courses-and-concentration-information/), [Waterloo](https://uwaterloo.ca/future-students/programs/pure-mathematics), and [Oxford](https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/mathematics)).
 
