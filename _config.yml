@@ -1,0 +1,58 @@
+title: "Humanities Innovation Lab"
+tagline: "University of Lethbridge"
+description: >-
+  The Humanities Innovation Lab at the University of Lethbridge. Founded by Dan
+  O'Donnell in 2019, the lab hosts the Canterbury Tales Project, Humanities Data
+  Inquiry, and the Visionary Cross Project.
+
+# ── Set these before the first deploy ────────────────────────────────
+# For a custom domain (humanitiesinnovationlab.ca) leave baseurl empty.
+url: "https://humanities-innovation-lab.github.io"
+baseurl: ""
+# ─────────────────────────────────────────────────────────────────────
+
+email: humanitiesinnovationlab@gmail.com
+
+address:
+  street: "4401 University Drive"
+  city: "Lethbridge, Alberta"
+  postal: "T1K 3M4"
+  country: "Canada"
+
+social:
+  zenodo: "https://zenodo.org/communities/hil/records?q=&l=list&p=1&s=10&sort=newest"
+  github: "https://github.com/Humanities-Innovation-Lab"
+  twitter: "https://twitter.com/HumanInnoLab"
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Keep the URLs the Wix site used, so existing inbound links and citations
+# continue to resolve.
+permalink: /post/:title/
+
+sass:
+  style: compressed
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      author: "Humanities Innovation Lab"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor/
+  - node_modules/

@@ -1,0 +1,38 @@
+---
+layout: default
+title: Publications
+permalink: /publications/
+description: Books, chapters, and articles produced in the Humanities Innovation Lab.
+---
+
+<div class="page-header page-header--image"
+     style="background-image:url('{{ '/assets/img/11062b_a8e02c8aa0224828af8dd6d4d28a3a0c.jpg' | relative_url }}')">
+  <div class="wrap">
+    <h1>Publications</h1>
+    <p class="page-header__sub">Books, Chapters, and Articles produced in the Humanities Innovation Lab</p>
+  </div>
+</div>
+
+<section class="section">
+  <div class="wrap">
+    <div class="pub-list">
+      {% for pub in site.data.publications %}
+      <article class="pub">
+        <div class="pub__cite">{{ pub.citation }}</div>
+        {% if pub.doi or pub.pdf %}
+        <div class="pub__links">
+          {% if pub.doi %}<a href="{{ pub.doi }}" target="_blank" rel="noopener">DOI</a>{% endif %}
+          {% if pub.pdf %}<a href="{{ pub.pdf }}" target="_blank" rel="noopener">PDF</a>{% endif %}
+        </div>
+        {% endif %}
+      </article>
+      {% endfor %}
+    </div>
+
+    <p style="margin-top:2.5rem;color:var(--muted);font-size:0.92rem;">
+      The lab's outputs are also collected in its
+      <a href="{{ site.social.zenodo }}" target="_blank" rel="noopener"
+         style="color:var(--accent-dark);text-decoration:underline;">Zenodo community</a>.
+    </p>
+  </div>
+</section>

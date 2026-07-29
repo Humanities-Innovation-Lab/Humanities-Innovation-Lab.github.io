@@ -1,0 +1,42 @@
+---
+layout: default
+title: Contact
+permalink: /contact/
+description: Get in touch with the Humanities Innovation Lab at the University of Lethbridge.
+---
+
+<div class="page-header">
+  <div class="wrap">
+    <h1>Get in touch</h1>
+  </div>
+</div>
+
+<section class="section">
+  <div class="wrap">
+    <div class="contact-grid">
+      <div class="contact-block">
+        <h2>Visit</h2>
+        <p>
+          {{ site.address.street }}<br>
+          {{ site.address.city }}<br>
+          {{ site.address.postal }}<br>
+          {{ site.address.country }}
+        </p>
+      </div>
+
+      <div class="contact-block">
+        <h2>Write</h2>
+        <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+
+        <h2 style="margin-top:2.5rem;">Follow</h2>
+        <div class="contact-list">
+          <a href="{{ site.social.zenodo }}" target="_blank" rel="noopener">Zenodo Community</a>
+          <a href="{{ site.social.github }}" target="_blank" rel="noopener">GitHub</a>
+          <a href="{{ site.social.twitter }}" target="_blank" rel="noopener">Twitter</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% include land-ack.html %}

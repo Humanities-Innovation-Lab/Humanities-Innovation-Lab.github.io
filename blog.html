@@ -1,0 +1,107 @@
+---
+layout: default
+title: Blog
+permalink: /blog/
+description: News, notes, and tutorials from the Humanities Innovation Lab.
+---
+
+<div class="page-header">
+  <div class="wrap">
+    <h1>Blog</h1>
+    <p class="page-header__sub">News, notes, and tutorials from the lab.</p>
+  </div>
+</div>
+
+<section class="section">
+  <div class="wrap">
+
+    {%- comment -%} Collect the categories actually used across the posts. {%- endcomment -%}
+    {%- assign cats = "" | split: "" -%}
+    {%- for post in site.posts -%}
+      {%- for cat in post.categories -%}
+        {%- unless cats contains cat -%}{%- assign cats = cats | push: cat -%}{%- endunless -%}
+      {%- endfor -%}
+    {%- endfor -%}
+    {%- assign cats = cats | sort -%}
+
+    <div class="blog-controls">
+      <div class="blog-filter" role="group" aria-label="Filter posts by category">
+        <button class="blog-chip is-active" type="button" data-filter="all">All</button>
+        {%- for cat in cats %}
+        <button class="blog-chip" type="button" data-filter="{{ cat | slugify }}">{{ cat }}</button>
+        {%- endfor %}
+        <button class="blog-chip" type="button" data-filter="uncategorised">Uncategorised</button>
+      </div>
+      <p class="blog-count" id="blog-count"></p>
+    </div>
+
+    <div class="cards" id="blog-list">
+      {% for post in site.posts %}
+      {%- capture cat_slugs -%}
+        {%- if post.categories.size > 0 -%}
+          {%- for c in post.categories -%}{{ c | slugify }} {% endfor -%}
+        {%- else -%}uncategorised{%- endif -%}
+      {%- endcapture -%}
+      <article class="card" data-category="{{ cat_slugs | strip }}">
+        <a href="{{ post.url | relative_url }}">
+          {% if post.image %}
+          <div class="card__thumb">
+            <img src="{{ post.image | relative_url }}" alt="{{ post.title | escape }}" loading="lazy">
+          </div>
+          {% endif %}
+          <div class="card__body">
+            <div class="card__meta">
+              <span>{{ post.date | date: "%b %-d, %Y" }}</span>
+              {% if post.categories.first %}<span class="card__tag">{{ post.categories.first }}</span>{% endif %}
+            </div>
+            <h3 class="card__title">{{ post.title }}</h3>
+            {% if post.description %}<p class="card__excerpt">{{ post.description }}</p>{% endif %}
+            <span class="card__link">Read more &rarr;</span>
+          </div>
+        </a>
+      </article>
+      {% endfor %}
+    </div>
+
+    <p class="blog-empty" id="blog-empty" hidden>No posts in this category.</p>
+  </div>
+</section>
+
+<script>
+  // Client-side category filter, so the whole archive stays on one page
+  // (no pagination plugin needed on GitHub Pages).
+  (function () {
+    var list = document.getElementById("blog-list");
+    if (!list) return;
+    var cards = Array.prototype.slice.call(list.querySelectorAll(".card"));
+    var chips = Array.prototype.slice.call(document.querySelectorAll(".blog-chip"));
+    var countEl = document.getElementById("blog-count");
+    var emptyEl = document.getElementById("blog-empty");
+
+    function apply(filter) {
+      var visible = 0;
+      cards.forEach(function (card) {
+        var cats = (card.getAttribute("data-category") || "").split(" ");
+        var show = filter === "all" || cats.indexOf(filter) !== -1;
+        card.hidden = !show;
+        if (show) visible++;
+      });
+      chips.forEach(function (c) {
+        c.classList.toggle("is-active", c.getAttribute("data-filter") === filter);
+      });
+      if (countEl) countEl.textContent = visible + (visible === 1 ? " post" : " posts");
+      if (emptyEl) emptyEl.hidden = visible !== 0;
+    }
+
+    chips.forEach(function (chip) {
+      chip.addEventListener("click", function () {
+        apply(chip.getAttribute("data-filter"));
+      });
+    });
+
+    // Allow /blog/#news to open pre-filtered (post pages link this way).
+    var hash = (window.location.hash || "").replace("#", "");
+    var known = chips.map(function (c) { return c.getAttribute("data-filter"); });
+    apply(known.indexOf(hash) !== -1 ? hash : "all");
+  })();
+</script>

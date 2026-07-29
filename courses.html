@@ -1,0 +1,33 @@
+---
+layout: default
+title: Resources
+permalink: /courses/
+description: A database of vetted resources on the lab's key topics.
+---
+
+<div class="page-header page-header--image"
+     style="background-image:url('{{ '/assets/img/11062b_901541c3ff9449f89228990fd9295365.jpeg' | relative_url }}')">
+  <div class="wrap">
+    <h1>HIL Resources Index</h1>
+    <p class="page-header__sub">A database of vetted resources on our lab's key topics</p>
+  </div>
+</div>
+
+<section class="section">
+  <div class="wrap">
+    {% for g in site.data.resources %}
+    <div class="res-group">
+      <h2 class="res-group__title">{{ g.group }}</h2>
+      <div class="res-grid">
+        {% for r in g.items %}
+        <article class="res">
+          <h3 class="res__name">{{ r.name }}</h3>
+          <p class="res__desc">{{ r.description }}</p>
+          <a class="res__link" href="{{ r.url }}" target="_blank" rel="noopener">Visit &rarr;</a>
+        </article>
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>

@@ -1,0 +1,47 @@
+# The HIL Resources Index: vetted tools grouped under the lab's key topics.
+# Groups and their two entries each follow the order of the Wix Resources page.
+
+- group: "Digital Humanities"
+  items:
+    - name: "LEAF-Writer"
+      description: "XML-TEI editor"
+      url: https://leaf-writer.leaf-vre.org/
+    - name: "TEI Guidelines"
+      description: "Documentation of XML-TEI Language"
+      url: https://tei-c.org/guidelines/
+
+- group: "Artificial Intelligence"
+  items:
+    - name: "Elicit"
+      description: "Tool for finding scholarly sources"
+      url: https://elicit.com/
+    - name: "PopAI"
+      description: "Text to presentation slides"
+      url: https://www.popai.pro/
+
+- group: "Medieval Studies"
+  items:
+    - name: "METS"
+      description: "Repository of medieval edited texts"
+      url: https://metseditions.org/
+    - name: "The Medieval Bestiary"
+      description: "Database of medieval beasts and their description"
+      url: https://bestiary.ca/
+
+- group: "Pedagogical Tools"
+  items:
+    - name: "Hypothes.is"
+      description: "Social annotation tool"
+      url: https://web.hypothes.is/
+    - name: "Padlet"
+      description: "Collective whiteboard-like space"
+      url: https://padlet.com/
+
+- group: "Text Analysis"
+  items:
+    - name: "AntConc"
+      description: "Corpus manager software"
+      url: https://www.laurenceanthony.net/software/antconc/
+    - name: "Voyant Tools"
+      description: "Toolbox for text analysis and management"
+      url: https://voyant-tools.org/

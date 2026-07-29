@@ -1,0 +1,37 @@
+{%- comment -%}
+  Mirrors the Wix navigation: five primary items plus a "More" group holding
+  Publications, Events, and Resources.
+{%- endcomment -%}
+<header class="nav">
+  <div class="nav__inner">
+    <a class="nav__brand" href="{{ '/' | relative_url }}">
+      <span class="nav__site-name">Humanities Innovation Lab</span>
+      <span class="nav__site-sub">University of Lethbridge</span>
+    </a>
+
+    <button class="nav__toggle" type="button" aria-label="Open navigation" aria-expanded="false"
+            onclick="var l=document.querySelector('.nav__links');l.classList.toggle('open');this.setAttribute('aria-expanded',l.classList.contains('open'));">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav__links" aria-label="Main navigation">
+      <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} class="is-current"{% endif %}>Home</a>
+      <a href="{{ '/about-hil/' | relative_url }}"{% if page.url contains '/about-hil' %} class="is-current"{% endif %}>Projects</a>
+      <a href="{{ '/about-us/' | relative_url }}"{% if page.url contains '/about-us' %} class="is-current"{% endif %}>About us</a>
+      <a href="{{ '/blog/' | relative_url }}"{% if page.url contains '/blog' or page.layout == 'post' %} class="is-current"{% endif %}>Blog</a>
+      <a href="{{ '/contact/' | relative_url }}"{% if page.url contains '/contact' %} class="is-current"{% endif %}>Contact</a>
+
+      <div class="nav__more">
+        <button class="nav__more-btn" type="button" aria-expanded="false"
+                onclick="var d=this.parentNode;d.classList.toggle('open');this.setAttribute('aria-expanded',d.classList.contains('open'));">
+          More <span class="nav__caret" aria-hidden="true">▾</span>
+        </button>
+        <div class="nav__more-menu">
+          <a href="{{ '/publications/' | relative_url }}">Publications</a>
+          <a href="{{ '/events/' | relative_url }}">Events</a>
+          <a href="{{ '/courses/' | relative_url }}">Resources</a>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>

@@ -1,0 +1,85 @@
+# Lab events and workshops, newest first, as listed on the Wix Events page.
+# `date` drives the date block; `when` reproduces the original time string.
+
+- title: "GitHub for Humanists"
+  date: 2022-12-02
+  when: "Dec 02, 2022, 10:00 a.m. – Dec 03, 2022, 12:00 p.m."
+  where: "Humanities Innovation Lab, 4401 University Dr W, Lethbridge, AB T1K 3M4, Canada"
+  description: >-
+    Github is an essential tool in computer science and many of the sciences. But it
+    can also be helpful to humanists. This workshop will provide a basic orientation
+    to GitHub and show you how you can use it to create free, permanent websites,
+    among other tasks.
+
+- title: "Handmade Data: Reflections on Data Containers. Nikki Stevens"
+  date: 2022-11-15
+  when: "Nov 15, 2022, 8:00 a.m. – 9:30 a.m. MST"
+  where: "Zoom (see abstract for registration link)"
+
+- title: "Online Academic Identity"
+  date: 2022-10-28
+  when: "Oct 28, 2022, 10:00 a.m. – 12:00 p.m. MDT"
+  where: "Lethbridge, 4401 University Dr W, Lethbridge, AB T1K 3M4, Canada"
+  description: >-
+    If you want to start developing your online academic identity, this course is for
+    you. We will explore the different platforms, identifiers, and their curation, as
+    well as help you present yourself online as an academic. Email to
+    humanitiesinnovationlab@gmail.com. Location: University Hall, room B.
+
+- title: "Using Textual Communities (Bordalejo – Robinson)"
+  date: 2022-10-06
+  when: "Oct 06, 2022, 10:00 a.m. MDT – Oct 07, 2022, 3:00 p.m. MDT"
+  where: "Lethbridge, University Hall, Valley Rd W, Lethbridge, AB T1K 6T4, Canada"
+
+- title: "Using Word Processor Styles to Automate Your Papers"
+  date: 2022-09-29
+  when: "Sep 29, 2022, 10:00 a.m. – 11:30 a.m. MDT"
+  where: "Lethbridge, West Lethbridge, Lethbridge, AB T1K 6T4, Canada"
+  description: >-
+    In this workshop, we will look at how you can use styles and templates in Word and
+    other word processors to automate many tasks associated with essays and other
+    assignments. Email to humanitiesinnovationlab@gmail.com. Location: University
+    Hall, room B516.
+
+- title: "Citation Managers"
+  date: 2022-09-09
+  when: "Sep 09, 2022, 10:00 a.m. – 11:00 a.m. MDT"
+  description: >-
+    A workshop on the use of citation managers for students and researchers in the
+    humanities.
+
+- title: "The creative, collaborative lab. A round table."
+  date: 2022-06-01
+  when: "Jun 01, 2022, 8:00 a.m. – 10:00 a.m."
+  where: "Register with Zoom"
+  description: >-
+    A discussion about developing and working within a constructive and collaborative
+    lab culture.
+
+- title: "Editing Texts in Multiple Versions"
+  date: 2022-05-11
+  when: "May 11, 2022, 8:00 a.m. – 9:30 a.m. MDT"
+  where: "Register for Zoom"
+  description: "A must-have tool for editors."
+  link: https://us06web.zoom.us/meeting/register/tZYkfuCpqzsuH9bs5TKdRE_jIHDW5329vCU4
+  link_text: "Register"
+
+- title: "Humanities Data Reading Group"
+  date: 2022-04-27
+  when: "Apr 27, 2022, 8:00 a.m. – 10:00 a.m. MDT"
+  description: >-
+    This will be our first "journal club"-style seminar. Participants will read a
+    couple of articles/chapters and discuss in a seminar setting.
+  link: https://us06web.zoom.us/j/5206897328
+  link_text: "Join on Zoom"
+
+- title: "Publishing open humanities data: The experience of the Journal of Open Humanities (Barbara McGillivray)"
+  date: 2022-04-13
+  when: "Apr 13, 2022, 9:00 a.m. – 10:00 a.m. MDT"
+  description: >-
+    The first talk in the Humanities Data Inquiry Lecture Series. Barbara McGillivray
+    is lecturer in digital humanities and cultural computation at King’s College
+    London and Turing fellow at The Alan Turing Institute, where she runs the
+    Humanities and Data Science special interest group.
+  link: https://us06web.zoom.us/j/83626988971
+  link_text: "Join on Zoom"

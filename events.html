@@ -1,0 +1,42 @@
+---
+layout: default
+title: Events
+permalink: /events/
+description: Workshops, lectures, and reading groups hosted by the Humanities Innovation Lab.
+---
+
+<div class="page-header">
+  <div class="wrap">
+    <h1>Events</h1>
+    <p class="page-header__sub">Workshops, lectures, and reading groups hosted by the lab.</p>
+  </div>
+</div>
+
+<section class="section">
+  <div class="wrap">
+    <div class="events">
+      {% for e in site.data.events %}
+      <article class="event">
+        <div class="event__date">
+          <span class="event__dow">{{ e.date | date: "%a" }}</span>
+          <span class="event__day">{{ e.date | date: "%d" }}</span>
+          <span class="event__mon">{{ e.date | date: "%b" }}</span>
+          <span class="event__yr">{{ e.date | date: "%Y" }}</span>
+        </div>
+
+        <div class="event__body">
+          <h2 class="event__title">{{ e.title }}</h2>
+          {% if e.when %}<p class="event__when">{{ e.when }}</p>{% endif %}
+          {% if e.where %}<p class="event__where">{{ e.where }}</p>{% endif %}
+          {% if e.description %}<p class="event__desc">{{ e.description }}</p>{% endif %}
+          {% if e.link %}
+          <a class="event__link" href="{{ e.link }}" target="_blank" rel="noopener">
+            {{ e.link_text | default: "Details" }} &rarr;
+          </a>
+          {% endif %}
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>

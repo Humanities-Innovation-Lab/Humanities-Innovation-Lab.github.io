@@ -1,0 +1,8 @@
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+
+# Each environment (this machine, GitHub Actions) resolves its own lockfile.
+Gemfile.lock

@@ -1,0 +1,44 @@
+---
+layout: default
+---
+<article class="post">
+  <div class="post__head">
+    <div class="wrap wrap--prose">
+      <p class="post__meta">
+        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %-d, %Y" }}</time>
+        {%- for cat in page.categories %}
+        <a class="post__tag" href="{{ '/blog/' | relative_url }}#{{ cat | slugify }}">{{ cat }}</a>
+        {%- endfor %}
+      </p>
+      <h1 class="post__title">{{ page.title }}</h1>
+      {% if page.author %}<p class="post__author">{{ page.author }}</p>{% endif %}
+    </div>
+  </div>
+
+  {% if page.image %}
+  <div class="wrap wrap--prose">
+    <img class="post__hero" src="{{ page.image | relative_url }}" alt="{{ page.title | escape }}">
+  </div>
+  {% endif %}
+
+  <div class="wrap wrap--prose">
+    <div class="prose">
+      {{ content }}
+    </div>
+
+    <nav class="post__nav" aria-label="More posts">
+      {% if page.previous %}
+        <a class="post__nav-link post__nav-link--prev" href="{{ page.previous.url | relative_url }}">
+          <span>Previous</span>{{ page.previous.title }}
+        </a>
+      {% endif %}
+      {% if page.next %}
+        <a class="post__nav-link post__nav-link--next" href="{{ page.next.url | relative_url }}">
+          <span>Next</span>{{ page.next.title }}
+        </a>
+      {% endif %}
+    </nav>
+
+    <p class="post__back"><a href="{{ '/blog/' | relative_url }}">&larr; All posts</a></p>
+  </div>
+</article>

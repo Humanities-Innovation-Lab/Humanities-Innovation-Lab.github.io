@@ -1,0 +1,139 @@
+# Lab members, in the order the Wix site listed them.
+# `photo` is the portrait used on the About us page; `photo_grid` is the
+# (sometimes different) crop the Wix home page used in the member grid.
+# `bio` is HTML so the original inline links survive.
+
+- name: "Barbara Bordalejo"
+  role: "Co-director"
+  photo: /assets/img/61b914_c28bd939fe134baf8e33d0c103948fb7.jpg
+  photo_grid: /assets/img/dd4b55_244dbfcf07b94141a3fa4adecacae89b.jpg
+  email: barbara.bordalejo@uleth.ca
+  website: https://www.bordalejo.net/
+  bio: |
+    <p>Barbara Bordalejo is a textual critic and digital humanist with a background in English literature.</p>
+    <p>Her research focuses on textual transmission and uses bioinformatics software to study relationships between texts.</p>
+    <p>She is the director of the <a href="https://www.canterburytalesproject.org/" target="_blank" rel="noopener">Canterbury Tales Project</a>, recently awarded $333.000. She is currently considering students with interests in:</p>
+    <ul>
+      <li>Humanities Data</li>
+      <li>Chaucer</li>
+      <li>Middle English</li>
+      <li>Stemmatology</li>
+      <li>Digital Editions</li>
+      <li>Intersectional studies</li>
+    </ul>
+    <p>Barbara is chair of <a href="http://www.globaloutlookdh.org/" target="_blank" rel="noopener">Global Outlook :: Digital Humanities</a>, secretary of the <a href="https://eadh.org/" target="_blank" rel="noopener">European Association for Digital Humanities</a>, President of the <a href="https://csdh-schn.org/" target="_blank" rel="noopener">Canadian Society for Digital Humanities / Société canadienne des humanités numériques</a>, and co-chair of <a href="https://dhunbound2022.ach.org/cfp-dh-unbound-2022/" target="_blank" rel="noopener">DH Unbound</a>. Between 2015 and 2019, served on the Steering Committee of the <a href="https://adho.org/" target="_blank" rel="noopener">Alliance of Digital Humanities Organizations</a> (ADHO).</p>
+    <p>She has edited Chaucer’s <a href="http://www.sd-editions.com/caxtons/" target="_blank" rel="noopener"><em>Canterbury Tales</em></a>, Darwin’s <a href="http://darwin-online.org.uk/Variorum/" target="_blank" rel="noopener"><em>Origin of Species</em></a> and collaborated in the creation of editions of Dante’s <em>Commedia</em>, Boccaccio’s <em>Teseida</em>, <a href="https://cancionerovirtual.liv.ac.uk/" target="_blank" rel="noopener">15th Century Castillian Cancioneros</a>, and the <a href="http://estoria.bham.ac.uk/edition/" target="_blank" rel="noopener"><em>Estoria de Espanna</em></a>. She works in the <a href="https://textualcommunities.org/" target="_blank" rel="noopener">Textual Communities Project</a>.</p>
+
+- name: "Daniel O'Donnell"
+  role: "Co-director"
+  photo: /assets/img/61b914_c9ba6bfef8c34e8986c64036e5969b31.jpg
+  photo_grid: /assets/img/dd4b55_f8d539e839bd4c22a91299d37e8de812.jpg
+  website: https://people.uleth.ca/~daniel.odonnell
+  bio: |
+    <p>Daniel Paul O’Donnell is a Professor of English and an Associate Member of the University Library Academic Staff. His research ranges from early medieval languages and literatures to Open Science and the use of data in the Humanities. He is currently accepting highly motivated and independent students with interests in the following areas:</p>
+    <ul>
+      <li>Digital Editing / Digital Cultural Heritage</li>
+      <li>Early Medieval English language and literature</li>
+      <li>History of English</li>
+      <li>The practice and dissemination of research and research data in the Humanities</li>
+    </ul>
+    <p>O’Donnell has played a leading role in many of the most important international research projects in the Digital Humanities and Open Science of the last twenty-five years, including stints as Director or President of Force11 (<a href="http://force11.org/" target="_blank" rel="noopener">FORCE11.org</a>), the Force 11 Scholarly Communications Institute (<a href="https://www.force11.org/fsci/" target="_blank" rel="noopener">FSCI</a>), The Text Encoding Initiative (<a href="http://tei-c.org/" target="_blank" rel="noopener">tei-c.org</a>), Global Outlook::Digital Humanities (<a href="http://globaloutlookdh.org/" target="_blank" rel="noopener">globaloutlookdh.org</a>), Digital Medievalist (<a href="http://digitalmedievalist.org/" target="_blank" rel="noopener">digitalmedievalist.org</a>), and the Canadian Society for Digital Humanities / Société canadienne des humanités numériques (<a href="http://csdh-schn.org/" target="_blank" rel="noopener">csdh-schn.org</a>). He has received funding in Open Science and Medieval Studies from SSHRC, CFI, Mellon, Sloan, and Moore.</p>
+    <p>His <a href="https://scholar.google.ca/citations?hl=en&amp;user=4WlgWHwAAAAJ&amp;view_op=list_works" target="_blank" rel="noopener">Google Scholar Profile</a> is available here; his personal pre-print and off-print library <a href="https://zenodo.org/communities/dpodrepository/" target="_blank" rel="noopener">is available at Zenodo</a>. An up-to-date copy of <a href="https://www.dropbox.com/s/dtx35eysttp23ik/CV.pdf?dl=0" target="_blank" rel="noopener">his CV</a> is also available from his <a href="http://people.uleth.ca/~daniel.odonnell/" target="_blank" rel="noopener">University website</a>.</p>
+    <p>O’Donnell is active in the <a href="https://ulfa.ca/" target="_blank" rel="noopener">University of Lethbridge Faculty Association</a>. He is currently President and was Chief Spokesperson for Bargaining for three rounds of negotiations 2015-2015, 2016-2019, and 2020-.</p>
+
+- name: "Sidney Shapiro, PhD"
+  role: "Assistant Professor, Business Analytics and Computer Science"
+  photo: /assets/img/f09652_b597cf5d47c54080bc850adc0c01fe55.png
+  photo_grid: /assets/img/f09652_b597cf5d47c54080bc850adc0c01fe55.png
+  email: sidney.shapiro@uleth.ca
+  website: https://www.sidneyshapiro.com/
+  bio: |
+    <p>Dr. Sidney Shapiro is an Assistant Professor of Business Analytics at the Dhillon School of Business, University of Lethbridge, and an Adjunct Assistant Professor of Computer Science. With over a decade of experience in data science, his research is at the intersection of business and computer science. Dr. Shapiro holds a PhD in Interdisciplinary Studies — social network analytics. He previously led data science teams in occupational health and safety and now integrates his industry experience into developing analytics courses that prepare students for the evolving demands of data-driven fields. View his research and publications on <a href="https://scholar.google.com/citations?user=i11mvL0AAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar</a>.</p>
+
+- name: "Nathan D. Woods"
+  role: "Affiliated Researcher, Humanities Data Inquiry"
+  photo: /assets/img/61b914_db55688b03c441a79e004d40f914f734.jpg
+  photo_grid: /assets/img/61b914_0f231bfdd0734808a97f601afc4cd7d2.png
+  email: nathan.woods@uleth.ca
+  website: https://www.nathandwoods.net/
+  bio: |
+    <p>Nathan Woods is an anthropologist and information scientist working at the intersection of research and practice on issues related to the production, use, and stewardship of science, scholarship, and cultural memory. Working with multiple communities of practice, his research examines the relationships between knowledge, institutional design, and the organization of expert work across universities, cultural institutions, and public-sector contexts. He is currently Lead Qualitative Researcher (consulting) for the SSHRC-funded Humanities Data Inquiry project at the University of Lethbridge, where he studies the digital transformation of the human cultural record across Canadian and U.S. institutions. He holds a PhD in Anthropology from the CUNY Graduate Center, an MSLIS from the University of Illinois Urbana–Champaign, and an interdisciplinary BA from Evergreen State College. His research has been supported by the U.S. National Science Foundation, the American Philosophical Society, and the Digital Research Alliance of Canada.</p>
+
+- name: "Davide Pafumi"
+  role: "Ph.D. Candidate"
+  photo: /assets/img/61b914_7b346b4d844c4f698b1eb7a3a2226a2b.jpg
+  photo_grid: /assets/img/61b914_7b346b4d844c4f698b1eb7a3a2226a2b.jpg
+  email: davide.pafumi@uleth.ca
+  website: https://davidepafumi.github.io/
+  bio: |
+    <p>Davide Pafumi is a doctoral candidate in the Department of English at the University of Lethbridge. His dissertation project, “The Space of Love,” supervised by Dr. Daniel O’Donnell and Dr. Barbara Bordalejo, investigates the literary discourse of love in the British Isles during the late Middle Ages. Using vector space modelling, he aims to find out whether NLP-based techniques can complicate the current understanding of the medieval distinctions of love. Alongside his doctoral research, Davide contributes to the “Canterbury Tales Project,” where his work includes the transcription, editing, and markup of the eighty-eight pre-modern manuscripts that constitute the textual tradition of Chaucer’s <em>Canterbury Tales</em>. He is also a research assistant with “Humanities Data Inquiry,” a project examining how data practices shape the production of knowledge in the Humanities. His broader research and publication include linguistics and literatures, digital hermeneutics, critical digital pedagogy, and scholarly communication. He also serves in several professional organizations, including the Advisory Board of the International Courtly Literature Society-North American Branch and the Council of the Medieval Association of the Pacific. In 2026, he was Visiting Research Fellow at the University of Pennsylvania, where he worked on AI applied to Handwritten Text Recognition of medieval manuscripts.</p>
+
+- name: "Frank Onuh"
+  role: "Ph.D. Candidate"
+  photo: /assets/img/61b914_7f32e054e48b4078aad7a1fb8f5472c6.jpg
+  photo_grid: /assets/img/61b914_7f32e054e48b4078aad7a1fb8f5472c6.jpg
+  email: Frank.onuh@uleth.ca
+  bio: |
+    <p>Frank is a doctoral Candidate in the Cultural, Social, and Political Thought program supervised by Dan O'Donnell and Barbara Bordalejo in the Humanities Innovation Lab.</p>
+    <p>His thesis prospectus was approved in November 2024 and he is working on a thesis tentatively entitled: “Ichọpụta Eziokwu: The (Un/Re)making of Truth — An Interrogation of Language, Power and Patronage in Information Verification Practices in African Context.”</p>
+    <p>He is currently preparing his comprehensive exams.</p>
+
+- name: "AKM Iftekhar Khalid"
+  role: "PhD Student"
+  photo: /assets/img/61b914_2efd8d4960de4a78a2dcf959f7ef39ef.jpg
+  photo_grid: /assets/img/61b914_d2a13410b8ed4d53918b40f08be5d76d.jpg
+  email: khalid@uleth.ca
+  bio: |
+    <p>AKM Iftekhar Khalid is a graduate student (PhD) at the Department of English, University of Lethbridge, Alberta, Canada under the supervision of Professor Daniel Paul O’Donnell. Khalid is a textual editor at the Canterbury Tales Project. Khalid has a background in English and Digital Pedagogy with undergraduate and graduate degrees in English from University of Rajshahi, Bangladesh and various certificates and diplomas in learning management systems, digital education, and similar programs from Bangladeshi and other institutions. His chief research interest includes Textual Editing, History of English Language, Digital Humanities and Sustainable Development Goals (SDGs). Khalid also works for the Journal Incubator.</p>
+
+- name: "Shara Merrill"
+  role: "Ph.D. Student"
+  photo: /assets/img/61b914_469ddad1369143a3a5c9c70d808260b7.png
+  photo_grid: /assets/img/61b914_469ddad1369143a3a5c9c70d808260b7.png
+  email: shara@artistar.com
+  bio: |
+    <p>Shara Merrill is a researcher and digital media specialist with a background in interactive storytelling, digital activism and social justice. She holds a Master's degree from the Centre for Digital Media in Vancouver and a B.S. in Media for Social Justice from Metropolitan State University of Denver. Her work explores the intersections of digital humanities, multimedia research methodologies, and ethical technology. Her research has been recognized with multiple Mitacs Accelerate Grants and has been presented at conferences such as AI for Entrepreneurs and Business Leaders. She has also developed innovative interactive research maps for historical analysis, including projects on food globalization and global upheaval in 1919. Shara is joining the Humanities Innovation Lab and welcomes collaborations on projects related to interactive media, digital storytelling, and the evolving role of technology in humanities research.</p>
+
+- name: "Oluwaseun Soneye"
+  role: "Ph.D. Student"
+  photo: /assets/img/61b914_2e5e57d9f84f40868dfffe6ddf330c7c.jpeg
+  photo_grid: /assets/img/61b914_a188f60ce5a846f691e203366057c0c4.jpg
+  email: oluwaseun.soneye@uleth.ca
+  bio: |
+    <p>Oluwaseun Soneye is an ethnomusicologist with a passion for understanding how music shapes the lives and identities of people within and beyond their homelands. He recently completed his master’s degree in Ethnomusicology at the University of Lethbridge, where he focused on the musical and cultural practices of Nigerian immigrants living in Lethbridge.</p>
+    <p>From 2019 to 2021, Oluwaseun spent years immersed in the world of Kulumbu music, a tradition unique to the Yewa People of southwest Nigeria. He documented, analyzed, and experienced firsthand how this endangered form of music is woven into the daily lives and histories of a truly underrepresented group.</p>
+    <p>Oluwaseun's academic journey began with a bachelor’s degree in music (Education) from the University of Ibadan and a master’s in music (Ethnomusicology) from the University of Lagos. He has recently begun his PhD studies in Cultural, Social, and Political Thought (CSPT) at the University of Lethbridge.</p>
+
+- name: "Yu-Chia Pai"
+  role: "PhD Student"
+  photo: /assets/img/61b914_f7432731baa5436b9f97932292d33c4d.jpg
+  photo_grid: /assets/img/61b914_571c3834c23848bfa8d0133532837240.jpg
+  email: y.pai@uleth.ca
+  bio: |
+    <p>Yu-Chia Pai is a new media artist and researcher working at the intersection of digital humanities, generative AI, visual culture, memory, and cultural identity. His research examines how AI-generated images reshape creativity, authenticity, cultural representation, and belief in visual media. He is particularly interested in latent-space decision-making, dataset bias, embodied creative practice, and meaningful human control in AI-assisted art.</p>
+    <p>For more information about Yu-Chia Pai's project, visit the <a href="https://interactivememories.netlify.app/" target="_blank" rel="noopener">project website</a>.</p>
+
+- name: "Morgan Slayde Pearce"
+  role: "MA Student"
+  photo: /assets/img/dd4b55_8df12d5582ec4fe794f1e9b40d7eee67.jpg
+  photo_grid: /assets/img/dd4b55_380434777621447096190ac16eee3c9f.jpg
+  email: morgan.pearce@uleth.ca
+  bio: |
+    <p>Morgan is a graduate student (MA) and a part of the Humanities Innovation Lab. She is a research assistant for the Lethbridge Journal Incubator and the Canterbury Tales Project. Her thesis combines medieval literary studies and game studies to look at how non-linear narratives in various genres and mediums are used to convey the experience of depression and loss, specifically through the use of the symbol of the labyrinth. Her research combines studies of the history of the book, medieval literature, game studies, and digital humanities. Her most recent conference presentations include an analysis of how women’s experiences are presented as horror in <em>Silent Hill 3</em> and <em>Haunting Ground</em>, as well as a study into the scribal evidence for a performative usage of Geoffrey Chaucer’s <em>The Canterbury Tales</em>. She graduated from the University of Lethbridge with her BA in English in 2021 with Great Distinction.</p>
+
+- name: "Josephine Tabiri"
+  role: "MA Student"
+  photo: /assets/img/dd4b55_eb8849988e0c4273813f87cf6dff1b52.jpg
+  photo_grid: /assets/img/dd4b55_eb8849988e0c4273813f87cf6dff1b52.jpg
+  email: j.tabiri@uleth.ca
+  bio: |
+    <p>Josephine Konamah Tabiri is a graduate student with a Bachelor’s degree from Kwame Nkrumah University of Science and Technology, Ghana. Her research focuses on the linguistic landscape of Ghana. She is currently working at the Humanities Innovation Lab and is a TA in the Department of English.</p>
+
+- name: "Jocelyn McKnight"
+  role: "MPhil Student"
+  photo: /assets/img/61b914_8ff1a8ff6cfa4ccd81912d31ae2b64ff.jpg
+  photo_grid: /assets/img/61b914_8ff1a8ff6cfa4ccd81912d31ae2b64ff.jpg
+  email: jocelyn.mcknight@uleth.ca
+  website: https://jocelyn-mcknight.github.io/
+  bio: |
+    <p>Jocelyn McKnight is a recent graduate from the University of Lethbridge, where she earned a BA in English, with minors in French and Linguistics. Her academic interests revolve around Old English philology, linguistics of all kinds, and Digital Humanities. More specifically her research is focused on Cognitive Semantics. Jocelyn's honours thesis is focused on polysemic extensions of war and violence vocabulary in Tok Pisin, a mixed English and Indigenous language in Papua New Guinea. Jocelyn is currently an RA for the Visionary Cross Project and the Blackfoot Language Archive, but has also works as an TA in the Linguistics and Modern Language Department and served as an instructional designer for online secondary schooling in Alberta. Jocelyn is excited to begin her MPhil in Linguistics at the University of Hong Kong in fall 2026.</p>

@@ -1,0 +1,26 @@
+# The three projects hosted in the lab, as described on the Wix Projects page.
+
+- title: "The Canterbury Tales Project"
+  short: "Transcribing, collating, and editing the eighty-eight fifteenth-century witnesses of Chaucer's text."
+  image: /assets/img/dd4b55_1a01cfe4926146ecaa3768580d70358d.jpeg
+  image_alt: "Folio 88r, EL 26 C 9, Egerton family papers, The Huntington Library, San Marino, California"
+  url: https://www.canterburytalesproject.org/
+  extra_link_text: "General Prologue"
+  body: |
+    <p>The Canterbury Tales Project aims to transcribe, collate, and edit the 88 fifteen-century witnesses of the text. We have pioneered the use of digital tools for the analysis and presentation of textual data through Textual Communities. The project began its activity in 1980s and since then has evolved into an international-level endeavour, involving members from different institutions working on the same topic. With a new round of SSHRC funding, the project currently includes approximately 25,000 digitalized manuscript pages and thousands of line in its repository. Apart from the traditional scholarship, the CTP also developed a mobile-app edition of the General Prologue and a platform for collaborative transcribing the texts. The project contributed and still contributes to the field of Chaucer studies as well as textual criticism and digital humanities.</p>
+
+- title: "The Humanities Data Inquiry Project"
+  short: "A multi-phase study of the digital transformation of the human cultural record across Canada and the United States."
+  image: /assets/img/61b914_4600650a9ee74cafbc4b6ffa17ae2413.jpg
+  image_alt: "Humanities Data Inquiry"
+  url: http://humanitiesdatainquiry.org/
+  body: |
+    <p>Humanities Data Inquiry (HDI) is a multi-phase interdisciplinary research program examining the digital transformation of the human cultural record across Canada and the United States. Established in 2021 and continuing through 2029, the project investigates how humanities researchers and information professionals—including archivists, librarians, curators, technologists, and cultural heritage professionals—design, build, govern, and sustain research and cultural heritage infrastructure in an era of rapidly expanding digital and computational research. Combining ethnographic, historical, comparative, and infrastructure-focused approaches, HDI examines how humanities research practices shape—and are shaped by—the development of digital research and heritage infrastructures. Through comparative fieldwork, collaborative engagement, and interdisciplinary research, the project contributes to ongoing conversations about digital cultural heritage, research data management, governance, sustainability, cultural data ethics, and the long-term stewardship of cultural knowledge.</p>
+
+- title: "The Visionary Cross Project"
+  short: "A multimodal digital edition linking 3D models of Anglo-Saxon stone crosses to Old English texts and commentary."
+  image: /assets/img/61b914_2e1fa62390bb499cbca38a6a36e6770f.jpg
+  image_alt: "The Visionary Cross Project"
+  url: https://vcg.isti.cnr.it/activities/visionarycross/
+  body: |
+    <p>The Visionary Cross Project began in the early 2010s as a collaborative initiative by Daniel Paul O’Donnell (University of Lethbridge), Roberto Rosselli Del Turco (University of Turin), Catherine Karkov (University of Leeds), Martin Foys (University of Wisconsin-Madison), and Dot Porter (UPenn Library). The project emerged from a shared interest in developing a new kind of digital scholarly edition—one that not only preserved Old English texts but also integrated them meaningfully with cultural artifacts. Specifically, the project focuses on 3D visualizations of monumental stone crosses from Old English period, such as the Ruthwell and Bewcastle Crosses. These artifacts are significant not only for their inscriptions and iconography but also for their connection to Old English religious poetry, particularly the <em>Dream of the Rood</em>, which shares thematic and visual motifs with the carvings on these crosses. The goal of the Visionary Cross Project is to move beyond traditional print or static digital editions by linking these 3D models with annotated texts, translations, and scholarly commentary—creating a multimodal edition that facilitates deeper engagement. ISTI-CNR (visual computing group at the Italian national research center) collaborated with the partners of the project in its first main activities: the acquisition and processing of the 3D representation of the Ruthwell and Bewcastle.</p>

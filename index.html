@@ -1,0 +1,125 @@
+---
+layout: default
+title: Home
+description: >-
+  The Humanities Innovation Lab at the University of Lethbridge, founded by Dan
+  O'Donnell in 2019. Home to the Canterbury Tales Project, Humanities Data Inquiry,
+  and the Visionary Cross Project.
+---
+
+<!-- ===== ABOUT =====
+     The Wix home page opened here: heading, the "Workspace" photograph, and the
+     founding paragraph. No separate hero banner. -->
+<section class="section" id="about">
+  <div class="wrap">
+    <div class="split split--image-left">
+      <div class="split__text">
+        <h1 style="font-size:var(--h2-size);letter-spacing:0.06em;text-transform:uppercase;">About</h1>
+        <div class="rule" style="margin:1.25rem 0 1.75rem;"></div>
+        <p>
+          The Humanities Innovation Lab was founded by Dan O'Donnell in 2019 and has been
+          housing active projects since then. In 2021, as part of a series of grants,
+          awarded by the Social Sciences and Humanities Research Council of Canada, the
+          Canterbury Tales Project relocated to the lab.
+        </p>
+        <a href="{{ '/about-hil/' | relative_url }}" class="btn btn--outline">Our projects</a>
+      </div>
+
+      <div class="split__media">
+        <img src="{{ '/assets/img/6a57297c10c047c1a7700b8429a1162e.jpg' | relative_url }}"
+             alt="The Humanities Innovation Lab workspace" loading="lazy">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== RECENT POSTS ===== -->
+<section class="section section--alt">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Recent Posts</h2>
+      <div class="rule"></div>
+    </div>
+
+    <div class="cards">
+      {% for post in site.posts limit: 3 %}
+      <article class="card">
+        <a href="{{ post.url | relative_url }}">
+          {% if post.image %}
+          <div class="card__thumb">
+            <img src="{{ post.image | relative_url }}" alt="{{ post.title | escape }}" loading="lazy">
+          </div>
+          {% endif %}
+          <div class="card__body">
+            <div class="card__meta">
+              <span>{{ post.date | date: "%b %-d, %Y" }}</span>
+              {% if post.categories.first %}<span class="card__tag">{{ post.categories.first }}</span>{% endif %}
+            </div>
+            <h3 class="card__title">{{ post.title }}</h3>
+            {% if post.description %}<p class="card__excerpt">{{ post.description }}</p>{% endif %}
+            <span class="card__link">Read more &rarr;</span>
+          </div>
+        </a>
+      </article>
+      {% endfor %}
+    </div>
+
+    <div class="view-all-row">
+      <a href="{{ '/blog/' | relative_url }}" class="btn btn--outline">All posts</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== LAB MEMBERS ===== -->
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Lab Members</h2>
+      <div class="rule"></div>
+    </div>
+
+    <div class="members">
+      {% for m in site.data.members %}
+      <div class="member">
+        {% if m.photo_grid or m.photo %}
+        <img class="member__photo"
+             src="{{ m.photo_grid | default: m.photo | relative_url }}"
+             alt="{{ m.name | escape }}" loading="lazy">
+        {% endif %}
+        <p class="member__name">{{ m.name }}</p>
+        <p class="member__role">{{ m.role }}</p>
+        <a class="member__more" href="{{ '/about-us/' | relative_url }}#{{ m.name | slugify }}">Learn more</a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- ===== PROJECTS ===== -->
+<section class="section section--alt">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Projects</h2>
+      <div class="rule"></div>
+    </div>
+
+    <div class="project-cards">
+      {% for p in site.data.projects %}
+      <article class="project-card">
+        <a href="{{ '/about-hil/' | relative_url }}#{{ p.title | slugify }}">
+          {% if p.image %}
+          <img src="{{ p.image | relative_url }}" alt="{{ p.image_alt | default: p.title | escape }}" loading="lazy">
+          {% endif %}
+          <div class="project-card__body">
+            <h3>{{ p.title }}</h3>
+            <p class="card__excerpt">{{ p.short }}</p>
+            <span class="card__link">Read more &rarr;</span>
+          </div>
+        </a>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% include land-ack.html %}

@@ -1,0 +1,11 @@
+# Books, chapters, and articles produced in the lab.
+# Add new entries at the top. `citation` is HTML so titles can be italicised.
+
+- citation: |
+    Bordalejo, Barbara, Davide Pafumi, Frank Onuh, A. K. M. Iftekhar Khalid, Morgan
+    Slayde Pearce, and Daniel Paul O’Donnell. 2025. “‘Scarlet Cloak and the Forest
+    Adventure’: a preliminary study of the impact of AI on commonly used writing
+    tools.” <em>International Journal of Educational Technology in Higher
+    Education</em> 22 (1): 6.
+  doi: https://doi.org/10.1186/s41239-025-00505-5
+  pdf: https://educationaltechnologyjournal.springeropen.com/counter/pdf/10.1186/s41239-025-00505-5.pdf
