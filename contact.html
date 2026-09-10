@@ -3,10 +3,12 @@ layout: default
 title: Contact
 permalink: /contact/
 description: Get in touch with the Humanities Innovation Lab at the University of Lethbridge.
+leaflet: true
 ---
 
 <div class="wrap phead">
   <h1>Get in touch</h1>
+  <p class="phead__sub">The lab is based on the University of Lethbridge campus.</p>
 </div>
 
 <section class="section section--flush-top">
@@ -20,21 +22,86 @@ description: Get in touch with the Humanities Innovation Lab at the University o
           {{ site.address.postal }}<br>
           {{ site.address.country }}
         </p>
+        <p class="contact-note">
+          <a href="https://www.ulethbridge.ca/campus-maps" target="_blank" rel="noopener">Campus maps and parking</a>
+        </p>
       </div>
 
       <div class="contact-block">
         <h2>Write</h2>
         <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+        <p class="contact-note">
+          Prospective graduate students are welcome to write. Both co-directors list the
+          areas they are currently supervising on the <a href="{{ '/about-us/' | relative_url }}">About us</a> page.
+        </p>
+      </div>
 
-        <h2 style="margin-top:2rem;">Follow</h2>
+      <div class="contact-block">
+        <h2>Find our work</h2>
         <div class="contact-list">
-          <a href="{{ site.social.zenodo }}" target="_blank" rel="noopener">Zenodo Community</a>
+          <a href="{{ site.social.zenodo }}" target="_blank" rel="noopener">Zenodo community</a>
           <a href="{{ site.social.github }}" target="_blank" rel="noopener">GitHub</a>
-          <a href="{{ site.social.twitter }}" target="_blank" rel="noopener">Twitter</a>
         </div>
       </div>
     </div>
+
+    {%- comment -%}
+      Leaflet on standard OpenStreetMap tiles: no API key and no account.
+      (CARTO's dark basemap would suit the black page better, but its keyless
+      tiles are now stamped "API KEY REQUIRED".) The light tiles therefore sit
+      in a white mat, the same card idiom the rest of the site uses. The marker
+      is the University of Lethbridge point (49.67446, -112.86061) as
+      OpenStreetMap records it. Scroll-wheel zoom is off so the map does not
+      swallow the page scroll; the +/- buttons and dragging still work.
+    {%- endcomment -%}
+    <figure class="contact-map">
+      <div class="contact-map__frame">
+        <div id="campus-map" class="contact-map__canvas">
+          <noscript>
+            <p class="contact-map__fallback">
+              <a href="https://www.openstreetmap.org/?mlat=49.67446&amp;mlon=-112.86061#map=15/49.67446/-112.86061" target="_blank" rel="noopener">See the campus on OpenStreetMap</a>
+            </p>
+          </noscript>
+        </div>
+      </div>
+      <figcaption>
+        The University of Lethbridge campus, on the west side of the Oldman River.
+        <a href="https://www.openstreetmap.org/?mlat=49.67446&amp;mlon=-112.86061#map=15/49.67446/-112.86061" target="_blank" rel="noopener">Open a larger map</a>.
+      </figcaption>
+    </figure>
+
   </div>
 </section>
 
 {% include land-ack.html %}
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"
+        integrity="sha512-puJW3E/qXDqYp9IfhAI54BJEaWIfloJ7JWs7OeD5i6ruC9JZL1gERT1wjtwXFlh7CjE7ZJ+/vcRZRkIYIb6p4g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+<script>
+  window.addEventListener('load', function () {
+    var el = document.getElementById('campus-map');
+    if (!el || typeof L === 'undefined') { return; }
+
+    var lat = 49.67446, lon = -112.86061;
+
+    var map = L.map(el, {
+      center: [lat, lon],
+      zoom: 15,
+      scrollWheelZoom: false
+    });
+
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    L.circleMarker([lat, lon], {
+      radius: 8,
+      color: '#16181a',
+      weight: 2,
+      fillColor: '#ffffff',
+      fillOpacity: 0.9
+    }).addTo(map).bindTooltip('University of Lethbridge');
+  });
+</script>

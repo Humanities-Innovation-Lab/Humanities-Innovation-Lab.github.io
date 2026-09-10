@@ -22,7 +22,6 @@ address:
 social:
   zenodo: "https://zenodo.org/communities/hil/records?q=&l=list&p=1&s=10&sort=newest"
   github: "https://github.com/Humanities-Innovation-Lab"
-  twitter: "https://twitter.com/HumanInnoLab"
 
 # Build settings
 markdown: kramdown
