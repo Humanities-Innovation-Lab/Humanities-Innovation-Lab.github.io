@@ -2,6 +2,7 @@
 layout: post
 title: "Self-validation, a rare happening."
 date: 2022-10-24 01:54:34 +0000
+categories: ["Blogs"]
 image: "/assets/img/dd4b55_eda8ded9aaa24697a76edd35d44d86f5.jpg"
 description: "Academia is a place where one thrives on external validation queues. It is rare, at least for me, to find sources of joy not related to publications, grants, or community roles signifying trust. This past week, however…"
 author: "Barbara Bordalejo"

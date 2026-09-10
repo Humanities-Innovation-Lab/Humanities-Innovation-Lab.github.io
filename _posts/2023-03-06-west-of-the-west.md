@@ -2,6 +2,7 @@
 layout: post
 title: "West of the West"
 date: 2023-03-06 17:58:08 +0000
+categories: ["Blogs"]
 image: "/assets/img/dd4b55_50dedd55b48d489ab5d3c4fb46ad3f05.jpg"
 description: "During my first year of university, the Venezuelan government proposed changing the high-school curriculum, including ditching the classics. The proposal was to stop teaching Homer, Virgil, and Greek theatre. At the…"
 author: "Barbara Bordalejo"

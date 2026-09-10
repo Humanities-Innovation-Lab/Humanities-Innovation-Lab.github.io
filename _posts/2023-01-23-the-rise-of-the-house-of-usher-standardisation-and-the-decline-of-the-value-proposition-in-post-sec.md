@@ -2,6 +2,7 @@
 layout: post
 title: "The rise of the house of Usher: Standardisation and the decline of the value proposition in post-sec"
 date: 2023-01-23 04:15:21 +0000
+categories: ["Blogs"]
 image: "/assets/img/b46f88_c74cd1a0f40544d3be534a63b07c5ced.png"
 description: "What was it—I paused to think—what was it that so unnerved me in the contemplation of the House of Usher? It was a mystery all insoluble; nor could I grapple with the shadowy fancies that crowded upon me as I pondered…"
 author: "Daniel Paul O'Donnell"

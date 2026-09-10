@@ -20,6 +20,10 @@ description: News, notes, and tutorials from the Humanities Innovation Lab.
       {%- endfor -%}
     {%- endfor -%}
     {%- assign cats = cats | sort -%}
+    {%- assign uncat = 0 -%}
+    {%- for post in site.posts -%}
+      {%- if post.categories.size == 0 -%}{%- assign uncat = uncat | plus: 1 -%}{%- endif -%}
+    {%- endfor -%}
 
     <div class="blog-controls">
       <div class="blog-filter" role="group" aria-label="Filter posts by category">
@@ -27,7 +31,9 @@ description: News, notes, and tutorials from the Humanities Innovation Lab.
         {%- for cat in cats %}
         <button class="blog-chip" type="button" data-filter="{{ cat | slugify }}">{{ cat }}</button>
         {%- endfor %}
+        {%- if uncat > 0 %}
         <button class="blog-chip" type="button" data-filter="uncategorised">Uncategorised</button>
+        {%- endif %}
       </div>
       <p class="blog-count" id="blog-count"></p>
     </div>

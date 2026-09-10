@@ -2,6 +2,7 @@
 layout: post
 title: "MA and Ph.D. Funding, Canterbury Tales Project"
 date: 2022-09-01 17:58:25 +0000
+categories: ["News"]
 image: "/assets/img/dd4b55_1a01cfe4926146ecaa3768580d70358d.jpeg"
 description: "Are you interested in the Middle Ages? Are you curious about what manuscripts might say? Would you like to change the world of Chaucerian studies with your perspective? Do you have innovative ideas about medieval…"
 author: "Barbara Bordalejo"

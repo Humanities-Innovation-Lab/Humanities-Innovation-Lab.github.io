@@ -2,6 +2,7 @@
 layout: post
 title: "My Graduate Journey and Humanities Innovation Lab, U of L"
 date: 2023-06-21 22:21:13 +0000
+categories: ["Blogs"]
 image: "/assets/img/c03d20_e32590eb84c54dd9aa7dfc665a979763.jpg"
 description: "I am from the Department of English. I completed my MA in English in January 2023. I started the program in January 2021. I spent most of my time during the last two years (January 2021–January 2023) at the Humanities…"
 author: "khalid"

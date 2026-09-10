@@ -2,6 +2,7 @@
 layout: post
 title: "Contemporary Literature and Technology"
 date: 2023-04-08 22:40:01 +0000
+categories: ["Blogs"]
 image: "/assets/img/c03d20_6adc1202cceb4c6bad608ab72043e039.jpg"
 description: "After the second World War (1940s) to the present (2020s), this period is usually referred as the span of contemporary literature. The world experienced a huge devastation during the World War II and it impacted hugely…"
 author: "khalid"

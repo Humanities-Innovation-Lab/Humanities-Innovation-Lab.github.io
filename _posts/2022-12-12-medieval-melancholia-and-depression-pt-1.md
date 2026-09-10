@@ -2,6 +2,7 @@
 layout: post
 title: "Medieval Melancholia and Depression (Pt. 1)"
 date: 2022-12-12 23:15:28 +0000
+categories: ["Blogs"]
 image: "/assets/img/c91d8d_caf3c4597d89497a9244ec98dc041a5d.png"
 description: "Continuing my journey through the game Pentiment, I came across an especially resonant part of the game. In order to convey its full effectiveness, a bit of backstory is required."
 author: "morganpearce3"

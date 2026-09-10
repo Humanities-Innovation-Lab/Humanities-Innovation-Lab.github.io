@@ -2,6 +2,7 @@
 layout: post
 title: "Tell Me What Ink You Use to Draw Your Experimental Animals, and I'll Tell You Who You Subjugated."
 date: 2023-02-05 19:55:22 +0000
+categories: ["Blogs"]
 image: "/assets/img/nsplsh_24d78d21d1f4416cba84b6e24b9aadd8.jpg"
 description: "Thanks to the paleography class, I have been thinking a lot about handwriting."
 author: "Barbara Bordalejo"

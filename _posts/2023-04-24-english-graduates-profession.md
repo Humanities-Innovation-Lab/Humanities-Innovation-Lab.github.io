@@ -2,6 +2,7 @@
 layout: post
 title: "English Graduates' Profession"
 date: 2023-04-24 17:59:45 +0000
+categories: ["Blogs"]
 image: "/assets/img/c03d20_4b11ecea6b6e446293131f030f2daf27.jpg"
 description: "In Brandon, Manitoba, I was sitting on a couch of a commercial bank and waiting for my wife, who was talking to a teller. My wife went to the bank for documents. I was browsing the net on my cellphone and it might be…"
 author: "khalid"

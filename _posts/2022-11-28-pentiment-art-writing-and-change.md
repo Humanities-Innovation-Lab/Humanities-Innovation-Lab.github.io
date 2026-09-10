@@ -2,6 +2,7 @@
 layout: post
 title: "Pentiment: Art, Writing, and Change"
 date: 2022-11-28 18:41:14 +0000
+categories: ["Blogs"]
 image: "/assets/img/c91d8d_686260ab20244fcfa4164e52c93a3c26.png"
 description: "\"Italian pentimento repentance, remorse (a1257), change of opinion (1630), correction (a1827)\" (OED)."
 author: "morganpearce3"

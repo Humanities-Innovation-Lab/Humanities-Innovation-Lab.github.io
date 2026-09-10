@@ -2,6 +2,7 @@
 layout: post
 title: "Why should one read the Canterbury Tales today?"
 date: 2023-03-07 17:29:08 +0000
+categories: ["Blogs"]
 image: "/assets/img/dd4b55_7f9518b9971b437c8a1389e8b5619a0c.jpeg"
 description: "This morning I was asked about the Canterbury Tales. The question was questionable (perhaps I will write about that some other time) because of its wording and range. For the purposes of this answer, I am going to…"
 author: "Barbara Bordalejo"

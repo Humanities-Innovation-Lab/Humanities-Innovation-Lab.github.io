@@ -2,6 +2,7 @@
 layout: post
 title: "Masters and PhD"
 date: 2023-10-18 01:56:40 +0000
+categories: ["Blogs"]
 image: "/assets/img/c03d20_c545fd7b7fee48d7b3d906802fe4bf00.png"
 description: "In a graduate class, a teacher was saying that the person had to study more than 700 academic books before appearing for the comprehensive examination, and it was almost a book a day. That was a huge endeavor. We were…"
 author: "khalid"

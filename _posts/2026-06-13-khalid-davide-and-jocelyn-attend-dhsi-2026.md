@@ -2,6 +2,7 @@
 layout: post
 title: "Khalid, Davide, and Jocelyn Attend DHSI 2026"
 date: 2026-06-13 06:00:00 +0000
+categories: ["News"]
 image: "/assets/img/61b914_498d35749b8f45d1b9e80c5768b7c2af.jpg"
 description: "Three students from the lab pursued extra training this year by attending the Digital Humanities Summer Institute, hosted at the University of Montreal."
 author: "Humanities Innovation Lab"

@@ -2,6 +2,7 @@
 layout: post
 title: "Virgil Grandfield and the Journal Incubator"
 date: 2023-08-01 04:36:51 +0000
+categories: ["Blogs"]
 image: "/assets/img/c03d20_43ce1bc22acd4e6b935278f364403579.png"
 description: "This piece of writing I could not resist, as it was hammering in my brain, though I should concentrate on computing technology, artificial intelligence, or English language studies, which are kinds of assignments I need…"
 author: "khalid"

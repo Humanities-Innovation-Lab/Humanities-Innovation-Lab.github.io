@@ -2,6 +2,7 @@
 layout: post
 title: "Decolonizing Knowledge: Examining the Power Dynamics of Global Unity and Equality"
 date: 2023-01-23 07:53:59 +0000
+categories: ["Blogs"]
 image: "/assets/img/94c606_95cbbda9ecb340839277b40119ae9eac.webp"
 description: "Who decides what a word should mean? Who decides what is an appropriate or inappropriate meaning? How do we measure and compare knowledge and who decides what is superior or inferior? “Knowledge is not neutral; it is…"
 author: "frankonuh"

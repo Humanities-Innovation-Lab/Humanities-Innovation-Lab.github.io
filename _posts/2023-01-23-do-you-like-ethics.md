@@ -2,6 +2,7 @@
 layout: post
 title: "Do you Like Ethics?"
 date: 2023-01-23 16:28:09 +0000
+categories: ["Blogs"]
 image: "/assets/img/nsplsh_39f539a5761c4dbc9e5047f2ee922dfd.jpg"
 description: "Should everyone take ethics classes? The data course highlights the problem of the need for more training in various educational sectors, particularly mathematics and computer sciences. A cursory glance at a few pure…"
 author: "Barbara Bordalejo"

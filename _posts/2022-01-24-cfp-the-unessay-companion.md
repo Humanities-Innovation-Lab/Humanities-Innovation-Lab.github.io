@@ -2,6 +2,7 @@
 layout: post
 title: "Extended Deadline! CFP: The Unessay Companion"
 date: 2022-01-24 22:13:40 +0000
+categories: ["News"]
 image: "/assets/img/dd4b55_9992c4dfa34f40799b779d606b603c8a.jpeg"
 description: "Barbara Bordalejo, Ryan Cordell, and Daniel P. O’Donnell, Editors"
 author: "Barbara Bordalejo"

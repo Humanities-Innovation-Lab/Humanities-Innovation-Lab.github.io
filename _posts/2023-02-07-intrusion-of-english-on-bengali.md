@@ -2,6 +2,7 @@
 layout: post
 title: "Intrusion of English on Bengali"
 date: 2023-02-07 16:09:51 +0000
+categories: ["Blogs"]
 image: "/assets/img/c03d20_add3f45306f042f3a6532b6e9f43651a.jpg"
 description: "I raise a debatable topic. The relationship between Bangladesh people and English is deeper than usually measured in the scale of the number of speakers in the country. English dominates public, private, corporate and…"
 author: "khalid"

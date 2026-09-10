@@ -2,6 +2,7 @@
 layout: post
 title: "Yet another blog about twitter... It reminds me of listservs in the 1990s."
 date: 2022-11-21 04:47:43 +0000
+categories: ["Blogs"]
 image: "/assets/img/b46f88_f63bf70b6153410cb197ad26b005f613.png"
 description: "It’s been interesting watching how the last few weeks have played out on Twitter. Like many people — especially academics and journalists — I’ve been engaged with the platform for quite a while."
 author: "Daniel Paul O'Donnell"

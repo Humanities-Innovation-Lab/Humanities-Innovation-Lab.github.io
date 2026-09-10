@@ -2,6 +2,7 @@
 layout: post
 title: "The Wailing Silence of the Chibok Girls"
 date: 2023-02-22 23:37:05 +0000
+categories: ["Blogs"]
 image: "/assets/img/94c606_932c4de085e04607876c122f1532da4d.jpg"
 description: "The plight of girls in northern Nigeria is a recurring issue that continues to linger. The BringBackOurGirls campaign, which began in 2014, was a clarion call to the world about the desperate situation these girls face."
 author: "frankonuh"

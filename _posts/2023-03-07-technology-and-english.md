@@ -2,6 +2,7 @@
 layout: post
 title: "Technology and English"
 date: 2023-03-07 03:17:49 +0000
+categories: ["Blogs"]
 image: "/assets/img/c03d20_80e566e70999459c827351e8efe62019.png"
 description: "The availability and easy access to innovative technology such as computers, mobile phones, internet, computer games, cartoons, comics, movies, and open-source study materials like Open Educational Resources (OER) are…"
 author: "khalid"

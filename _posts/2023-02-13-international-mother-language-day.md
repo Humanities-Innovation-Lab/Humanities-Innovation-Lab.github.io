@@ -2,6 +2,7 @@
 layout: post
 title: "International Mother Language Day"
 date: 2023-02-13 03:38:56 +0000
+categories: ["Blogs"]
 image: "/assets/img/c03d20_286701f8fc194a2e99cfb9dd0ba1e000.webp"
 description: "The 21st February is our pride and courage. The day, February 21, 1952 and the martyrs of the day in Bangladesh make us remember that we can stand to fight for a language and lay our life. February 21 is a symbolic day…"
 author: "khalid"

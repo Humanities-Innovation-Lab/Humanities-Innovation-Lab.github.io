@@ -2,6 +2,7 @@
 layout: post
 title: "The Decline of the Sacred"
 date: 2022-11-08 14:31:05 +0000
+categories: ["Blogs"]
 image: "/assets/img/dd4b55_dc1db4f7ca724680b5f1517226ed6299.jpg"
 description: "Books at the Bodleian by Dollymoon (https://commons.wikimedia.org/wiki/User:Dollymoon)"
 author: "Barbara Bordalejo"

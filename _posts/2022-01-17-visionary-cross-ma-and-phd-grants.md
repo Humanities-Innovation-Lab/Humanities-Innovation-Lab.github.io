@@ -2,6 +2,7 @@
 layout: post
 title: "Visionary Cross MA and PhD Grants"
 date: 2022-01-17 03:19:51 +0000
+categories: ["News"]
 image: "/assets/img/dd4b55_d72d6b72e43d41d2a141c24697a14d73.jpg"
 description: "The Visionary Cross and the Humanities Innovation Lab at the University of Lethbridge seek curious and enthusiastic graduate students for funded research positions at the MA and Ph.D. levels."
 author: "Barbara Bordalejo"

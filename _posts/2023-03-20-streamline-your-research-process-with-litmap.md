@@ -2,6 +2,7 @@
 layout: post
 title: "Streamline Your Research Process with Litmap"
 date: 2023-03-20 17:07:49 +0000
+categories: ["Tutorials"]
 image: "/assets/img/94c606_7415f901ac3347b680930a81b9492233.jpg"
 description: "I thought I should share a bit about this tool – Litmap – which I find very helpful, especially when searching for related literature/papers/publications in any discipline. I consider Litmap a great tool for academics…"
 author: "frankonuh"

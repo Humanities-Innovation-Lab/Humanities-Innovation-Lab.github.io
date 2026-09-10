@@ -2,6 +2,7 @@
 layout: post
 title: "The End of Interpreting and Voice Acting?"
 date: 2023-09-18 17:26:44 +0000
+categories: ["Blogs"]
 image: "/assets/img/23298d_e70d2e747a6b47dfacbd2e2457d6e982.png"
 description: "While generative large language models are not inherently nefarious, it is essential to recognise that some of their consequences may disrupt the delicate equilibrium of our economic systems, thereby underscoring the…"
 author: "davide.pafumi"

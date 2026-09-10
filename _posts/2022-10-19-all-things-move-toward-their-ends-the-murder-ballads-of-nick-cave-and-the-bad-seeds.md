@@ -2,6 +2,7 @@
 layout: post
 title: "\"All Things Move Toward Their Ends\": The Murder Ballads of Nick Cave and the Bad Seeds"
 date: 2022-10-19 19:41:01 +0000
+categories: ["Blogs"]
 image: "/assets/img/c91d8d_462190c90b10431cb98622d5491025d9.jpg"
 description: "The cover for the album Murder Ballads (https://genius.com/albums/Nick-cave-and-the-bad-seeds/Murder-ballads)"
 author: "morganpearce3"

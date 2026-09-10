@@ -2,6 +2,7 @@
 layout: post
 title: "Learning Objects to Open Educational Resources"
 date: 2023-02-26 22:26:34 +0000
+categories: ["Blogs"]
 image: "/assets/img/c03d20_69f2b6ab146445528eb8f5b84aeec49e.jpg"
 description: "The terms are recent historical issues because of the advent and the availability of new internet technology and its intervention. Wayne Hodgins used the term for \"learning objects\" in 1994 for the first time. Hodgins…"
 author: "khalid"

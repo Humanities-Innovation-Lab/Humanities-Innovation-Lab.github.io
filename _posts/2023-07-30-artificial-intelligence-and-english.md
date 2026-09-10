@@ -2,6 +2,7 @@
 layout: post
 title: "Artificial Intelligence and English"
 date: 2023-07-30 02:18:37 +0000
+categories: ["Blogs"]
 image: "/assets/img/c03d20_07ceee5314ca4f58abe37119a44379f4.png"
 description: "When I described at a dining table Artificial Intelligence (AI) as a postcolonial tool, it seemed to the eyes of listeners, “Are you serious?” AI is vastly seen as an assistant to humans, and it will give us some…"
 author: "khalid"

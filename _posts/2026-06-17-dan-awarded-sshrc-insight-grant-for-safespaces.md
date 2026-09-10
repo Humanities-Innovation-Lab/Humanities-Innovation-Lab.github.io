@@ -2,6 +2,7 @@
 layout: post
 title: "Dan Awarded SSHRC Insight Grant for #safespaces"
 date: 2026-06-17 00:25:04 +0000
+categories: ["News"]
 image: "/assets/img/61b914_8344b88a9322437e843859fab2bc8fc8.png"
 description: "Dan O’Donnell has been awarded a SSHRC Insight Development Grant for his project, “safespaces? Speaker-Centred Rights, Discursive Power, and the Changing Stakes in Debates about Academic Freedom.” The project examines…"
 author: "Humanities Innovation Lab"

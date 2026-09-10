@@ -2,6 +2,7 @@
 layout: post
 title: "Morgan Defends MA Thesis"
 date: 2026-04-17 06:00:00 +0000
+categories: ["News"]
 image: "/assets/img/61b914_14965bb83d094d10a52d4634f95f7b50.jpg"
 description: "Morgan has successfully defended her MA thesis, “The Labyrinth of Depression: Narrative Form and Recursive Structure from Medieval Dream Vision to Digital Narrative.” Her research focuses on representations of…"
 author: "Humanities Innovation Lab"

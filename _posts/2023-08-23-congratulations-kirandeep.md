@@ -3,7 +3,6 @@ layout: post
 title: "Kirandeep completes her MA!"
 date: 2023-08-23 19:11:20 +0000
 categories: ["News"]
-image: "/assets/img/dd4b55_fc227a04525a4fa78ff6c9f8cfe53f4d.jpg"
 description: "We are pleased to announce that Kirandeep rocked her defence today. Her work, Gurmukhi Punjabi as a Low-Resource Language through the Lens of the BLARK Model, was praised by the members of the committee. Kirandeep shows…"
 author: "Barbara Bordalejo"
 wix_url: "https://www.humanitiesinnovationlab.ca/post/congratulations-kirandeep"

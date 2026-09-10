@@ -2,6 +2,7 @@
 layout: post
 title: "The Power of Writing Words!"
 date: 2023-03-26 17:26:41 +0000
+categories: ["Blogs"]
 image: "/assets/img/c03d20_18931028774d40aebd72511279543674.jpg"
 description: "I am writing to share my personal experience to tell my labmates, friends, supervisors about the power of writing words. I am humble guy. English is a foreign language in my country, Bangladesh. However, one wonderful…"
 author: "khalid"

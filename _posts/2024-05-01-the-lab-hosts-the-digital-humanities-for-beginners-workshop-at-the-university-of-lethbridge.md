@@ -2,7 +2,7 @@
 layout: post
 title: "The Lab Hosts The Digital Humanities for Beginners Workshop at The University of Lethbridge"
 date: 2024-05-01 06:00:00 +0000
-categories: ["News"]
+categories: ["Events"]
 image: "/assets/img/61b914_8cb8df005a044d49bce51442a7ee8362.png"
 description: "From April 22nd to 25th, students, researchers, and educators gathered for our free four-day workshop, Digital Humanities for Beginners. It was designed for those in the humanities and social sciences to provide an…"
 author: "Humanities Innovation Lab"

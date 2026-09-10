@@ -2,6 +2,7 @@
 layout: post
 title: "My Issue with Humanities Data"
 date: 2023-10-11 20:30:29 +0000
+categories: ["Blogs"]
 image: "/assets/img/dd4b55_1c54405320c4457194e706389ac95024.png"
 description: "Each of my doctorates presents different computational approaches to the study of texts. Both were written between 1999 and 2003 and were heavily influenced by my collaborators, a group led by Christopher Howe, head of…"
 author: "Barbara Bordalejo"

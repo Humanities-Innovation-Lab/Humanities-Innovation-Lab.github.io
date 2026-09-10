@@ -2,6 +2,7 @@
 layout: post
 title: "Feminist Theory: A Transformative Lens for Analyzing Online Hate Discourse"
 date: 2023-04-17 18:24:17 +0000
+categories: ["Blogs"]
 image: "/assets/img/94c606_4aa5d52cbdb54a6a86df9e78c2136e06.jpg"
 description: "This blog post summarizes my takeaway from one of my courses, Feminism, Gender and Sovereignty. Initially, I was unsure how feminist theory could relate to my research interests. However, as I began to engage with the…"
 author: "frankonuh"

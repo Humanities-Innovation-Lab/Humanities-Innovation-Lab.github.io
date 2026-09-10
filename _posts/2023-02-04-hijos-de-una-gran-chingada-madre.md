@@ -2,6 +2,7 @@
 layout: post
 title: "Hijos de una Gran Chingada Madre"
 date: 2023-02-04 19:47:43 +0000
+categories: ["Blogs"]
 image: "/assets/img/fe4d61_9838d929b0754437aa8114146bcb2de7.jpg"
 description: "This story comes also along with a very agitated week at the UoL in which we saw the strong contraposition between unreconcilable ideological positions and it is the result of a conversation in Spanish I was…"
 author: "davide.pafumi"

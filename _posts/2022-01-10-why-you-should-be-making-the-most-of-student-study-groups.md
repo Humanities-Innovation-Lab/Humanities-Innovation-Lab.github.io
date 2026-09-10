@@ -2,6 +2,7 @@
 layout: post
 title: "M.A. and Ph.D. funding"
 date: 2022-01-10 16:54:46 +0000
+categories: ["News"]
 image: "/assets/img/dd4b55_a1b1da558fac45e3ae664f41c848d9c4.png"
 description: "The Canterbury Tales Project is seeking curious and enthusiastic graduate students for funded research positions at the MA and Ph.D. levels. If you are interested in Chaucer, Middle English literature, manuscript…"
 author: "Barbara Bordalejo"

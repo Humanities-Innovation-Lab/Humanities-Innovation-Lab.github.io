@@ -2,6 +2,7 @@
 layout: post
 title: "The Dialecticality of NE"
 date: 2023-02-28 18:45:45 +0000
+categories: ["Blogs"]
 image: "/assets/img/94c606_f32e8e1743364c8fb86eab5d77ff7d24.jpg"
 description: "Nigeria possesses a distinctive linguistic topography attributable to its over 500 indigenous languages. However, English is a widely spoken language in the country, due to its colonial history and the fact that it…"
 author: "frankonuh"

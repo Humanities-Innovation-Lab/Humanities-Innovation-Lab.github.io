@@ -2,6 +2,7 @@
 layout: post
 title: "The Rise of Fast Books or Instant Mash Ain’t Mashed Potatoes"
 date: 2022-11-20 00:45:08 +0000
+categories: ["Blogs"]
 image: "/assets/img/dd4b55_61695b0257ee45a3a8e302ad7bc0e32f.jpeg"
 description: "Last week, Dan posted a few notes on bookbinding in which he wondered about the swiftness of the 19-century binding in reference to the Coptic and Gothic ones we had learned in the previous days. After musing whether…"
 author: "Barbara Bordalejo"

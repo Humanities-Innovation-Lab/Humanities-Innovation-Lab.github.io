@@ -2,6 +2,7 @@
 layout: post
 title: "Women's Experiences as Horror"
 date: 2023-10-02 19:19:29 +0000
+categories: ["Blogs"]
 image: "/assets/img/c91d8d_f8510f8d28f64e0e9db63852cd400564.jpg"
 description: "As many members of the lab know, I am very interested in horror films and video-games. I do tend to play horror games more than watching horror movies these days, especially games from indie developers. I try to keep up…"
 author: "morganpearce3"

@@ -2,6 +2,7 @@
 layout: post
 title: "Davide Awarded Visiting Research Fellowship at UPenn"
 date: 2026-02-28 07:00:00 +0000
+categories: ["News"]
 image: "/assets/img/61b914_25b86b3ba345481980a2bb9ae94c490c.jpg"
 description: "PhD candidate Davide Pafumi has been awarded a Manuscript Data as Collections Fellowship at the University of Pennsylvania. Davide is the only fellow to receive this honour before completing his PhD, a recognition of…"
 author: "Humanities Innovation Lab"

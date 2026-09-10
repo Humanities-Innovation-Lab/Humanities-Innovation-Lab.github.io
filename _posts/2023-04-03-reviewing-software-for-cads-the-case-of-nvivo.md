@@ -2,6 +2,7 @@
 layout: post
 title: "Reviewing NVivo in Light of its Relevance for CADS/DH"
 date: 2023-04-03 16:24:55 +0000
+categories: ["Blogs"]
 image: "/assets/img/fe4d61_3380e84ed1774a3b86e3699eed111b82.png"
 description: "As the field of Computer-Assisted Discourse Studies (CADS) within Digital Humanities is gaining momentum, there is a growing need for tools and methods that can help researchers explore complex sets of textual data. As…"
 author: "davide.pafumi"

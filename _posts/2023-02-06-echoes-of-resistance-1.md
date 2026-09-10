@@ -2,6 +2,7 @@
 layout: post
 title: "Echoes of Resistance #1"
 date: 2023-02-06 08:36:12 +0000
+categories: ["Blogs"]
 image: "/assets/img/94c606_089e7d02b7fd4563b694033138ca6a1b.jpg"
 description: "[](https://ichef.bbci.co.uk/news/640/cpsprodpb/18210/production/109523889gettyimages-3318888.jpg)"
 author: "frankonuh"

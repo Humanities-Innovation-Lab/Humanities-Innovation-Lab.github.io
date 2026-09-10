@@ -2,6 +2,7 @@
 layout: post
 title: "Humanities Innovation Lab Fall Workshops: Using Computers in the Humanities"
 date: 2022-09-07 19:13:09 +0000
+categories: ["Events"]
 description: "The Humanities Innovation Lab is offering a series of workshops on technologies of use to humanities scholars and students."
 author: "Daniel Paul O'Donnell"
 wix_url: "https://www.humanitiesinnovationlab.ca/post/humanities-innovation-lab-fall-workshops-using-computers-in-the-humanities"

@@ -2,6 +2,7 @@
 layout: post
 title: "Thinking about Chat GPT as a search tool"
 date: 2023-03-27 23:29:07 +0000
+categories: ["Blogs"]
 image: "/assets/img/5894b9_1188ea6b26b34599b883d13f735b403b.png"
 description: "Like almost everybody in the academic world, I suspect, I’ve been thinking a lot about Chat GPT."
 author: "Daniel Paul O'Donnell"

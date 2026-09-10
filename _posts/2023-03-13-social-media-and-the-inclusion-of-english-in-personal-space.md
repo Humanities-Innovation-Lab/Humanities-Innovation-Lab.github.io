@@ -2,6 +2,7 @@
 layout: post
 title: "Social Media and the Inclusion of English in Personal Space"
 date: 2023-03-13 00:00:43 +0000
+categories: ["Blogs"]
 image: "/assets/img/c03d20_bcaa0e38a746472bb1b184fc0b6d228a.png"
 description: "This thought appeared while I was trying to find the reasons for the rise of English in the Global South Countries. One main reason of the many is the social network that computer technology and internet started to make…"
 author: "khalid"

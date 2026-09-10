@@ -2,6 +2,7 @@
 layout: post
 title: "Other People's Editions"
 date: 2022-10-11 17:18:38 +0000
+categories: ["Blogs"]
 image: "/assets/img/dd4b55_7394ebe67a0043b789deab27434bc37a.png"
 description: "Although I have been working with digital editions for a long time, this past week, I was faced with a completely divergent perspective for the first time in a very long time. As part of the Textual Communities…"
 author: "Barbara Bordalejo"

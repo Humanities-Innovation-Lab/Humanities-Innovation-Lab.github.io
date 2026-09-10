@@ -2,6 +2,7 @@
 layout: post
 title: "The Danger of Self-Seduction"
 date: 2023-03-07 04:23:55 +0000
+categories: ["Blogs"]
 image: "/assets/img/94c606_f5b0c6dfcde74bf0b4577a5f3a8735e5.jpg"
 description: "Translation is a crucial aspect of global communication, as it enables information to be disseminated across linguistic and cultural boundaries. However, translations can also be used to perpetuate neocolonial power…"
 author: "frankonuh"

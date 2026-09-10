@@ -2,6 +2,7 @@
 layout: post
 title: "Literary Criticism, Colour Commentary, House of Leaves"
 date: 2023-04-02 23:38:32 +0000
+categories: ["Blogs"]
 image: "/assets/img/5894b9_bf428c2a0dd64f7d9533688d7c7868f0.jpg"
 description: "Persons attempting to find a motive in this narrative will be prosecuted; persons attempting to find a moral in it will be banished; persons attempting to find a plot in it will be shot."
 author: "Daniel Paul O'Donnell"

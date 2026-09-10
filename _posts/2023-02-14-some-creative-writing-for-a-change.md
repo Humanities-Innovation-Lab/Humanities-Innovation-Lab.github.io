@@ -2,6 +2,7 @@
 layout: post
 title: "Some Creative Writing for a Change"
 date: 2023-02-14 17:50:50 +0000
+categories: ["Blogs"]
 description: "I know it isn't the usual blog post, but I thought I would attempt to post some creative writing that I did a little while ago. I used to write a lot when I was younger, but lately any attempts at creative writing…"
 author: "morganpearce3"
 wix_url: "https://www.humanitiesinnovationlab.ca/post/some-creative-writing-for-a-change"

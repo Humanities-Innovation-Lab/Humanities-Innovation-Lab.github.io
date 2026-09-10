@@ -2,6 +2,7 @@
 layout: post
 title: "Critical Friendship: a Practice of Care and Subversion"
 date: 2022-10-04 01:05:18 +0000
+categories: ["Blogs"]
 image: "/assets/img/dd4b55_d70d3915d5cc4996818d2f88113b2bc1.jpg"
 description: "[](https://commons.wikimedia.org/wiki/File:HandsofAmity11.JPG)"
 author: "Barbara Bordalejo"
