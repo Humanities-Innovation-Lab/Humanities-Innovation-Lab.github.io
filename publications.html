@@ -16,11 +16,13 @@ description: Books, chapters, and articles produced in the Humanities Innovation
       {% for pub in site.data.publications %}
       <article class="pitem">
         <div>{{ pub.citation }}</div>
-        {% if pub.doi or pub.pdf or pub.zenodo %}
+        {% if pub.status %}<p class="pitem__status">{{ pub.status | capitalize }}</p>{% endif %}
+        {% if pub.doi or pub.pdf or pub.zenodo or pub.url %}
         <div class="pitem__links">
           {% if pub.doi %}<a href="{{ pub.doi }}" target="_blank" rel="noopener">DOI</a>{% endif %}
           {% if pub.pdf %}<a href="{{ pub.pdf }}" target="_blank" rel="noopener">PDF</a>{% endif %}
           {% if pub.zenodo %}<a href="{{ pub.zenodo }}" target="_blank" rel="noopener">Zenodo</a>{% endif %}
+          {% if pub.url %}<a href="{{ pub.url }}" target="_blank" rel="noopener">{{ pub.url_text | default: "Edition" }}</a>{% endif %}
         </div>
         {% endif %}
       </article>

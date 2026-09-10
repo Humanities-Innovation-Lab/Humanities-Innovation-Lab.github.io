@@ -348,6 +348,7 @@ p:last-child { margin-bottom: 0; }
 .pitem__links a:hover { opacity: 0.7; }
 .pitem__meta { color: var(--muted); }
 .pitem__title { font-family: var(--font-head); font-size: 1.25rem; margin-bottom: 0.4rem; }
+.pitem__status { color: var(--muted); font-style: italic; margin-top: 0.35rem; }
 
 /* ============================================================
    EVENTS BY YEAR (collapsible groups under the calendar)

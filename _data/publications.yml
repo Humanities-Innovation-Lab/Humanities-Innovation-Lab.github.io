@@ -1,39 +1,84 @@
-# Books, chapters, and articles produced in the lab, newest first.
+# Books, chapters, articles, scholarly editions, and peer-reviewed long abstracts
+# produced in or substantially connected to the Humanities Innovation Lab,
+# newest first.
 #
-# Compiled from the lab's Zenodo community (zenodo.org/communities/hil), taking
-# only records typed as publications — articles and conference papers. The
-# community's 37 presentations, 3 lessons, 2 posters, 2 datasets and 2 videos are
-# not listed here. Two records were deliberately excluded:
-#   * "The Digital Medievalist Project" (2004) — its own description says it is a
-#     redacted grant application, not a publication.
-#   * duplicate presentation deposits that accompany the two conference papers.
+# Included where the work involves multiple lab members, was produced through
+# a lab project, or otherwise has a clear connection to research carried out in
+# the lab. Conference presentations are not listed unless the deposited work is
+# a substantive peer-reviewed long abstract.
 #
-# `citation` is HTML so journal titles can be italicised.
+# `citation` is HTML so journal and publication titles can be italicised.
 
 - citation: |
-    Bordalejo, Barbara, Julia Neugarten, and Joris J. Van Zundert. 2025. “Fifty
-    Shades of Twilight: A Computational Approach to Textual Adaptation.”
-    <em>Digital Studies / Le champ numérique</em>.
-  doi: https://doi.org/10.16995/dscn.18703
-  zenodo: https://zenodo.org/records/17741117
+    Khalid, A. K. M. Iftekhar, Frank Onuh, Barbara Bordalejo, and Daniel Paul
+    O’Donnell. 2026. “Owing Our Souls to the Company Store: The Digital Platform
+    Economy as Rentier Capitalism.” <em>Information &amp; Media</em>. Under review.
+  status: under review
 
 - citation: |
-    Bordalejo, Barbara, Daniel O’Donnell, Davide Pafumi, and Morgan Pearce. 2025.
-    “Adapting a Research Tool for Teaching in a Post-Pandemic World: Textual
-    Communities and Critical Digital Pedagogy in the Context of a Comprehensive
-    Liberal Arts Research University.” <em>Digital Humanities Quarterly</em> 19 (2).
+    McKnight, Jocelyn, and Daniel Paul O’Donnell. 2026. “What Is a Digital
+    Edition, Really? The Electronic Cædmon’s Hymn at Twenty-One.”
+    <em>Code4Lib</em>. In press.
+  status: in press
+
+- citation: |
+    Pafumi, Davide, Jocelyn McKnight, Nathan D. Woods, and Daniel Paul O’Donnell.
+    2026. “Loose Screws? Testing Screwmeneutics as an Approach to Old English
+    Digital Philology.” <em>Digital Studies / Le champ numérique</em>. Accepted
+    for publication.
+  status: accepted for publication
+
+- citation: |
+    Bordalejo, Barbara, and Peter Robinson, eds. 2026. <em>The General
+    Prologue</em>. <em>The Canterbury Tales</em>. Scholarly digital edition.
+    Published 29 July 2026.
+  url: https://talesofcanterbury.org/GP
+
+- citation: |
+    Bordalejo, Barbara, and Peter Robinson, eds. 2026. <em>The Miller’s
+    Tale</em>. <em>The Canterbury Tales</em>. Scholarly digital edition.
+    Published 29 July 2026.
+  url: https://talesofcanterbury.org/MI
+
+- citation: |
+    Grandfield, Virgil, Davide Pafumi, Daniel Paul O’Donnell, and Frank Onuh.
+    2026. “The ‘Sub-editor Model’: Integrating Apprenticeship into Editorial
+    Decision-Making for Acquiring Scholarly Communication Skills.”
+    <em>Insights</em> 39: article 15.
+  doi: https://doi.org/10.1629/uksg.751
+
+- citation: |
+    Bordalejo, Barbara, Davide Pafumi, Morgan S. Pearce, and Daniel Paul
+    O’Donnell. 2025. “Adapting a Research Tool for Teaching in a Post-Pandemic
+    World: Textual Communities and Critical Digital Pedagogy in the Context of
+    a Comprehensive Liberal Arts Research University.”
+    <em>Digital Humanities Quarterly</em> 19 (2).
   doi: https://doi.org/10.5281/zenodo.15610703
   zenodo: https://zenodo.org/records/15610703
 
 - citation: |
-    Bordalejo, Barbara, Davide Pafumi, Frank Onuh, A. K. M. Iftekhar Khalid, Morgan
-    Slayde Pearce, and Daniel Paul O’Donnell. 2025. “‘Scarlet Cloak and the Forest
-    Adventure’: a preliminary study of the impact of AI on commonly used writing
-    tools.” <em>International Journal of Educational Technology in Higher
-    Education</em> 22 (1): 6.
+    Bordalejo, Barbara, Davide Pafumi, Frank Onuh, A. K. M. Iftekhar Khalid,
+    Morgan Slayde Pearce, and Daniel Paul O’Donnell. 2025. “‘Scarlet Cloak and
+    the Forest Adventure’: A Preliminary Study of the Impact of AI on Commonly
+    Used Writing Tools.” <em>International Journal of Educational Technology in
+    Higher Education</em> 22 (1): 6.
   doi: https://doi.org/10.1186/s41239-025-00505-5
   pdf: https://educationaltechnologyjournal.springeropen.com/counter/pdf/10.1186/s41239-025-00505-5.pdf
   zenodo: https://zenodo.org/records/15014534
+
+- citation: |
+    Woods, Nathan D., Davide Pafumi, Barbara Bordalejo, and Daniel O’Donnell.
+    2024. “Divergent Data Cultures: Mapping the Data Problem in the Humanities.”
+    Peer-reviewed long abstract, <em>CSDH/SCHN 2024</em>, Montréal.
+  doi: https://doi.org/10.5281/zenodo.12167505
+  zenodo: https://zenodo.org/records/12167505
+
+- citation: |
+    Woods, Nathan, Barbara Bordalejo, and Daniel O’Donnell. 2023. “Data Problems
+    in the Humanities, or ‘When everybody is special, no one is’?”
+    Peer-reviewed long abstract, <em>Digital Humanities 2023</em>, Graz.
+  doi: https://doi.org/10.5281/zenodo.8403789
+  zenodo: https://zenodo.org/records/8403789
 
 - citation: |
     O’Donnell, Daniel, Nathan Woods, and Barbara Bordalejo. 2023. “Small Data
@@ -41,10 +86,3 @@
     Peer-reviewed long abstract, <em>Digital Humanities 2022</em>, Tokyo.
   doi: https://doi.org/10.5281/zenodo.8403803
   zenodo: https://zenodo.org/records/8403803
-
-- citation: |
-    Woods, Nathan, Barbara Bordalejo, and Daniel O’Donnell. 2023. “Data Problems in
-    the Humanities, or ‘When everybody is special, no one is’?” Peer-reviewed long
-    abstract, <em>Digital Humanities 2023</em>, Graz.
-  doi: https://doi.org/10.5281/zenodo.8403789
-  zenodo: https://zenodo.org/records/8403789
