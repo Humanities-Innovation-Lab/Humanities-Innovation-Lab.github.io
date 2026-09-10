@@ -3,7 +3,7 @@ layout: post
 title: "Welcome, Frank!"
 date: 2022-12-22 17:40:47 +0000
 categories: ["News"]
-image: "/assets/img/fe4d61_d33e4324685d465fa186420f94d131a5.jpg"
+image: "/assets/img/heads/frank.png"
 description: "The Humanities Innovation Lab welcomes its newest member, Frank Onuh, who will work on text analysis of political discourse and hate speech."
 author: "Barbara Bordalejo"
 wix_url: "https://www.humanitiesinnovationlab.ca/post/welcome-frank"

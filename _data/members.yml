@@ -6,8 +6,8 @@
 - name: "Barbara Bordalejo"
   role: "Co-director"
   director: true
-  photo: /assets/img/61b914_c28bd939fe134baf8e33d0c103948fb7.jpg
-  photo_grid: /assets/img/dd4b55_244dbfcf07b94141a3fa4adecacae89b.jpg
+  photo: /assets/img/members/barbara.png
+  photo_grid: /assets/img/members/barbara.png
   email: barbara.bordalejo@uleth.ca
   website: https://www.bordalejo.net/
   bio: |
@@ -28,9 +28,9 @@
 - name: "Daniel O'Donnell"
   role: "Co-director"
   director: true
-  photo: /assets/img/61b914_c9ba6bfef8c34e8986c64036e5969b31.jpg
-  photo_grid: /assets/img/dd4b55_f8d539e839bd4c22a91299d37e8de812.jpg
   website: https://people.uleth.ca/~daniel.odonnell
+  photo: /assets/img/members/dan.png
+  photo_grid: /assets/img/members/dan.png
   bio: |
     <p>Daniel Paul O’Donnell is a Professor of English and an Associate Member of the University Library Academic Staff. His research ranges from early medieval languages and literatures to Open Science and the use of data in the Humanities. He is currently accepting highly motivated and independent students with interests in the following areas:</p>
     <ul>
@@ -45,8 +45,8 @@
 
 - name: "Sidney Shapiro, PhD"
   role: "Assistant Professor, Business Analytics and Computer Science"
-  photo: /assets/img/f09652_b597cf5d47c54080bc850adc0c01fe55.png
-  photo_grid: /assets/img/f09652_b597cf5d47c54080bc850adc0c01fe55.png
+  photo: /assets/img/members/sidney.png
+  photo_grid: /assets/img/heads/sidney.png
   email: sidney.shapiro@uleth.ca
   website: https://www.sidneyshapiro.com/
   bio: |
@@ -54,8 +54,8 @@
 
 - name: "Nathan D. Woods"
   role: "Affiliated Researcher, Humanities Data Inquiry"
-  photo: /assets/img/61b914_db55688b03c441a79e004d40f914f734.jpg
-  photo_grid: /assets/img/61b914_0f231bfdd0734808a97f601afc4cd7d2.png
+  photo: /assets/img/members/nathan.png
+  photo_grid: /assets/img/heads/nathan.png
   email: nathan.woods@uleth.ca
   website: https://www.nathandwoods.net/
   bio: |
@@ -63,8 +63,8 @@
 
 - name: "Davide Pafumi"
   role: "Ph.D. Candidate"
-  photo: /assets/img/61b914_7b346b4d844c4f698b1eb7a3a2226a2b.jpg
-  photo_grid: /assets/img/61b914_7b346b4d844c4f698b1eb7a3a2226a2b.jpg
+  photo: /assets/img/members/davide.png
+  photo_grid: /assets/img/heads/davide.png
   email: davide.pafumi@uleth.ca
   website: https://davidepafumi.github.io/
   bio: |
@@ -72,8 +72,8 @@
 
 - name: "Frank Onuh"
   role: "Ph.D. Candidate"
-  photo: /assets/img/61b914_7f32e054e48b4078aad7a1fb8f5472c6.jpg
-  photo_grid: /assets/img/61b914_7f32e054e48b4078aad7a1fb8f5472c6.jpg
+  photo: /assets/img/members/frank.png
+  photo_grid: /assets/img/heads/frank.png
   email: Frank.onuh@uleth.ca
   bio: |
     <p>Frank is a doctoral Candidate in the Cultural, Social, and Political Thought program supervised by Dan O'Donnell and Barbara Bordalejo in the Humanities Innovation Lab.</p>
@@ -82,24 +82,24 @@
 
 - name: "AKM Iftekhar Khalid"
   role: "PhD Student"
-  photo: /assets/img/61b914_2efd8d4960de4a78a2dcf959f7ef39ef.jpg
-  photo_grid: /assets/img/61b914_d2a13410b8ed4d53918b40f08be5d76d.jpg
+  photo: /assets/img/members/khalid.png
+  photo_grid: /assets/img/heads/khalid.png
   email: khalid@uleth.ca
   bio: |
     <p>AKM Iftekhar Khalid is a graduate student (PhD) at the Department of English, University of Lethbridge, Alberta, Canada under the supervision of Professor Daniel Paul O’Donnell. Khalid is a textual editor at the Canterbury Tales Project. Khalid has a background in English and Digital Pedagogy with undergraduate and graduate degrees in English from University of Rajshahi, Bangladesh and various certificates and diplomas in learning management systems, digital education, and similar programs from Bangladeshi and other institutions. His chief research interest includes Textual Editing, History of English Language, Digital Humanities and Sustainable Development Goals (SDGs). Khalid also works for the Journal Incubator.</p>
 
 - name: "Shara Merrill"
   role: "Ph.D. Student"
-  photo: /assets/img/61b914_469ddad1369143a3a5c9c70d808260b7.png
-  photo_grid: /assets/img/61b914_469ddad1369143a3a5c9c70d808260b7.png
+  photo: /assets/img/members/shara.png
+  photo_grid: /assets/img/heads/shara.png
   email: shara@artistar.com
   bio: |
     <p>Shara Merrill is a researcher and digital media specialist with a background in interactive storytelling, digital activism and social justice. She holds a Master's degree from the Centre for Digital Media in Vancouver and a B.S. in Media for Social Justice from Metropolitan State University of Denver. Her work explores the intersections of digital humanities, multimedia research methodologies, and ethical technology. Her research has been recognized with multiple Mitacs Accelerate Grants and has been presented at conferences such as AI for Entrepreneurs and Business Leaders. She has also developed innovative interactive research maps for historical analysis, including projects on food globalization and global upheaval in 1919. Shara is joining the Humanities Innovation Lab and welcomes collaborations on projects related to interactive media, digital storytelling, and the evolving role of technology in humanities research.</p>
 
 - name: "Oluwaseun Soneye"
   role: "Ph.D. Student"
-  photo: /assets/img/61b914_2e5e57d9f84f40868dfffe6ddf330c7c.jpeg
-  photo_grid: /assets/img/61b914_a188f60ce5a846f691e203366057c0c4.jpg
+  photo: /assets/img/members/seun.png
+  photo_grid: /assets/img/heads/seun.png
   email: oluwaseun.soneye@uleth.ca
   bio: |
     <p>Oluwaseun Soneye is an ethnomusicologist with a passion for understanding how music shapes the lives and identities of people within and beyond their homelands. He recently completed his master’s degree in Ethnomusicology at the University of Lethbridge, where he focused on the musical and cultural practices of Nigerian immigrants living in Lethbridge.</p>
@@ -108,6 +108,8 @@
 
 - name: "Yu-Chia Pai"
   role: "PhD Student"
+  photo: /assets/img/members/yuchai.png
+  photo_grid: /assets/img/heads/yuchia.png
   email: y.pai@uleth.ca
   bio: |
     <p>Yu-Chia Pai is a new media artist and researcher working at the intersection of digital humanities, generative AI, visual culture, memory, and cultural identity. His research examines how AI-generated images reshape creativity, authenticity, cultural representation, and belief in visual media. He is particularly interested in latent-space decision-making, dataset bias, embodied creative practice, and meaningful human control in AI-assisted art.</p>
@@ -116,9 +118,8 @@
 - name: "Morgan Slayde Pearce"
   role: "Alum"
   alumni: true
-  years: "2022–2026"
-  photo: /assets/img/dd4b55_8df12d5582ec4fe794f1e9b40d7eee67.jpg
-  photo_grid: /assets/img/dd4b55_380434777621447096190ac16eee3c9f.jpg
+  years: "Active during 2022–2026"
+  photo: /assets/img/members/morgan.png
   email: morgan.pearce@uleth.ca
   bio: |
     <p>Morgan completed her MA at the University of Lethbridge, where her thesis combined medieval literary studies and game studies to examine how non-linear narratives convey the experience of depression and loss through the symbol of the labyrinth. During her time in the lab she was a research assistant for the Lethbridge Journal Incubator and the Canterbury Tales Project, and she joined the editorial board of <em>Press Start</em> in 2026.</p>
@@ -126,18 +127,25 @@
 - name: "Josephine Tabiri"
   role: "Alum"
   alumni: true
-  years: "2024–2026"
-  photo: /assets/img/dd4b55_eb8849988e0c4273813f87cf6dff1b52.jpg
-  photo_grid: /assets/img/dd4b55_eb8849988e0c4273813f87cf6dff1b52.jpg
+  years: "Active during 2024–2026"
+  photo: /assets/img/members/josephine.png
   email: j.tabiri@uleth.ca
   bio: |
     <p>Josephine Konamah Tabiri completed her MA at the University of Lethbridge, having earned her Bachelor’s degree from Kwame Nkrumah University of Science and Technology, Ghana. Her research focuses on the linguistic landscape of Ghana, and she was a teaching assistant in the Department of English.</p>
 
 - name: "Jocelyn McKnight"
   role: "MPhil Student"
-  photo: /assets/img/61b914_8ff1a8ff6cfa4ccd81912d31ae2b64ff.jpg
-  photo_grid: /assets/img/61b914_8ff1a8ff6cfa4ccd81912d31ae2b64ff.jpg
+  photo: /assets/img/members/jocelyn.png
+  photo_grid: /assets/img/heads/jocelyn.png
   email: jocelyn.mcknight@uleth.ca
   website: https://jocelyn-mcknight.github.io/
   bio: |
     <p>Jocelyn McKnight is a recent graduate from the University of Lethbridge, where she earned a BA in English, with minors in French and Linguistics. Her academic interests revolve around Old English philology, linguistics of all kinds, and Digital Humanities. More specifically her research is focused on Cognitive Semantics. Jocelyn's honours thesis is focused on polysemic extensions of war and violence vocabulary in Tok Pisin, a mixed English and Indigenous language in Papua New Guinea. Jocelyn is currently an RA for the Visionary Cross Project and the Blackfoot Language Archive, but has also works as an TA in the Linguistics and Modern Language Department and served as an instructional designer for online secondary schooling in Alberta. Jocelyn is excited to begin her MPhil in Linguistics at the University of Hong Kong in fall 2026.</p>
+
+- name: "Tessa Bordalejo"
+  role: "HBA Student"
+  photo: /assets/img/members/tessa.png
+  photo_grid: /assets/img/heads/tessa.png
+  email: tessa.bordalejo@uleth.ca
+  bio: |
+    <p>Tessa Bordalejo is an Honours Bachelors of Arts student at the University of Toronto, where she is studying English Literature, with minors in Medieval Studies & History and Philosophy of Science & Technology. Tessa joined the Humanities Innovation Lab after a summer internship where she worked for the Humanities Data Inquiry project and a smaller, newer project called the Caedmon Citation network. Outside of her lab activities, Tessa is interested Film & Media Production, as well as all things that English majors like.</p>

@@ -3,7 +3,7 @@ layout: post
 title: "Welcome, Davide!"
 date: 2022-09-01 23:33:02 +0000
 categories: ["News"]
-image: "/assets/img/fe4d61_4165f2c8716d42e3b23063058eada444.jpeg"
+image: "/assets/img/heads/davide.png"
 description: "The Humanities Innovation Lab"
 author: "Barbara Bordalejo"
 wix_url: "https://www.humanitiesinnovationlab.ca/post/welcome-davide"
