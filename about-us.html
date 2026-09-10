@@ -12,7 +12,7 @@ description: The people of the Humanities Innovation Lab at the University of Le
 {%- endcomment -%}
 <section class="section section--flush-top">
   <div class="wrap">
-    {% for m in site.data.members %}
+    {% for m in site.data.members %}{% unless m.alumni %}
     <article class="bio{% cycle '', ' bio--flip' %}" id="{{ m.name | slugify }}">
       <div class="bio__text">
         <h2 class="bio__name">{{ m.name }}</h2>
@@ -32,6 +32,42 @@ description: The people of the Humanities Innovation Lab at the University of Le
         {% endif %}
       </div>
     </article>
+    {% endunless %}{% endfor %}
+  </div>
+</section>
+
+{%- comment -%}
+  Alumni keep a shortened bio and the years they were with the lab. They are
+  flagged with `alumni: true` in _data/members.yml, which is also what removes
+  them from the home-page member grid.
+{%- endcomment -%}
+{%- assign alumni = site.data.members | where: "alumni", true -%}
+{% if alumni.size > 0 %}
+<section class="section alumni">
+  <div class="wrap">
+    <h2 class="sec-title">Alumni</h2>
+
+    {% for m in alumni %}
+    <article class="bio bio--alum{% cycle 'alum': '', ' bio--flip' %}" id="{{ m.name | slugify }}">
+      <div class="bio__text">
+        <h2 class="bio__name">{{ m.name }}</h2>
+        {% if m.years %}<p class="bio__role">{{ m.role | default: "Alum" }} &middot; {{ m.years }}</p>{% endif %}
+        <div class="bio__body">{{ m.bio }}</div>
+
+        {% if m.website %}
+        <div class="bio__links">
+          <a href="{{ m.website }}" target="_blank" rel="noopener">Website</a>
+        </div>
+        {% endif %}
+      </div>
+
+      <div class="bio__media">
+        {% if m.photo %}
+        <img class="bio__photo" src="{{ m.photo | relative_url }}" alt="{{ m.name | escape }}" loading="lazy">
+        {% endif %}
+      </div>
+    </article>
     {% endfor %}
   </div>
 </section>
+{% endif %}

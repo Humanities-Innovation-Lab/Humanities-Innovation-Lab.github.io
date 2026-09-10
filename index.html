@@ -73,7 +73,7 @@ description: >-
     <h2 class="sec-title"><a href="{{ '/about-us/' | relative_url }}">Lab Members</a></h2>
 
     <div class="directors">
-      {% for m in site.data.members %}{% if m.director %}
+      {% for m in site.data.members %}{% if m.director and m.alumni != true %}
       <div class="director">
         {% if m.photo_grid or m.photo %}
         <img class="director__photo" src="{{ m.photo_grid | default: m.photo | relative_url }}"
@@ -89,7 +89,7 @@ description: >-
     </div>
 
     <div class="avatars">
-      {% for m in site.data.members %}{% unless m.director %}
+      {% for m in site.data.members %}{% unless m.director or m.alumni %}
       <div class="avatar">
         {% if m.photo_grid or m.photo %}
         <img class="avatar__photo" src="{{ m.photo_grid | default: m.photo | relative_url }}"

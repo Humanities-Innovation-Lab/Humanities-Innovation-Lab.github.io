@@ -108,28 +108,30 @@
 
 - name: "Yu-Chia Pai"
   role: "PhD Student"
-  photo: /assets/img/61b914_f7432731baa5436b9f97932292d33c4d.jpg
-  photo_grid: /assets/img/61b914_571c3834c23848bfa8d0133532837240.jpg
   email: y.pai@uleth.ca
   bio: |
     <p>Yu-Chia Pai is a new media artist and researcher working at the intersection of digital humanities, generative AI, visual culture, memory, and cultural identity. His research examines how AI-generated images reshape creativity, authenticity, cultural representation, and belief in visual media. He is particularly interested in latent-space decision-making, dataset bias, embodied creative practice, and meaningful human control in AI-assisted art.</p>
     <p>For more information about Yu-Chia Pai's project, visit the <a href="https://interactivememories.netlify.app/" target="_blank" rel="noopener">project website</a>.</p>
 
 - name: "Morgan Slayde Pearce"
-  role: "MA Student"
+  role: "Alum"
+  alumni: true
+  years: "2022–2026"
   photo: /assets/img/dd4b55_8df12d5582ec4fe794f1e9b40d7eee67.jpg
   photo_grid: /assets/img/dd4b55_380434777621447096190ac16eee3c9f.jpg
   email: morgan.pearce@uleth.ca
   bio: |
-    <p>Morgan is a graduate student (MA) and a part of the Humanities Innovation Lab. She is a research assistant for the Lethbridge Journal Incubator and the Canterbury Tales Project. Her thesis combines medieval literary studies and game studies to look at how non-linear narratives in various genres and mediums are used to convey the experience of depression and loss, specifically through the use of the symbol of the labyrinth. Her research combines studies of the history of the book, medieval literature, game studies, and digital humanities. Her most recent conference presentations include an analysis of how women’s experiences are presented as horror in <em>Silent Hill 3</em> and <em>Haunting Ground</em>, as well as a study into the scribal evidence for a performative usage of Geoffrey Chaucer’s <em>The Canterbury Tales</em>. She graduated from the University of Lethbridge with her BA in English in 2021 with Great Distinction.</p>
+    <p>Morgan completed her MA at the University of Lethbridge, where her thesis combined medieval literary studies and game studies to examine how non-linear narratives convey the experience of depression and loss through the symbol of the labyrinth. During her time in the lab she was a research assistant for the Lethbridge Journal Incubator and the Canterbury Tales Project, and she joined the editorial board of <em>Press Start</em> in 2026.</p>
 
 - name: "Josephine Tabiri"
-  role: "MA Student"
+  role: "Alum"
+  alumni: true
+  years: "2024–2026"
   photo: /assets/img/dd4b55_eb8849988e0c4273813f87cf6dff1b52.jpg
   photo_grid: /assets/img/dd4b55_eb8849988e0c4273813f87cf6dff1b52.jpg
   email: j.tabiri@uleth.ca
   bio: |
-    <p>Josephine Konamah Tabiri is a graduate student with a Bachelor’s degree from Kwame Nkrumah University of Science and Technology, Ghana. Her research focuses on the linguistic landscape of Ghana. She is currently working at the Humanities Innovation Lab and is a TA in the Department of English.</p>
+    <p>Josephine Konamah Tabiri completed her MA at the University of Lethbridge, having earned her Bachelor’s degree from Kwame Nkrumah University of Science and Technology, Ghana. Her research focuses on the linguistic landscape of Ghana, and she was a teaching assistant in the Department of English.</p>
 
 - name: "Jocelyn McKnight"
   role: "MPhil Student"
