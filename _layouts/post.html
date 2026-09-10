@@ -15,16 +15,34 @@ layout: default
     </div>
   </div>
 
-  {% if page.image %}
-  <div class="wrap wrap--prose">
-    <img class="post__hero" src="{{ page.image | relative_url }}" alt="{{ page.title | escape }}">
-  </div>
-  {% endif %}
-
   <div class="wrap wrap--prose">
     <div class="prose">
       {{ content }}
     </div>
+
+    {%- comment -%}
+      Photographs run at the foot of the post. `images` takes several, each
+      either a plain path or a map of src and caption; `image` is the single
+      lead photograph, and is also what the blog card and social preview use.
+      Two or more share a row rather than stacking.
+    {%- endcomment -%}
+    {%- if page.images and page.images.size > 0 -%}
+      {%- assign figs = page.images -%}
+    {%- elsif page.image -%}
+      {%- assign figs = page.image | split: "|" -%}
+    {%- endif -%}
+    {%- if figs -%}
+    {%- if figs.size == 1 %}{% assign cols = "1" %}{% elsif figs.size == 2 %}{% assign cols = "2" %}{% else %}{% assign cols = "many" %}{% endif -%}
+    <div class="post__figures post__figures--{{ cols }}">
+      {%- for f in figs %}
+      {%- if f.src %}{% assign src = f.src %}{% assign cap = f.caption %}{% else %}{% assign src = f %}{% assign cap = nil %}{% endif %}
+      <figure>
+        <img src="{{ src | relative_url }}" alt="{{ cap | default: page.title | escape }}" loading="lazy">
+        {%- if cap %}<figcaption>{{ cap }}</figcaption>{% endif %}
+      </figure>
+      {%- endfor %}
+    </div>
+    {%- endif -%}
 
     <nav class="post__nav" aria-label="More posts">
       {% if page.previous %}

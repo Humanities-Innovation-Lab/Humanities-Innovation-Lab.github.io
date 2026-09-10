@@ -505,13 +505,26 @@ p:last-child { margin-bottom: 0; }
 .post__tag { border: 1px solid var(--rule); padding: 0.1rem 0.6rem; }
 .post__title { font-size: clamp(1.7rem, 3.6vw, 2.35rem); line-height: 1.28; }
 .post__author { color: var(--muted); margin-top: 0.7rem; }
-.post__hero { width: 100%; margin: 0 0 2rem; }
-/* Two portraits side by side inside a post, for announcements about a pair. */
-.duo { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin: 0 0 2rem; }
-.duo figure { margin: 0; }
-.duo img { width: 100%; aspect-ratio: 1 / 1; object-fit: cover; }
-.duo figcaption { color: var(--muted); margin-top: 0.5rem; text-align: center; }
-@media (max-width: 560px) { .duo { grid-template-columns: 1fr; } }
+/* Post photographs sit at the foot of the post. A single one runs full width;
+   several share a row rather than stacking. */
+.post__figures { display: grid; gap: 1.5rem; margin: 2.5rem 0 0; }
+.post__figures--1 { grid-template-columns: 1fr; }
+.post__figures--2 { grid-template-columns: 1fr 1fr; }
+.post__figures--many { grid-template-columns: repeat(3, 1fr); }
+.post__figures figure { margin: 0; }
+.post__figures img { width: 100%; object-fit: cover; display: block; }
+/* A lone photograph keeps its own proportions at its own size, capped in height.
+   Without the cap a 780x1024 portrait runs 945px down a 720px column; without
+   `width: auto` a 420px head crop is stretched to 720 and goes soft. */
+.post__figures--1 img {
+  width: auto; max-width: 100%; max-height: 620px;
+  margin-inline: auto; object-fit: contain;
+}
+.post__figures--2 img, .post__figures--many img { aspect-ratio: 1 / 1; }
+.post__figures figcaption { color: var(--muted); margin-top: 0.5rem; text-align: center; }
+@media (max-width: 560px) {
+  .post__figures--2, .post__figures--many { grid-template-columns: 1fr; }
+}
 
 .prose { font-size: 1rem; line-height: 1.85; color: var(--text); }
 .prose h2, .prose h3, .prose h4 { font-family: var(--font-head); margin: 2.25rem 0 0.9rem; }
@@ -569,6 +582,10 @@ p:last-child { margin-bottom: 0; }
 
 /* Leaflet's own chrome, nudged towards the site's type and weight. */
 .contact-map .leaflet-container { background: #eef0f2; font-family: var(--font-body); }
+/* OpenStreetMap's standard tiles are far more colourful than the rest of the
+   site. Desaturating the tile pane alone keeps the marker, tooltip, controls
+   and attribution at full contrast. */
+.contact-map .leaflet-tile-pane { filter: grayscale(1) contrast(0.92) brightness(1.04); }
 .contact-map .leaflet-control-attribution { font-size: 0.6875rem; }
 .contact-map .leaflet-tooltip { border: 0; font-family: var(--font-body); font-size: 0.8125rem; }
 
