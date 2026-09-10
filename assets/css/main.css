@@ -317,6 +317,19 @@ p:last-child { margin-bottom: 0; }
 .bio__links a { text-decoration: underline; text-underline-offset: 0.15em; }
 .bio__links a:hover { opacity: 0.7; }
 
+/* Alumni: a two-sentence bio doesn't need a full-height portrait beside it,
+   so the photo column narrows and the vertical rhythm tightens. */
+.alumni { padding-top: 0; }
+.bio--alum { grid-template-columns: 1fr 240px; gap: 2.5rem; align-items: center; }
+.bio--alum + .bio--alum { margin-top: 3rem; }
+.bio--alum .bio__photo { aspect-ratio: 240 / 300; }
+.bio--alum .bio__name { font-size: var(--h-name); }
+
+@media (max-width: 860px) {
+  .bio--alum { grid-template-columns: 1fr; gap: 1.5rem; align-items: start; }
+  .bio--alum .bio__photo { max-width: 240px; }
+}
+
 @media (max-width: 860px) {
   .bio { grid-template-columns: 1fr; gap: 1.75rem; }
   .bio--flip .bio__text, .bio--flip .bio__media { order: initial; }
@@ -335,6 +348,45 @@ p:last-child { margin-bottom: 0; }
 .pitem__links a:hover { opacity: 0.7; }
 .pitem__meta { color: var(--muted); }
 .pitem__title { font-family: var(--font-head); font-size: 1.25rem; margin-bottom: 0.4rem; }
+
+/* ============================================================
+   EVENTS BY YEAR (collapsible groups under the calendar)
+   ============================================================ */
+
+.evyear { border-top: 1px solid var(--rule); }
+.evyear:last-of-type { border-bottom: 1px solid var(--rule); }
+
+.evyear__summary {
+  display: flex; align-items: baseline; justify-content: space-between; gap: 1rem;
+  padding: 1.15rem 0; cursor: pointer; list-style: none;
+}
+.evyear__summary::-webkit-details-marker { display: none; }
+.evyear__summary:focus-visible { outline: 2px solid var(--text); outline-offset: 3px; }
+.evyear__summary:hover .evyear__year { opacity: 0.7; }
+
+.evyear__year {
+  display: flex; align-items: center; gap: 0.65rem;
+  font-family: var(--font-head); font-size: 1.375rem;
+}
+/* Chevron: a bare corner of two borders, rotated. Right when shut, down when open. */
+.evyear__year::before {
+  content: ""; width: 0.46rem; height: 0.46rem;
+  border-right: 2px solid currentColor; border-bottom: 2px solid currentColor;
+  transform: rotate(-45deg); transform-origin: center;
+  transition: transform 0.2s ease; flex: none;
+}
+.evyear[open] .evyear__year::before { transform: rotate(45deg); }
+
+.evyear__count { color: var(--muted); font-size: 0.875rem; }
+
+.evyear__body { padding-bottom: 0.75rem; }
+/* The group’s own rules already fence the list, so drop the outer item borders. */
+.evyear__body .pitem:first-child { border-top: none; }
+.evyear__body .pitem:last-child { border-bottom: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  .evyear__year::before { transition: none; }
+}
 
 /* ============================================================
    EVENTS CALENDAR
@@ -481,11 +533,35 @@ p:last-child { margin-bottom: 0; }
    CONTACT
    ============================================================ */
 
-.contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; }
+.contact-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 3rem; }
 .contact-block h2 { font-size: 1.375rem; margin-bottom: 1rem; }
 .contact-block a { text-decoration: underline; text-underline-offset: 0.15em; }
 .contact-list { display: grid; gap: 0.5rem; }
-@media (max-width: 700px) { .contact-grid { grid-template-columns: 1fr; gap: 2.25rem; } }
+.contact-note { color: var(--muted); font-size: 0.875rem; margin-top: 1rem; }
+
+/* OpenStreetMap's tiles are light, so the map sits in a white mat — the same
+   card idiom the rest of the site uses for light content on the black ground.
+   Leaflet, rather than OSM's own iframe embed, because the embed renders at a
+   fixed size off the bbox and will not fill a responsive box. */
+.contact-map { margin-top: 4rem; }
+.contact-map__frame { background: var(--card-bg); border: 1px solid var(--card-rule); padding: 0.5rem; }
+.contact-map__canvas { height: clamp(320px, 44vw, 470px); background: #eef0f2; }
+.contact-map__fallback { display: grid; place-content: center; height: 100%; color: var(--card-text); }
+.contact-map__fallback a { text-decoration: underline; text-underline-offset: 0.15em; }
+.contact-map figcaption { color: var(--muted); font-size: 0.8125rem; line-height: 1.7; margin-top: 1rem; }
+.contact-map figcaption a { text-decoration: underline; text-underline-offset: 0.15em; }
+
+/* Leaflet's own chrome, nudged towards the site's type and weight. */
+.contact-map .leaflet-container { background: #eef0f2; font-family: var(--font-body); }
+.contact-map .leaflet-control-attribution { font-size: 0.6875rem; }
+.contact-map .leaflet-tooltip { border: 0; font-family: var(--font-body); font-size: 0.8125rem; }
+
+@media (max-width: 900px) { .contact-grid { grid-template-columns: 1fr 1fr; gap: 2.5rem; } }
+@media (max-width: 700px) {
+  .contact-grid { grid-template-columns: 1fr; gap: 2.25rem; }
+  .contact-map { margin-top: 3rem; }
+  .contact-map iframe { aspect-ratio: 4 / 3; }
+}
 
 /* ============================================================
    FOOTER — centred social marks over the copyright line

@@ -1,7 +1,8 @@
 {%- comment -%}
-  A month-grid calendar built from _data/events.yml. Every lab event currently
-  sits in 2022, so the calendar opens on the most recent month that actually has
-  one rather than on today's (empty) month.
+  A month-grid calendar built from _data/events.yml. It opens on the month of the
+  next upcoming event, so visitors land on what is actually coming up. With nothing
+  upcoming it falls back to the most recent month that has an event, rather than
+  today's (empty) month.
 {%- endcomment -%}
 
 <div class="cal" id="cal" data-empty-note="No events this month.">
@@ -65,8 +66,13 @@
     EVENTS.forEach(function (e) { (byDate[e.date] = byDate[e.date] || []).push(e); });
 
     var sorted = EVENTS.map(function (e) { return e.date; }).sort();
-    var newest = sorted[sorted.length - 1].split("-");
-    var view = { y: +newest[0], m: +newest[1] - 1 };
+    var now = new Date();
+    var todayIso = now.getFullYear() + "-" +
+                   (now.getMonth() < 9 ? "0" : "") + (now.getMonth() + 1) + "-" +
+                   (now.getDate() < 10 ? "0" : "") + now.getDate();
+    var upcoming = sorted.filter(function (d) { return d >= todayIso; });
+    var open = (upcoming.length ? upcoming[0] : sorted[sorted.length - 1]).split("-");
+    var view = { y: +open[0], m: +open[1] - 1 };
 
     function pad(n) { return (n < 10 ? "0" : "") + n; }
     function iso(y, m, d) { return y + "-" + pad(m + 1) + "-" + pad(d); }

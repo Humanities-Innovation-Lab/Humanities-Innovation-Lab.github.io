@@ -19,21 +19,40 @@ description: Workshops, lectures, and reading groups hosted by the Humanities In
       <button class="blog-chip" type="button" id="ev-reset" hidden>Show all</button>
     </div>
 
-    <div class="plist" id="evlist">
-      {% for e in site.data.events %}
-      <article class="pitem" data-date="{{ e.date | date: '%Y-%m-%d' }}">
-        <p class="pitem__meta">{{ e.date | date: "%A, %-d %B %Y" }}</p>
-        <h3 class="pitem__title">{{ e.title }}</h3>
-        {% if e.when %}<p class="pitem__meta">{{ e.when }}</p>{% endif %}
-        {% if e.where %}<p class="pitem__meta">{{ e.where }}</p>{% endif %}
-        {% if e.description %}<p style="margin-top:0.7rem;">{{ e.description }}</p>{% endif %}
-        {% if e.link %}
-        <div class="pitem__links">
-          <a href="{{ e.link }}" target="_blank" rel="noopener">{{ e.link_text | default: "Details" }}</a>
+    {%- comment -%}
+      Events are grouped into collapsible years. _data/events.yml is kept newest
+      first, so group_by_exp yields the years newest first too. The year matching
+      the build date opens by default; the script below re-points that at the year
+      holding the next upcoming event, which is the more useful thing to show.
+    {%- endcomment -%}
+    {%- assign this_year = site.time | date: "%Y" -%}
+    {%- assign years = site.data.events | group_by_exp: "e", "e.date | date: '%Y'" -%}
+
+    <div class="evyears" id="evlist">
+      {%- for yr in years %}
+      <details class="evyear" data-year="{{ yr.name }}"{% if yr.name == this_year %} open{% endif %}>
+        <summary class="evyear__summary">
+          <span class="evyear__year">{{ yr.name }}</span>
+          <span class="evyear__count">{{ yr.items.size }} event{% unless yr.items.size == 1 %}s{% endunless %}</span>
+        </summary>
+        <div class="plist evyear__body">
+          {%- for e in yr.items %}
+          <article class="pitem" data-date="{{ e.date | date: '%Y-%m-%d' }}">
+            <p class="pitem__meta">{{ e.date | date: "%A, %-d %B %Y" }}</p>
+            <h3 class="pitem__title">{{ e.title }}</h3>
+            {% if e.when %}<p class="pitem__meta">{{ e.when }}</p>{% endif %}
+            {% if e.where %}<p class="pitem__meta">{{ e.where }}</p>{% endif %}
+            {% if e.description %}<p style="margin-top:0.7rem;">{{ e.description }}</p>{% endif %}
+            {% if e.link %}
+            <div class="pitem__links">
+              <a href="{{ e.link | absolute_url }}" target="_blank" rel="noopener">{{ e.link_text | default: "Details" }}</a>
+            </div>
+            {% endif %}
+          </article>
+          {%- endfor %}
         </div>
-        {% endif %}
-      </article>
-      {% endfor %}
+      </details>
+      {%- endfor %}
     </div>
 
     <p class="blog-empty" id="evlist-empty" hidden>No events on that day.</p>
@@ -41,14 +60,39 @@ description: Workshops, lectures, and reading groups hosted by the Humanities In
 </section>
 
 <script>
-  // Choosing a day in the calendar narrows the list beneath it.
+  // Year groups are plain <details>, so they open and close without this script.
+  // What the script adds: opening the year that holds the next upcoming event, and
+  // narrowing the list when a day is chosen in the calendar above.
   (function () {
     var list = document.getElementById("evlist");
     if (!list) return;
+
+    var groups = Array.prototype.slice.call(list.querySelectorAll(".evyear"));
     var items = Array.prototype.slice.call(list.querySelectorAll(".pitem"));
+    var counts = groups.map(function (g) { return g.querySelector(".evyear__count"); });
     var title = document.getElementById("evlist-title");
     var reset = document.getElementById("ev-reset");
     var empty = document.getElementById("evlist-empty");
+
+    function pad(n) { return (n < 10 ? "0" : "") + n; }
+    function todayIso() {
+      var d = new Date();
+      return d.getFullYear() + "-" + pad(d.getMonth() + 1) + "-" + pad(d.getDate());
+    }
+
+    // Items run newest first, so the last one still on or after today is the soonest.
+    (function openUpcomingYear() {
+      var today = todayIso();
+      var soonest = null;
+      items.forEach(function (el) {
+        if (el.getAttribute("data-date") >= today) soonest = el;
+      });
+      if (!soonest) return;
+      groups.forEach(function (g) { g.open = g.contains(soonest); });
+    })();
+
+    // Captured after the adjustment above, so "Show all" restores that view.
+    var defaultOpen = groups.map(function (g) { return g.open; });
 
     function show(date) {
       var visible = 0;
@@ -57,6 +101,19 @@ description: Workshops, lectures, and reading groups hosted by the Humanities In
         el.hidden = !match;
         if (match) visible++;
       });
+
+      groups.forEach(function (g, i) {
+        var n = g.querySelectorAll(".pitem:not([hidden])").length;
+        if (counts[i]) counts[i].textContent = n + (n === 1 ? " event" : " events");
+        if (date) {
+          g.hidden = n === 0;          // years with nothing that day drop out
+          if (n) g.open = true;        // and the one that matches opens itself
+        } else {
+          g.hidden = false;
+          g.open = defaultOpen[i];
+        }
+      });
+
       if (empty) empty.hidden = visible !== 0;
       if (reset) reset.hidden = !date;
       if (title) {

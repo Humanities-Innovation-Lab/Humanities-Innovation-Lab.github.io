@@ -29,7 +29,7 @@ DTEND;VALUE=DATE:{{ end }}
 SUMMARY:{{ e.title | replace: ";", "\;" | replace: ",", "\," | strip_newlines }}
 {% if e.where %}LOCATION:{{ e.where | replace: ";", "\;" | replace: ",", "\," | strip_newlines }}
 {% endif %}DESCRIPTION:{{ desc | strip | replace: ";", "\;" | replace: ",", "\," | strip_newlines }}
-{% if e.link %}URL:{{ e.link }}
+{% if e.link %}URL:{{ e.link | absolute_url }}
 {% endif %}END:VEVENT
 {%- endfor %}
 END:VCALENDAR

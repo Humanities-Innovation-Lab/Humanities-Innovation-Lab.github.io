@@ -1,6 +1,107 @@
 # Lab events and workshops, newest first, as listed on the Wix Events page.
 # `date` drives the date block; `when` reproduces the original time string.
 
+# 2026/2027 external speaker series: the fourth Monday of each month from
+# September 2026 to March 2027, with no talk in December. Speakers and titles
+# are announced closer to each date — update the title and description as they
+# are confirmed.
+
+- title: "Humanities Innovation Lab Speaker Series: Speaker TBA"
+  date: 2027-03-22
+  when: "Mar 22, 2027, 3:00 p.m. – 4:30 p.m. MDT"
+  where: "Humanities Innovation Lab, 4401 University Dr W, Lethbridge, AB T1K 3M4, Canada — also streamed on Zoom"
+  description: >-
+    The sixth talk in the lab’s 2026/2027 external speaker series. The speaker and
+    title will be announced closer to the date.
+
+- title: "Humanities Innovation Lab Speaker Series: Speaker TBA"
+  date: 2027-02-22
+  when: "Feb 22, 2027, 3:00 p.m. – 4:30 p.m. MST"
+  where: "Humanities Innovation Lab, 4401 University Dr W, Lethbridge, AB T1K 3M4, Canada — also streamed on Zoom"
+  description: >-
+    The fifth talk in the lab’s 2026/2027 external speaker series. The speaker and
+    title will be announced closer to the date.
+
+- title: "Humanities Innovation Lab Speaker Series: Speaker TBA"
+  date: 2027-01-25
+  when: "Jan 25, 2027, 3:00 p.m. – 4:30 p.m. MST"
+  where: "Humanities Innovation Lab, 4401 University Dr W, Lethbridge, AB T1K 3M4, Canada — also streamed on Zoom"
+  description: >-
+    The fourth talk in the lab’s 2026/2027 external speaker series. The speaker and
+    title will be announced closer to the date.
+
+- title: "Humanities Innovation Lab Speaker Series: Speaker TBA"
+  date: 2026-11-23
+  when: "Nov 23, 2026, 3:00 p.m. – 4:30 p.m. MST"
+  where: "Humanities Innovation Lab, 4401 University Dr W, Lethbridge, AB T1K 3M4, Canada — also streamed on Zoom"
+  description: >-
+    The third talk in the lab’s 2026/2027 external speaker series. The speaker and
+    title will be announced closer to the date.
+
+- title: "Humanities Innovation Lab Speaker Series: Speaker TBA"
+  date: 2026-10-26
+  when: "Oct 26, 2026, 3:00 p.m. – 4:30 p.m. MDT"
+  where: "Humanities Innovation Lab, 4401 University Dr W, Lethbridge, AB T1K 3M4, Canada — also streamed on Zoom"
+  description: >-
+    The second talk in the lab’s 2026/2027 external speaker series. The speaker and
+    title will be announced closer to the date.
+
+- title: "Humanities Innovation Lab Speaker Series: Speaker TBA"
+  date: 2026-09-28
+  when: "Sep 28, 2026, 3:00 p.m. – 4:30 p.m. MDT"
+  where: "Humanities Innovation Lab, 4401 University Dr W, Lethbridge, AB T1K 3M4, Canada — also streamed on Zoom"
+  description: >-
+    The first talk in the lab’s 2026/2027 external speaker series. The speaker and
+    title will be announced closer to the date.
+
+# Earlier events recovered from the lab blog and the original event posters.
+# Speaker names, titles, times, and rooms are transcribed from those sources.
+
+- title: "Digital Media and Cultural Representation of Tourist Imaginaries in Online Reviews (Ayodele James Akinola)"
+  date: 2026-03-18
+  when: "Mar 18, 2026, 3:30 p.m. MST"
+  where: "University Hall, room B838 — also on Zoom, meeting ID 589 614 7863, no passcode required"
+  description: >-
+    A presentation by Ayodele James Akinola, Ph.D., of the Department of Communication,
+    University of Indianapolis, Indiana, USA.
+
+- title: "Community Policing in Preventing Violent Extremism and Radicalization that Lead to Terrorism (Md Nazmul Arefin)"
+  date: 2026-02-25
+  when: "Feb 25, 2026, 3:30 p.m. MST"
+  where: "Zoom — meeting ID 403-329-2377, no passcode required"
+  description: >-
+    A presentation by Md Nazmul Arefin, PhD candidate and Killam Scholar at the Centre for
+    Criminological Research, Department of Sociology, University of Alberta, and a Research
+    Fellow at the Canadian Institute for Far-Right Studies (CIFRS). His research interests
+    include terrorism and radicalization studies, policing, social justice, Islamophobia,
+    and narrative criminology.
+
+- title: "Moral Chains and Animal Agents: A Database-Driven Study of Folktales (Augustine Farinola)"
+  date: 2025-10-15
+  when: "Oct 15, 2025, 3:30 p.m. MDT"
+  where: "University Hall — also on Zoom"
+  description: >-
+    A presentation by Augustine Farinola, who holds a Graduate Research Assistant
+    Fellowship in the Faculty of Medicine and Dentistry and a Graduate Research
+    Assistantship in Media Technology Studies, Faculty of Arts, at the University of
+    Alberta, Edmonton. His research lies at the intersection of AI ethics, digital
+    humanities, philosophy of information technology, experimental philosophy, and
+    visual epistemology, examining how computational tools mediate perception,
+    embodiment, and meaning through a digital humanist lens.
+  link: /post/guest-speaker-augustine-farinola/
+  link_text: "Read the announcement"
+
+- title: "Digital Humanities for Beginners"
+  date: 2024-04-22
+  when: "Apr 22, 2024 – Apr 25, 2024"
+  where: "University of Lethbridge"
+  description: >-
+    A free four-day workshop introducing students, researchers, and educators in the
+    humanities and social sciences to digital methods: mapping historical events, analysing
+    textual data, building visualisations, and managing digital projects. Taught by Barbara
+    Bordalejo, Daniel O’Donnell, Iftekhar Khalid, Frank Onuh, Davide Pafumi, and Morgan
+    Pearce.
+
 - title: "GitHub for Humanists"
   date: 2022-12-02
   when: "Dec 02, 2022, 10:00 a.m. – Dec 03, 2022, 12:00 p.m."
