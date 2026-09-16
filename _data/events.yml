@@ -2,9 +2,9 @@
 # `date` drives the date block; `when` reproduces the original time string.
 
 # 2026/2027 external speaker series: the fourth Monday of each month from
-# September 2026 to March 2027, with no talk in December. Speakers and titles
-# are announced closer to each date — update the title and description as they
-# are confirmed.
+# September 2026 to March 2027, plus an additional talk on 14 December 2026.
+# Speakers and titles are announced closer to each date — update the title
+# and description as they are confirmed.
 
 - title: "Humanities Innovation Lab Speaker Series: Speaker TBA"
   date: 2027-03-22
@@ -29,6 +29,14 @@
   description: >-
     The fourth talk in the lab’s 2026/2027 external speaker series. The speaker and
     title will be announced closer to the date.
+
+- title: "Humanities Innovation Lab Speaker Series: Alexia Schneider"
+  date: 2026-12-14
+  when: "Dec 14, 2026, 3:30 p.m. – 5:00 p.m. MST"
+  where: "Humanities Innovation Lab, 4401 University Dr W, Lethbridge, AB T1K 3M4, Canada — also streamed on Zoom"
+  description: >-
+    Alexia Schneider, a PhD student at the University of Montreal, will give a lecture
+    on her research, which focuses on AI and serendipity.
 
 - title: "Humanities Innovation Lab Speaker Series: Speaker TBA"
   date: 2026-11-23
