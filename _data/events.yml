@@ -1,65 +1,92 @@
 # Lab events and workshops, newest first, as listed on the Wix Events page.
-# `date` drives the date block; `when` reproduces the original time string.
+# `date` drives the date block; `when` is the human-readable time string shown on
+# the page. `start_time`/`end_time` are the same times on a local 24-hour clock and
+# are what events.ics uses to emit a timed entry rather than an all-day one; give
+# both or neither. `zoom` adds a join link to the page and the .ics; `poster` is a
+# site-relative path to the event poster.
 
-# 2026/2027 external speaker series: the fourth Monday of each month from
+# 2026/2027 Monday Lecture Series: the fourth Monday of each month from
 # September 2026 to March 2027, plus an additional talk on 14 December 2026.
 # Speakers and titles are announced closer to each date — update the title
 # and description as they are confirmed.
 
-- title: "Humanities Innovation Lab Speaker Series: Speaker TBA"
+- title: "Monday Lecture Series: Speaker TBA"
   date: 2027-03-22
-  when: "Mar 22, 2027, 3:00 p.m. – 4:30 p.m. MDT"
-  where: "Humanities Innovation Lab, 4401 University Dr W, Lethbridge, AB T1K 3M4, Canada — also streamed on Zoom"
+  when: "Mar 22, 2027, 3:30 p.m. – 4:30 p.m. MDT"
+  start_time: "15:30"
+  end_time: "16:30"
+  where: "University Hall, room B838, University of Lethbridge — also streamed on Zoom"
+  zoom: https://uleth.zoom.us/my/daniel.odonnell
   description: >-
-    The sixth talk in the lab’s 2026/2027 external speaker series. The speaker and
+    The sixth talk in the lab’s 2026/2027 Monday Lecture Series. The speaker and
     title will be announced closer to the date.
 
-- title: "Humanities Innovation Lab Speaker Series: Speaker TBA"
+- title: "Monday Lecture Series: Speaker TBA"
   date: 2027-02-22
-  when: "Feb 22, 2027, 3:00 p.m. – 4:30 p.m. MST"
-  where: "Humanities Innovation Lab, 4401 University Dr W, Lethbridge, AB T1K 3M4, Canada — also streamed on Zoom"
+  when: "Feb 22, 2027, 3:30 p.m. – 4:30 p.m. MST"
+  start_time: "15:30"
+  end_time: "16:30"
+  where: "University Hall, room B838, University of Lethbridge — also streamed on Zoom"
+  zoom: https://uleth.zoom.us/my/daniel.odonnell
   description: >-
-    The fifth talk in the lab’s 2026/2027 external speaker series. The speaker and
+    The fifth talk in the lab’s 2026/2027 Monday Lecture Series. The speaker and
     title will be announced closer to the date.
 
-- title: "Humanities Innovation Lab Speaker Series: Speaker TBA"
+- title: "Monday Lecture Series: Speaker TBA"
   date: 2027-01-25
-  when: "Jan 25, 2027, 3:00 p.m. – 4:30 p.m. MST"
-  where: "Humanities Innovation Lab, 4401 University Dr W, Lethbridge, AB T1K 3M4, Canada — also streamed on Zoom"
+  when: "Jan 25, 2027, 3:30 p.m. – 4:30 p.m. MST"
+  start_time: "15:30"
+  end_time: "16:30"
+  where: "University Hall, room B838, University of Lethbridge — also streamed on Zoom"
+  zoom: https://uleth.zoom.us/my/daniel.odonnell
   description: >-
-    The fourth talk in the lab’s 2026/2027 external speaker series. The speaker and
+    The fourth talk in the lab’s 2026/2027 Monday Lecture Series. The speaker and
     title will be announced closer to the date.
 
-- title: "Humanities Innovation Lab Speaker Series: Alexia Schneider"
+- title: "Monday Lecture Series: Alexia Schneider — AI and Serendipity"
   date: 2026-12-14
-  when: "Dec 14, 2026, 3:30 p.m. – 5:00 p.m. MST"
-  where: "Humanities Innovation Lab, 4401 University Dr W, Lethbridge, AB T1K 3M4, Canada — also streamed on Zoom"
+  when: "Dec 14, 2026, 3:30 p.m. – 4:30 p.m. MST"
+  start_time: "15:30"
+  end_time: "16:30"
+  where: "University Hall, room B838, University of Lethbridge — also streamed on Zoom"
+  zoom: https://uleth.zoom.us/my/daniel.odonnell
   description: >-
-    Alexia Schneider is a PhD student at the University of Montreal woprking on AI and serendipity.
+    Alexia Schneider is a PhD student at the University of Montreal working on AI and serendipity.
 
-- title: "Humanities Innovation Lab Speaker Series: Speaker TBA"
+- title: "Monday Lecture Series: Speaker TBA"
   date: 2026-11-23
-  when: "Nov 23, 2026, 3:00 p.m. – 4:30 p.m. MST"
-  where: "Humanities Innovation Lab, 4401 University Dr W, Lethbridge, AB T1K 3M4, Canada — also streamed on Zoom"
+  when: "Nov 23, 2026, 3:30 p.m. – 4:30 p.m. MST"
+  start_time: "15:30"
+  end_time: "16:30"
+  where: "University Hall, room B838, University of Lethbridge — also streamed on Zoom"
+  zoom: https://uleth.zoom.us/my/daniel.odonnell
   description: >-
-    The third talk in the lab’s 2026/2027 external speaker series. The speaker and
+    The third talk in the lab’s 2026/2027 Monday Lecture Series. The speaker and
     title will be announced closer to the date.
 
-- title: "Humanities Innovation Lab Speaker Series: Joey Takeda"
+- title: "Monday Lecture Series: Joey Takeda — The Endings Project"
   date: 2026-10-26
-  when: "Oct 26, 2026, 3:00 p.m. – 4:30 p.m. MDT"
-  where: "Humanities Innovation Lab, 4401 University Dr W, Lethbridge, AB T1K 3M4, Canada — also streamed on Zoom"
+  when: "Oct 26, 2026, 3:30 p.m. – 4:30 p.m. MDT"
+  start_time: "15:30"
+  end_time: "16:30"
+  where: "University Hall, room B838, University of Lethbridge — also streamed on Zoom"
+  zoom: https://uleth.zoom.us/my/daniel.odonnell
   description: >-
     Joey Takeda is the Digital Scholarship Librarian and developer for the Digital Humanities Innovation 
-    Lab at Simon Fraiser University.
+    Lab at Simon Fraser University.
 
-- title: "Humanities Innovation Lab Speaker Series: Speaker TBA"
+- title: "Monday Lecture Series: Daniel O’Donnell — What’s Fundamental about Academic Freedom?"
   date: 2026-09-28
-  when: "Sep 28, 2026, 3:00 p.m. – 4:30 p.m. MDT"
-  where: "Humanities Innovation Lab, 4401 University Dr W, Lethbridge, AB T1K 3M4, Canada — also streamed on Zoom"
+  when: "Sep 28, 2026, 3:30 p.m. – 4:30 p.m. MDT"
+  start_time: "15:30"
+  end_time: "16:30"
+  where: "University Hall, room B838, University of Lethbridge — also streamed on Zoom"
+  zoom: https://uleth.zoom.us/my/daniel.odonnell
+  poster: /assets/posters/2026-09-28-odonnell.pdf
   description: >-
-    The first talk in the lab’s 2026/2027 external speaker series. The speaker and
-    title will be announced closer to the date.
+    The first talk in the lab’s 2026/2027 Monday Lecture Series. Daniel O’Donnell
+    (University of Lethbridge) asks whether academic freedom is an ancient right —
+    or a form of collective self-governance.
 
 # Earlier events recovered from the lab blog and the original event posters.
 # Speaker names, titles, times, and rooms are transcribed from those sources.

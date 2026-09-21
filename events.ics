@@ -10,26 +10,54 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Humanities Innovation Lab events
 X-WR-TIMEZONE:America/Edmonton
+BEGIN:VTIMEZONE
+TZID:America/Edmonton
+X-LIC-LOCATION:America/Edmonton
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0600
+TZNAME:MDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0700
+TZNAME:MST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
 {%- comment -%}
-  All-day VEVENTs: the times on the Wix listings were free text, not structured
-  data, so the original time string is carried in the description instead of being
-  parsed. DTEND is exclusive, hence the +1 day.
+  Events carrying `start_time` and `end_time` (local 24-hour clock) become timed
+  VEVENTs in America/Edmonton. The rest stay all-day: the times on the older Wix
+  listings were free text, not structured data, so the original string is carried
+  in the description instead of being parsed.
+
+  For those, DTEND is exclusive, hence the +1 day — and the +1 goes via noon rather
+  than midnight. `date: "%s"` reads a bare date as UTC midnight but renders the
+  epoch back in the site timezone, so a midnight round trip lands on the previous
+  evening and DTEND comes out equal to DTSTART.
 {%- endcomment -%}
-{%- for e in site.data.events %}
+{%- for e in site.data.events -%}
 {%- assign start = e.date | date: "%Y%m%d" -%}
-{%- assign end = e.date | date: "%s" | plus: 86400 | date: "%Y%m%d" -%}
+{%- assign noon = e.date | date: "%Y-%m-%dT12:00:00" -%}
+{%- assign finish = noon | date: "%s" | plus: 86400 | date: "%Y%m%d" -%}
 {%- capture desc -%}
-{%- if e.when %}{{ e.when }}{% endif %}{% if e.description %} — {{ e.description }}{% endif %}{% if e.link %} {{ e.link }}{% endif %}
-{%- endcapture -%}
+{%- if e.when %}{{ e.when }}{% endif %}{% if e.description %} — {{ e.description }}{% endif %}{% if e.zoom %} Join on Zoom: {{ e.zoom }}{% endif %}{% if e.link %} {{ e.link }}{% endif %}
+{%- endcapture %}
 BEGIN:VEVENT
 UID:{{ e.title | slugify }}-{{ start }}@humanitiesinnovationlab.ca
 DTSTAMP:{{ site.time | date: "%Y%m%dT%H%M%SZ" }}
-DTSTART;VALUE=DATE:{{ start }}
-DTEND;VALUE=DATE:{{ end }}
-SUMMARY:{{ e.title | replace: ";", "\;" | replace: ",", "\," | strip_newlines }}
+{% if e.start_time and e.end_time %}DTSTART;TZID=America/Edmonton:{{ start }}T{{ e.start_time | remove: ":" }}00
+DTEND;TZID=America/Edmonton:{{ start }}T{{ e.end_time | remove: ":" }}00
+{% else %}DTSTART;VALUE=DATE:{{ start }}
+DTEND;VALUE=DATE:{{ finish }}
+{% endif %}SUMMARY:{{ e.title | replace: ";", "\;" | replace: ",", "\," | strip_newlines }}
 {% if e.where %}LOCATION:{{ e.where | replace: ";", "\;" | replace: ",", "\," | strip_newlines }}
 {% endif %}DESCRIPTION:{{ desc | strip | replace: ";", "\;" | replace: ",", "\," | strip_newlines }}
-{% if e.link %}URL:{{ e.link | absolute_url }}
+{% if e.zoom %}URL:{{ e.zoom }}
+{% elsif e.link %}URL:{{ e.link | absolute_url }}
 {% endif %}END:VEVENT
 {%- endfor %}
 END:VCALENDAR

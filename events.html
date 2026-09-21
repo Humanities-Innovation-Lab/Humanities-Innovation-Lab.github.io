@@ -42,10 +42,12 @@ description: Workshops, lectures, and reading groups hosted by the Humanities In
             <h3 class="pitem__title">{{ e.title }}</h3>
             {% if e.when %}<p class="pitem__meta">{{ e.when }}</p>{% endif %}
             {% if e.where %}<p class="pitem__meta">{{ e.where }}</p>{% endif %}
+            {% if e.zoom %}<p class="pitem__meta"><a href="{{ e.zoom }}" target="_blank" rel="noopener">Join on Zoom</a></p>{% endif %}
             {% if e.description %}<p style="margin-top:0.7rem;">{{ e.description }}</p>{% endif %}
-            {% if e.link %}
+            {% if e.link or e.poster %}
             <div class="pitem__links">
-              <a href="{{ e.link | absolute_url }}" target="_blank" rel="noopener">{{ e.link_text | default: "Details" }}</a>
+              {% if e.link %}<a href="{{ e.link | absolute_url }}" target="_blank" rel="noopener">{{ e.link_text | default: "Details" }}</a>{% endif %}
+              {% if e.poster %}<a href="{{ e.poster | relative_url }}">Poster (PDF)</a>{% endif %}
             </div>
             {% endif %}
           </article>
