@@ -6,42 +6,54 @@
 # site-relative path to the event poster.
 
 # 2026/2027 Monday Lecture Series: the fourth Monday of each month from
-# September 2026 to March 2027, plus an additional talk on 14 December 2026.
-# Speakers and titles are announced closer to each date — update the title
-# and description as they are confirmed.
+# September 2026 to April 2027, plus an additional talk on 14 December 2026.
+# The 2026 talks run at 3:30 p.m.; from January 2027 the series moves to
+# 9:00 a.m. Speakers and titles are announced closer to each date — update the
+# title and description as they are confirmed.
+
+- title: "Monday Lecture Series: Barbara Bordalejo — Title TBA"
+  date: 2027-04-26
+  when: "Apr 26, 2027, 9:00 a.m. – 10:00 a.m. MDT"
+  start_time: "09:00"
+  end_time: "10:00"
+  where: "University Hall, room B838, University of Lethbridge — also streamed on Zoom"
+  zoom: https://uleth.zoom.us/my/daniel.odonnell
+  description: >-
+    The seventh talk in the lab’s 2026/2027 Monday Lecture Series. Barbara Bordalejo
+    (University of Lethbridge). The title will be announced closer to the date.
 
 - title: "Monday Lecture Series: Speaker TBA"
   date: 2027-03-22
-  when: "Mar 22, 2027, 3:30 p.m. – 4:30 p.m. MDT"
-  start_time: "15:30"
-  end_time: "16:30"
+  when: "Mar 22, 2027, 9:00 a.m. – 10:00 a.m. MDT"
+  start_time: "09:00"
+  end_time: "10:00"
   where: "University Hall, room B838, University of Lethbridge — also streamed on Zoom"
   zoom: https://uleth.zoom.us/my/daniel.odonnell
   description: >-
     The sixth talk in the lab’s 2026/2027 Monday Lecture Series. The speaker and
     title will be announced closer to the date.
 
-- title: "Monday Lecture Series: Speaker TBA"
+- title: "Monday Lecture Series: Sanjaya Mishra — Education and Technology"
   date: 2027-02-22
-  when: "Feb 22, 2027, 3:30 p.m. – 4:30 p.m. MST"
-  start_time: "15:30"
-  end_time: "16:30"
+  when: "Feb 22, 2027, 9:00 a.m. – 10:00 a.m. MST"
+  start_time: "09:00"
+  end_time: "10:00"
   where: "University Hall, room B838, University of Lethbridge — also streamed on Zoom"
   zoom: https://uleth.zoom.us/my/daniel.odonnell
   description: >-
-    The fifth talk in the lab’s 2026/2027 Monday Lecture Series. The speaker and
-    title will be announced closer to the date.
+    The fifth talk in the lab’s 2026/2027 Monday Lecture Series. Sanjaya Mishra speaks
+    on education and technology.
 
-- title: "Monday Lecture Series: Speaker TBA"
+- title: "Monday Lecture Series: Ashley Burgoyne — A Cross-Culture Music Experiment"
   date: 2027-01-25
-  when: "Jan 25, 2027, 3:30 p.m. – 4:30 p.m. MST"
-  start_time: "15:30"
-  end_time: "16:30"
+  when: "Jan 25, 2027, 9:00 a.m. – 10:00 a.m. MST"
+  start_time: "09:00"
+  end_time: "10:00"
   where: "University Hall, room B838, University of Lethbridge — also streamed on Zoom"
   zoom: https://uleth.zoom.us/my/daniel.odonnell
   description: >-
-    The fourth talk in the lab’s 2026/2027 Monday Lecture Series. The speaker and
-    title will be announced closer to the date.
+    The fourth talk in the lab’s 2026/2027 Monday Lecture Series. Ashley Burgoyne speaks
+    on a cross-culture music experiment.
 
 - title: "Monday Lecture Series: Alexia Schneider — AI and Serendipity"
   date: 2026-12-14
@@ -53,7 +65,7 @@
   description: >-
     Alexia Schneider is a PhD student at the University of Montreal working on AI and serendipity.
 
-- title: "Monday Lecture Series: Speaker TBA"
+- title: "Monday Lecture Series: Inge Genee — The Digital Donald G. Frantz Blackfoot Archive"
   date: 2026-11-23
   when: "Nov 23, 2026, 3:30 p.m. – 4:30 p.m. MST"
   start_time: "15:30"
@@ -61,8 +73,9 @@
   where: "University Hall, room B838, University of Lethbridge — also streamed on Zoom"
   zoom: https://uleth.zoom.us/my/daniel.odonnell
   description: >-
-    The third talk in the lab’s 2026/2027 Monday Lecture Series. The speaker and
-    title will be announced closer to the date.
+    The third talk in the lab’s 2026/2027 Monday Lecture Series. Inge Genee
+    (University of Lethbridge) presents on the Digital Donald G. Frantz Blackfoot
+    Archive.
 
 - title: "Monday Lecture Series: Joey Takeda — The Endings Project"
   date: 2026-10-26

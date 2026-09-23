@@ -29,6 +29,9 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 {%- comment -%}
+  Only events dated on or after the build date are emitted, so the feed carries
+  what is still upcoming as of the last site build.
+
   Events carrying `start_time` and `end_time` (local 24-hour clock) become timed
   VEVENTs in America/Edmonton. The rest stay all-day: the times on the older Wix
   listings were free text, not structured data, so the original string is carried
@@ -39,8 +42,11 @@ END:VTIMEZONE
   epoch back in the site timezone, so a midnight round trip lands on the previous
   evening and DTEND comes out equal to DTSTART.
 {%- endcomment -%}
+{%- assign today = site.time | date: "%Y%m%d" | plus: 0 -%}
 {%- for e in site.data.events -%}
 {%- assign start = e.date | date: "%Y%m%d" -%}
+{%- assign startnum = start | plus: 0 -%}
+{%- if startnum < today %}{% continue %}{% endif -%}
 {%- assign noon = e.date | date: "%Y-%m-%dT12:00:00" -%}
 {%- assign finish = noon | date: "%s" | plus: 86400 | date: "%Y%m%d" -%}
 {%- capture desc -%}
