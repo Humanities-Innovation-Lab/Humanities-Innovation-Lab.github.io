@@ -17,7 +17,6 @@
   start_time: "09:00"
   end_time: "10:00"
   where: "University Hall, room B838, University of Lethbridge — also streamed on Zoom"
-  zoom: https://uleth.zoom.us/my/daniel.odonnell
   description: >-
     The seventh talk in the lab’s 2026/2027 Monday Lecture Series. Barbara Bordalejo
     (University of Lethbridge). The title will be announced closer to the date.
@@ -28,7 +27,6 @@
   start_time: "09:00"
   end_time: "10:00"
   where: "University Hall, room B838, University of Lethbridge — also streamed on Zoom"
-  zoom: https://uleth.zoom.us/my/daniel.odonnell
   description: >-
     The sixth talk in the lab’s 2026/2027 Monday Lecture Series. The speaker and
     title will be announced closer to the date.
@@ -39,7 +37,6 @@
   start_time: "09:00"
   end_time: "10:00"
   where: "University Hall, room B838, University of Lethbridge — also streamed on Zoom"
-  zoom: https://uleth.zoom.us/my/daniel.odonnell
   description: >-
     The fifth talk in the lab’s 2026/2027 Monday Lecture Series. Sanjaya Mishra speaks
     on education and technology.
@@ -50,7 +47,6 @@
   start_time: "09:00"
   end_time: "10:00"
   where: "University Hall, room B838, University of Lethbridge — also streamed on Zoom"
-  zoom: https://uleth.zoom.us/my/daniel.odonnell
   description: >-
     The fourth talk in the lab’s 2026/2027 Monday Lecture Series. Ashley Burgoyne speaks
     on a cross-culture music experiment.
@@ -61,7 +57,6 @@
   start_time: "15:30"
   end_time: "16:30"
   where: "University Hall, room B838, University of Lethbridge — also streamed on Zoom"
-  zoom: https://uleth.zoom.us/my/daniel.odonnell
   description: >-
     Alexia Schneider is a PhD student at the University of Montreal working on AI and serendipity.
 
@@ -71,7 +66,6 @@
   start_time: "15:30"
   end_time: "16:30"
   where: "University Hall, room B838, University of Lethbridge — also streamed on Zoom"
-  zoom: https://uleth.zoom.us/my/daniel.odonnell
   description: >-
     The third talk in the lab’s 2026/2027 Monday Lecture Series. Inge Genee
     (University of Lethbridge) presents on the Digital Donald G. Frantz Blackfoot
@@ -83,7 +77,6 @@
   start_time: "15:30"
   end_time: "16:30"
   where: "University Hall, room B838, University of Lethbridge — also streamed on Zoom"
-  zoom: https://uleth.zoom.us/my/daniel.odonnell
   description: >-
     Joey Takeda is the Digital Scholarship Librarian and developer for the Digital Humanities Innovation 
     Lab at Simon Fraser University.
@@ -94,7 +87,8 @@
   start_time: "15:30"
   end_time: "16:30"
   where: "University Hall, room B838, University of Lethbridge — also streamed on Zoom"
-  zoom: https://uleth.zoom.us/my/daniel.odonnell
+  link: https://uleth.zoom.us/webinar/register/WN_M2605g-cSg-oYiq6HY_Psw
+  link_text: "Register on Zoom"
   poster: /assets/posters/2026-09-28-odonnell.pdf
   description: >-
     The first talk in the lab’s 2026/2027 Monday Lecture Series. Daniel O’Donnell
