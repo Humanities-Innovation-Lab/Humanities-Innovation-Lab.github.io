@@ -4,6 +4,7 @@ title: "Morgan Joins Editorial Board for Press Start"
 date: 2026-06-15 06:00:00 +0000
 categories: ["News"]
 image: "/assets/img/61b914_e6f0ae87ea8f4c35b1e9472cc14ca886.png"
+image_in_post: false
 description: "We are proud to announce that Morgan has been accepted as a member of the Editorial Board for Press Start, a multidisciplinary, open-access game studies journal based at the University of Glasgow."
 author: "Humanities Innovation Lab"
 wix_url: "https://www.humanitiesinnovationlab.ca/post/morgan-joins-editorial-board-for-press-start"

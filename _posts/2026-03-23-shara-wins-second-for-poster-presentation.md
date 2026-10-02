@@ -3,7 +3,7 @@ layout: post
 title: "Shara Wins Second for Poster Presentation!"
 date: 2026-03-23 19:37:48 +0000
 categories: ["News"]
-image: "/assets/img/61b914_1dcaaf73a8f7496494336e99d2acc6f1.jpg"
+image: "/assets/img/61b914_cd87d756722a4cfb8442f0e77378f0ac.jpg"
 description: "We are very pleased to announce that Shara Merril has won second place in the PhD category for her poster presentation at the Meetings of the Minds Conference. This is an exciting achievement. Her project stood out for…"
 author: "Humanities Innovation Lab"
 wix_url: "https://www.humanitiesinnovationlab.ca/post/shara-wins-second-for-poster-presentation"

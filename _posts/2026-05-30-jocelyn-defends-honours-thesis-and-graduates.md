@@ -3,7 +3,7 @@ layout: post
 title: "Jocelyn Defends Honours Thesis and Graduates!"
 date: 2026-05-30 06:00:00 +0000
 categories: ["News"]
-image: "/assets/img/61b914_f87d0f566e4a44be8b12e41e85207577.jpg"
+image: "/assets/img/61b914_e8821d44a8e4499a8a6fd14bf12ac473.jpg"
 description: "At the end of April, Jocelyn successfully defended her honours thesis, titled “The Expansion of War and Violence in Tok Pisin: A Cognitive and Corpus Study on Polysemy in Pait and Paitim.” She skillfully presented her…"
 author: "Humanities Innovation Lab"
 wix_url: "https://www.humanitiesinnovationlab.ca/post/jocelyn-defends-honours-thesis-and-graduates"

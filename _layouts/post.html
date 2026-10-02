@@ -25,11 +25,12 @@ layout: default
       either a plain path or a map of src and caption; `image` is the single
       lead photograph, and is also what the blog card and social preview use.
       Two or more share a row rather than stacking. A lead `image` the text
-      already shows is not repeated here.
+      already shows is not repeated here, and `image_in_post: false` keeps it
+      to the blog card and social preview alone.
     {%- endcomment -%}
     {%- if page.images and page.images.size > 0 -%}
       {%- assign figs = page.images -%}
-    {%- elsif page.image -%}
+    {%- elsif page.image and page.image_in_post != false -%}
       {%- unless content contains page.image -%}
         {%- assign figs = page.image | split: "|" -%}
       {%- endunless -%}

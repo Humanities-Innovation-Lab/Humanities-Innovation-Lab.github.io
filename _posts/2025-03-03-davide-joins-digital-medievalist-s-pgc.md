@@ -14,5 +14,3 @@ We are pleased to announce that Davide has been elected as a member of the Digit
 Its goal is to enhance the visibility of digital infrastructures in medieval studies while fostering discussions on interdisciplinary research, essential skills, and the need for curriculum reform. By addressing these issues, the committee contributes to broader debates on the role of traditional and innovative approaches in the humanities.
 
 We congratulate Davide on this new role and look forward to the important work ahead!
-
-![](/assets/img/28350a_d12ed546f2de4f27901505e665af9de8.png)
