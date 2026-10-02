@@ -456,6 +456,19 @@ p:last-child { margin-bottom: 0; }
 .cal__ics { font-size: 0.875rem; text-decoration: underline; text-underline-offset: 0.15em; }
 .cal__ics:hover { opacity: 0.7; }
 
+/* Coming soon: the next event, set apart on a panel above the full list. */
+.evsoon { margin-bottom: 3.5rem; }
+.evsoon .pitem { background: var(--panel); padding: 1.6rem; border: none; }
+
+/* "More info" — links an event to its blog post. Same box as the blog chips. */
+.ev-more {
+  display: inline-block; margin-top: 1rem;
+  font-size: 0.875rem; padding: 0.45rem 1.1rem;
+  border: 1px solid var(--text); color: var(--text);
+  transition: background 0.2s var(--ease), color 0.2s var(--ease);
+}
+.ev-more:hover { background: var(--text); color: var(--bg); }
+
 .evlist-head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem; }
 .evlist-head .rgroup__title { margin-bottom: 1.25rem; }
 

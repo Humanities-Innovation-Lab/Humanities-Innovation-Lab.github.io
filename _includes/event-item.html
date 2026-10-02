@@ -1,0 +1,21 @@
+{%- comment -%}
+  One event from _data/events.yml, as used in both "Coming soon" and "All events"
+  on the events page. Pass it as `event`.
+{%- endcomment -%}
+{%- assign e = include.event -%}
+<article class="pitem" data-date="{{ e.date | date: '%Y-%m-%d' }}">
+  <p class="pitem__meta">{{ e.date | date: "%A, %-d %B %Y" }}</p>
+  <h3 class="pitem__title">{{ e.title }}</h3>
+  {% if e.when %}<p class="pitem__meta">{{ e.when }}</p>{% endif %}
+  {% if e.where %}<p class="pitem__meta">{{ e.where }}</p>{% endif %}
+  {% if e.zoom %}<p class="pitem__meta"><a href="{{ e.zoom }}" target="_blank" rel="noopener">Join on Zoom</a></p>{% endif %}
+  {% if e.description %}<p style="margin-top:0.7rem;">{{ e.description }}</p>{% endif %}
+  {% if e.link or e.poster or e.slides %}
+  <div class="pitem__links">
+    {% if e.link %}<a href="{{ e.link | absolute_url }}" target="_blank" rel="noopener">{{ e.link_text | default: "Details" }}</a>{% endif %}
+    {% if e.poster %}<a href="{{ e.poster | relative_url }}">Poster (PDF)</a>{% endif %}
+    {% if e.slides %}<a href="{{ e.slides }}" target="_blank" rel="noopener">Slides (Zenodo)</a>{% endif %}
+  </div>
+  {% endif %}
+  {% if e.post %}<a class="ev-more" href="{{ e.post | relative_url }}">More info</a>{% endif %}
+</article>

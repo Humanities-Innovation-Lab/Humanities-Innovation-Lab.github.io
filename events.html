@@ -14,6 +14,29 @@ description: Workshops, lectures, and reading groups hosted by the Humanities In
   <div class="wrap">
     {% include calendar.html %}
 
+    {%- comment -%}
+      Coming soon: the next event on or after today. Every event still upcoming at
+      build time is rendered, soonest first, with only the first visible; the script
+      below re-picks against the visitor's date, so the section stays right between
+      builds (and drops out once nothing is left).
+    {%- endcomment -%}
+    {%- assign today = site.time | date: "%Y-%m-%d" -%}
+    {%- assign upcoming = "" | split: "" -%}
+    {%- for e in site.data.events reversed -%}
+      {%- assign d = e.date | date: "%Y-%m-%d" -%}
+      {%- if d >= today %}{% assign upcoming = upcoming | push: e %}{% endif -%}
+    {%- endfor -%}
+    {%- if upcoming.size > 0 %}
+    <section class="evsoon" id="evsoon" aria-labelledby="evsoon-title">
+      <h2 class="rgroup__title" id="evsoon-title">Coming soon</h2>
+      {%- for e in upcoming %}
+      <div class="evsoon__item"{% unless forloop.first %} hidden{% endunless %}>
+        {% include event-item.html event=e %}
+      </div>
+      {%- endfor %}
+    </section>
+    {%- endif %}
+
     <div class="evlist-head">
       <h2 class="rgroup__title" id="evlist-title">All events</h2>
       <button class="blog-chip" type="button" id="ev-reset" hidden>Show all</button>
@@ -37,20 +60,7 @@ description: Workshops, lectures, and reading groups hosted by the Humanities In
         </summary>
         <div class="plist evyear__body">
           {%- for e in yr.items %}
-          <article class="pitem" data-date="{{ e.date | date: '%Y-%m-%d' }}">
-            <p class="pitem__meta">{{ e.date | date: "%A, %-d %B %Y" }}</p>
-            <h3 class="pitem__title">{{ e.title }}</h3>
-            {% if e.when %}<p class="pitem__meta">{{ e.when }}</p>{% endif %}
-            {% if e.where %}<p class="pitem__meta">{{ e.where }}</p>{% endif %}
-            {% if e.zoom %}<p class="pitem__meta"><a href="{{ e.zoom }}" target="_blank" rel="noopener">Join on Zoom</a></p>{% endif %}
-            {% if e.description %}<p style="margin-top:0.7rem;">{{ e.description }}</p>{% endif %}
-            {% if e.link or e.poster %}
-            <div class="pitem__links">
-              {% if e.link %}<a href="{{ e.link | absolute_url }}" target="_blank" rel="noopener">{{ e.link_text | default: "Details" }}</a>{% endif %}
-              {% if e.poster %}<a href="{{ e.poster | relative_url }}">Poster (PDF)</a>{% endif %}
-            </div>
-            {% endif %}
-          </article>
+          {% include event-item.html event=e %}
           {%- endfor %}
         </div>
       </details>
@@ -60,6 +70,24 @@ description: Workshops, lectures, and reading groups hosted by the Humanities In
     <p class="blog-empty" id="evlist-empty" hidden>No events on that day.</p>
   </div>
 </section>
+
+<script>
+  // Coming soon: show the soonest event that is still on or after today.
+  (function () {
+    var soon = document.getElementById("evsoon");
+    if (!soon) return;
+    var d = new Date();
+    var today = d.getFullYear() + "-" + (d.getMonth() < 9 ? "0" : "") + (d.getMonth() + 1) +
+                "-" + (d.getDate() < 10 ? "0" : "") + d.getDate();
+    var shown = false;
+    soon.querySelectorAll(".evsoon__item").forEach(function (el) {
+      var on = !shown && el.querySelector(".pitem").getAttribute("data-date") >= today;
+      el.hidden = !on;
+      if (on) shown = true;
+    });
+    soon.hidden = !shown;
+  })();
+</script>
 
 <script>
   // Year groups are plain <details>, so they open and close without this script.

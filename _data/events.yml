@@ -3,7 +3,11 @@
 # the page. `start_time`/`end_time` are the same times on a local 24-hour clock and
 # are what events.ics uses to emit a timed entry rather than an all-day one; give
 # both or neither. `zoom` adds a join link to the page and the .ics; `poster` is a
-# site-relative path to the event poster.
+# site-relative path to the event poster. `slides` is the DOI link to the talk's
+# slides on Zenodo. `post` is the site-relative URL of a
+# blog post about the event (title, abstract, speaker bio); it adds a "More info"
+# button. Date the post on or before the day it should appear — Jekyll does not
+# publish future-dated posts.
 
 # 2026/2027 Monday Lecture Series: the fourth Monday of each month from
 # September 2026 to April 2027, plus an additional talk on 14 December 2026.
@@ -77,11 +81,12 @@
   start_time: "15:30"
   end_time: "16:30"
   where: "University Hall, room B838, University of Lethbridge — also streamed on Zoom"
+  post: /post/monday-lecture-series-joey-takeda-the-endings-project/
   description: >-
     Joey Takeda is the Digital Scholarship Librarian and developer for the Digital Humanities Innovation 
     Lab at Simon Fraser University.
 
-- title: "Monday Lecture Series: Daniel O’Donnell — What’s Fundamental about Academic Freedom?"
+- title: "Monday Lecture Series: Daniel O’Donnell — What is Fundamental about Academic Freedom?"
   date: 2026-09-28
   when: "Sep 28, 2026, 3:30 p.m. – 4:30 p.m. MDT"
   start_time: "15:30"
@@ -90,6 +95,8 @@
   link: https://uleth.zoom.us/webinar/register/WN_M2605g-cSg-oYiq6HY_Psw
   link_text: "Register on Zoom"
   poster: /assets/posters/2026-09-28-odonnell.pdf
+  slides: https://doi.org/10.5281/zenodo.23003905
+  post: /post/monday-lecture-series-daniel-odonnell-what-is-fundamental-about-academic-freedom/
   description: >-
     The first talk in the lab’s 2026/2027 Monday Lecture Series. Daniel O’Donnell
     (University of Lethbridge) asks whether academic freedom is an ancient right —
