@@ -3,6 +3,7 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
+.bundle
 
 # Each environment (this machine, GitHub Actions) resolves its own lockfile.
 Gemfile.lock
