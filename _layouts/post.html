@@ -24,12 +24,15 @@ layout: default
       Photographs run at the foot of the post. `images` takes several, each
       either a plain path or a map of src and caption; `image` is the single
       lead photograph, and is also what the blog card and social preview use.
-      Two or more share a row rather than stacking.
+      Two or more share a row rather than stacking. A lead `image` the text
+      already shows is not repeated here.
     {%- endcomment -%}
     {%- if page.images and page.images.size > 0 -%}
       {%- assign figs = page.images -%}
     {%- elsif page.image -%}
-      {%- assign figs = page.image | split: "|" -%}
+      {%- unless content contains page.image -%}
+        {%- assign figs = page.image | split: "|" -%}
+      {%- endunless -%}
     {%- endif -%}
     {%- if figs -%}
     {%- if figs.size == 1 %}{% assign cols = "1" %}{% elsif figs.size == 2 %}{% assign cols = "2" %}{% else %}{% assign cols = "many" %}{% endif -%}

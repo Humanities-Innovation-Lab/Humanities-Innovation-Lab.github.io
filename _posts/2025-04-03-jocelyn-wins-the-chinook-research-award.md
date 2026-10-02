@@ -3,7 +3,7 @@ layout: post
 title: "Jocelyn Wins the Chinook Research Award"
 date: 2025-04-03 21:35:05 +0000
 categories: ["News"]
-image: "/assets/img/28350a_1ea7af62179d4dd1851ddf4f3a2bac8a.jpg"
+image: "/assets/img/28350a_8a23d0de3c414e83b9bf65cf5dec6bba.jpg"
 description: "We’re excited to announce that Jocelyn McKnight has been awarded the Chinook Summer Research Award! This competitive award supports undergraduate students who have a research project over the summer. Jocelyn will…"
 author: "Humanities Innovation Lab"
 wix_url: "https://www.humanitiesinnovationlab.ca/post/jocelyn-wins-the-chinook-research-award"

@@ -530,7 +530,7 @@ p:last-child { margin-bottom: 0; }
    Without the cap a 780x1024 portrait runs 945px down a 720px column; without
    `width: auto` a 420px head crop is stretched to 720 and goes soft. */
 .post__figures--1 img {
-  width: auto; max-width: 100%; max-height: 620px;
+  width: auto; max-width: 100%; max-height: 480px;
   margin-inline: auto; object-fit: contain;
 }
 .post__figures--2 img, .post__figures--many img { aspect-ratio: 1 / 1; }
@@ -546,7 +546,9 @@ p:last-child { margin-bottom: 0; }
 .prose p { margin-bottom: 1.25rem; }
 .prose a { text-decoration: underline; text-underline-offset: 0.15em; }
 .prose a:hover { opacity: 0.72; }
-.prose img { margin: 1.75rem auto; }
+/* Same height cap as a lone foot photograph, so a portrait sits beside the
+   text at a readable size rather than running the full column width. */
+.prose img { margin: 1.75rem auto; width: auto; max-height: 480px; }
 .prose ul, .prose ol { margin: 0 0 1.25rem 1.3rem; }
 .prose ul { list-style: disc; }
 .prose ol { list-style: decimal; }
