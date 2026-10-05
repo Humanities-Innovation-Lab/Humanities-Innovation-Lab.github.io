@@ -15,10 +15,11 @@ description: Workshops, lectures, and reading groups hosted by the Humanities In
     {% include calendar.html %}
 
     {%- comment -%}
-      Coming soon: the next event on or after today. Every event still upcoming at
-      build time is rendered, soonest first, with only the first visible; the script
-      below re-picks against the visitor's date, so the section stays right between
-      builds (and drops out once nothing is left).
+      Coming soon: the next event on or after today, featured, then the two after it
+      under "More events". Every event still upcoming at build time is rendered,
+      soonest first, with only the first three visible; the script below re-picks
+      against the visitor's date, so the section stays right between builds (and
+      drops out once nothing is left).
     {%- endcomment -%}
     {%- assign today = site.time | date: "%Y-%m-%d" -%}
     {%- assign upcoming = "" | split: "" -%}
@@ -30,7 +31,10 @@ description: Workshops, lectures, and reading groups hosted by the Humanities In
     <section class="evsoon" id="evsoon" aria-labelledby="evsoon-title">
       <h2 class="rgroup__title" id="evsoon-title">Coming soon</h2>
       {%- for e in upcoming %}
-      <div class="evsoon__item"{% unless forloop.first %} hidden{% endunless %}>
+      {%- if forloop.index == 2 %}
+      <h3 class="evsoon__more" id="evsoon-more">More events</h3>
+      {%- endif %}
+      <div class="evsoon__item"{% if forloop.index > 3 %} hidden{% endif %}>
         {% include event-item.html event=e %}
       </div>
       {%- endfor %}
@@ -44,16 +48,14 @@ description: Workshops, lectures, and reading groups hosted by the Humanities In
 
     {%- comment -%}
       Events are grouped into collapsible years. _data/events.yml is kept newest
-      first, so group_by_exp yields the years newest first too. The year matching
-      the build date opens by default; the script below re-points that at the year
-      holding the next upcoming event, which is the more useful thing to show.
+      first, so group_by_exp yields the years newest first too. Every year starts
+      closed; "Coming soon" above already shows what is next.
     {%- endcomment -%}
-    {%- assign this_year = site.time | date: "%Y" -%}
     {%- assign years = site.data.events | group_by_exp: "e", "e.date | date: '%Y'" -%}
 
     <div class="evyears" id="evlist">
       {%- for yr in years %}
-      <details class="evyear" data-year="{{ yr.name }}"{% if yr.name == this_year %} open{% endif %}>
+      <details class="evyear" data-year="{{ yr.name }}">
         <summary class="evyear__summary">
           <span class="evyear__year">{{ yr.name }}</span>
           <span class="evyear__count">{{ yr.items.size }} event{% unless yr.items.size == 1 %}s{% endunless %}</span>
@@ -72,27 +74,33 @@ description: Workshops, lectures, and reading groups hosted by the Humanities In
 </section>
 
 <script>
-  // Coming soon: show the soonest event that is still on or after today.
+  // Coming soon: show the soonest event still on or after today, then the next two
+  // under "More events" (the heading moves to sit before the second one shown).
   (function () {
     var soon = document.getElementById("evsoon");
     if (!soon) return;
+    var more = document.getElementById("evsoon-more");
     var d = new Date();
     var today = d.getFullYear() + "-" + (d.getMonth() < 9 ? "0" : "") + (d.getMonth() + 1) +
                 "-" + (d.getDate() < 10 ? "0" : "") + d.getDate();
-    var shown = false;
+    var shown = 0;
     soon.querySelectorAll(".evsoon__item").forEach(function (el) {
-      var on = !shown && el.querySelector(".pitem").getAttribute("data-date") >= today;
+      var on = shown < 3 && el.querySelector(".pitem").getAttribute("data-date") >= today;
       el.hidden = !on;
-      if (on) shown = true;
+      if (on) {
+        shown++;
+        if (shown === 2 && more) soon.insertBefore(more, el);
+      }
     });
-    soon.hidden = !shown;
+    if (more) more.hidden = shown < 2;
+    soon.hidden = shown === 0;
   })();
 </script>
 
 <script>
   // Year groups are plain <details>, so they open and close without this script.
-  // What the script adds: opening the year that holds the next upcoming event, and
-  // narrowing the list when a day is chosen in the calendar above.
+  // What the script adds: narrowing the list when a day is chosen in the calendar
+  // above, and opening the year that holds it.
   (function () {
     var list = document.getElementById("evlist");
     if (!list) return;
@@ -104,24 +112,7 @@ description: Workshops, lectures, and reading groups hosted by the Humanities In
     var reset = document.getElementById("ev-reset");
     var empty = document.getElementById("evlist-empty");
 
-    function pad(n) { return (n < 10 ? "0" : "") + n; }
-    function todayIso() {
-      var d = new Date();
-      return d.getFullYear() + "-" + pad(d.getMonth() + 1) + "-" + pad(d.getDate());
-    }
-
-    // Items run newest first, so the last one still on or after today is the soonest.
-    (function openUpcomingYear() {
-      var today = todayIso();
-      var soonest = null;
-      items.forEach(function (el) {
-        if (el.getAttribute("data-date") >= today) soonest = el;
-      });
-      if (!soonest) return;
-      groups.forEach(function (g) { g.open = g.contains(soonest); });
-    })();
-
-    // Captured after the adjustment above, so "Show all" restores that view.
+    // "Show all" restores the starting view (every year closed).
     var defaultOpen = groups.map(function (g) { return g.open; });
 
     function show(date) {

@@ -459,6 +459,8 @@ p:last-child { margin-bottom: 0; }
 /* Coming soon: the next event, set apart on a panel above the full list. */
 .evsoon { margin-bottom: 3.5rem; }
 .evsoon .pitem { background: var(--panel); padding: 1.6rem; border: none; }
+.evsoon__item + .evsoon__item { margin-top: 1rem; }
+.evsoon__more { font-size: 1.05rem; margin: 2rem 0 1rem; }
 
 /* "More info" — links an event to its blog post. Same box as the blog chips. */
 .ev-more {
