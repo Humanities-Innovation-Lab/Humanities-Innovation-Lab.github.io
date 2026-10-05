@@ -19,6 +19,8 @@
   --text: #ffffff;
   --muted: rgba(255, 255, 255, 0.72);
   --rule: rgba(255, 255, 255, 0.32);
+  --event: #1f5c3d;          /* calendar days that carry an event */
+  --event-hover: #2a7550;
 
   --card-bg: #ffffff;
   --card-text: #16181a;
@@ -444,8 +446,8 @@ p:last-child { margin-bottom: 0; }
 }
 .cal__num { font-size: 0.875rem; line-height: 1; }
 
-.cal__day--has { color: var(--text); cursor: pointer; transition: background 0.2s var(--ease); }
-.cal__day--has:hover { background: var(--panel); }
+.cal__day--has { background: var(--event); color: var(--text); cursor: pointer; transition: background 0.2s var(--ease); }
+.cal__day--has:hover { background: var(--event-hover); }
 .cal__day--has .cal__num { font-weight: 400; }
 .cal__dot { width: 7px; height: 7px; border-radius: 50%; background: var(--text); }
 .cal__day--on { background: var(--text); color: var(--bg); }
