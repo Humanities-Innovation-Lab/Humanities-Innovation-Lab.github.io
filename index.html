@@ -31,6 +31,20 @@ description: >-
   </div>
 </section>
 
+<!-- ===== EVENTS =====
+     A featured event, picked out of _data/events.yml by its title. -->
+<section class="section">
+  <div class="wrap">
+    <h2 class="sec-title"><a href="{{ '/events/' | relative_url }}">Events</a></h2>
+
+    <div class="evsoon">
+      {%- for e in site.data.events %}{% if e.title contains "Joey Takeda" %}
+      {% include event-item.html event=e %}
+      {%- endif %}{% endfor %}
+    </div>
+  </div>
+</section>
+
 <!-- ===== RECENT POSTS ===== -->
 <section class="section">
   <div class="wrap">
