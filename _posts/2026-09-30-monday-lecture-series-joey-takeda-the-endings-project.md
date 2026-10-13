@@ -25,4 +25,4 @@ In this talk, Joey Takeda thinks through “sustainability” across multiple re
 
 Joey Takeda is the Digital Scholarship Librarian and developer for the Digital Humanities Innovation Lab at Simon Fraser University.
 
-All lab members and interested students are welcome.
+Everyone is welcome.
