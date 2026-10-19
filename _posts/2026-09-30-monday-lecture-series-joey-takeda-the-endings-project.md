@@ -23,6 +23,4 @@ In this talk, Joey Takeda thinks through “sustainability” across multiple re
 
 ### About the speaker
 
-Joey Takeda is the Digital Scholarship Librarian and developer for the Digital Humanities Innovation Lab at Simon Fraser University.
-
-Everyone is welcome.
+Joey Takeda is the Digital Scholarship Librarian (Sept 1, 2026–August 30, 2027) for the Digital Humanities Innovation Lab and has been with the DHIL since 2020 as a Developer. He specializes in text encoding and digital editions, digital project preservation and sustainability, minimal computing, and digital exhibits. He is an elected member of the Text Encoding Initiative (TEI) Technical Council, and holds an MLIS from the University of Alberta and an MA in English Literature from the University of British Columbia.
