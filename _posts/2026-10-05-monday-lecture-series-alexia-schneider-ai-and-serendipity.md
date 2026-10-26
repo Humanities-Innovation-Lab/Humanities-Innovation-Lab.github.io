@@ -19,5 +19,3 @@ The abstract will be posted closer to the date.
 ### About the speaker
 
 Alexia Schneider is a PhD student at the University of Montreal working on AI and serendipity.
-
-All lab members and interested students are welcome.

@@ -21,5 +21,3 @@ The abstract will be posted closer to the date.
 ### About the speaker
 
 Inge Genee is at the University of Lethbridge. A fuller biography will be posted closer to the date.
-
-All lab members and interested students are welcome.

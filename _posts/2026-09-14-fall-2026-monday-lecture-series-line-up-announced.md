@@ -16,5 +16,3 @@ The line-up for the fall term of the lab’s 2026/2027 Monday Lecture Series is 
 - **Monday, 14 December:** Alexia Schneider (University of Montreal) — AI and Serendipity
 
 The series continues in the winter term, when talks move to 9:00 a.m. Titles, abstracts, and Zoom links will be posted on the [events page]({{ "/events/" | relative_url }}) as each date approaches.
-
-All lab members and interested students are welcome.
