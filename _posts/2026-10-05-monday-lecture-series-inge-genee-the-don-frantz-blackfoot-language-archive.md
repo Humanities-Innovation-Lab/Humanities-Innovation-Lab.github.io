@@ -12,6 +12,8 @@ Inge Genee gives the third talk in the lab’s 2026/2027 Monday Lecture Series, 
 - **When:** Monday, 23 November 2026, 3:30 p.m. – 4:30 p.m. MST
 - **Where:** University Hall, room B838, University of Lethbridge — also streamed on Zoom
 
+<a class="ev-more" href="https://us06web.zoom.us/meeting/register/0Wc331gYQAyPRWZl9uTk5A" target="_blank" rel="noopener">Register on Zoom</a>
+
 ### Abstract
 
 The abstract will be posted closer to the date.
