@@ -12,6 +12,8 @@ Alexia Schneider gives an additional talk in the lab’s 2026/2027 Monday Lectur
 - **When:** Monday, 14 December 2026, 3:30 p.m. – 4:30 p.m. MST
 - **Where:** University Hall, room B838, University of Lethbridge — also streamed on Zoom
 
+<a class="ev-more" href="https://us06web.zoom.us/meeting/register/I-1t5inDR0yDJP2lzjgNAg" target="_blank" rel="noopener">Register on Zoom</a>
+
 ### Abstract
 
 Self-declarations of usage of generative AI are becoming common in research circles and classrooms, betraying a sense of unease surrounding undisclosed or discreet practices, aka “Shadow AI.” These considerations around proper or responsible usage of AI give us a sense of the growing tension between the implicit demands of academia. While on one side we still expect science to be based on trust and transparency, on the other, productive imperatives incentivize the delegation of fundamental — albeit tedious — parts of learning and researching.
