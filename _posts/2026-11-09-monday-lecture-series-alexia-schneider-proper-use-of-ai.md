@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "Monday Lecture Series: Alexia Schneider — On the Proper Use of AI"
-date: 2026-10-05 06:00:00 +0000
+date: 2026-11-09 06:00:00 +0000
 categories: ["Events"]
+image: "/assets/img/2026-12-14-schneider-mls-landscape.jpg"
 description: "Alexia Schneider of the Université de Montréal speaks in the lab’s 2026/2027 Monday Lecture Series with a provocation on the notion of “proper use” of AI."
 author: "Humanities Innovation Lab"
 ---

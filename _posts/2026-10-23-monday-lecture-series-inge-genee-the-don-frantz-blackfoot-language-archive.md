@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Monday Lecture Series: Inge Genee — Do You Have a Data Will?"
-date: 2026-10-05 06:00:00 +0000
+date: 2026-10-23 06:00:00 +0000
 categories: ["Events"]
 image: "/assets/img/2026-11-23-genee-mls-poster.jpg"
 description: "Inge Genee of the University of Lethbridge gives the third talk in the lab’s 2026/2027 Monday Lecture Series, on the Don Frantz Blackfoot Language Archive and why researchers need a data will."
