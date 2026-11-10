@@ -115,6 +115,12 @@ description: Workshops, lectures, and reading groups hosted by the Humanities In
     // "Show all" restores the starting view (every year closed).
     var defaultOpen = groups.map(function (g) { return g.open; });
 
+    // While a day is chosen, "Coming soon" steps aside so the chosen day's events
+    // sit directly under the calendar; "Show all" brings it back.
+    var soon = document.getElementById("evsoon");
+    var soonHidden = soon ? soon.hidden : true;
+    var smooth = !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
     function show(date) {
       var visible = 0;
       items.forEach(function (el) {
@@ -143,6 +149,9 @@ description: Workshops, lectures, and reading groups hosted by the Humanities In
               { weekday: "long", day: "numeric", month: "long", year: "numeric" })
           : "All events";
       }
+
+      if (soon) soon.hidden = date ? true : soonHidden;
+      if (date && title) title.scrollIntoView({ behavior: smooth ? "smooth" : "auto", block: "nearest" });
     }
 
     window.addEventListener("hil:calendar-select", function (e) { show(e.detail.date); });
