@@ -14,6 +14,11 @@
 # The 2026 talks run at 3:30 p.m.; from January 2027 the series moves to
 # 9:00 a.m. Speakers and titles are announced closer to each date — update the
 # title and description as they are confirmed.
+#
+# Lab Member Presentations: internal sessions on the second Monday of each month
+# from November 2026 to April 2027 (none in December, when it clashes with the
+# 14 December lecture), plus 5 October 2026. Same times and room as the lectures;
+# no Zoom stream or blog post.
 
 - title: "Monday Lecture Series: Barbara Bordalejo — Title TBA"
   date: 2027-04-26
@@ -25,6 +30,16 @@
     The seventh talk in the lab’s 2026/2027 Monday Lecture Series. Barbara Bordalejo
     (University of Lethbridge). The title will be announced closer to the date.
 
+- title: "Lab Member Presentations"
+  date: 2027-04-12
+  when: "Apr 12, 2027, 9:00 a.m. – 10:00 a.m. MDT"
+  start_time: "09:00"
+  end_time: "10:00"
+  where: "University Hall, room B838, University of Lethbridge"
+  description: >-
+    Internal presentations by members of the Humanities Innovation Lab. These sessions are
+    not open to the public; anyone else who would like to attend should contact the lab to ask.
+
 - title: "Monday Lecture Series: Speaker TBA"
   date: 2027-03-22
   when: "Mar 22, 2027, 9:00 a.m. – 10:00 a.m. MDT"
@@ -34,6 +49,16 @@
   description: >-
     The sixth talk in the lab’s 2026/2027 Monday Lecture Series. The speaker and
     title will be announced closer to the date.
+
+- title: "Lab Member Presentations"
+  date: 2027-03-08
+  when: "Mar 8, 2027, 9:00 a.m. – 10:00 a.m. MST"
+  start_time: "09:00"
+  end_time: "10:00"
+  where: "University Hall, room B838, University of Lethbridge"
+  description: >-
+    Internal presentations by members of the Humanities Innovation Lab. These sessions are
+    not open to the public; anyone else who would like to attend should contact the lab to ask.
 
 - title: "Monday Lecture Series: Sanjaya Mishra — Education and Technology"
   date: 2027-02-22
@@ -45,6 +70,16 @@
     The fifth talk in the lab’s 2026/2027 Monday Lecture Series. Sanjaya Mishra speaks
     on education and technology.
 
+- title: "Lab Member Presentations"
+  date: 2027-02-08
+  when: "Feb 8, 2027, 9:00 a.m. – 10:00 a.m. MST"
+  start_time: "09:00"
+  end_time: "10:00"
+  where: "University Hall, room B838, University of Lethbridge"
+  description: >-
+    Internal presentations by members of the Humanities Innovation Lab. These sessions are
+    not open to the public; anyone else who would like to attend should contact the lab to ask.
+
 - title: "Monday Lecture Series: Ashley Burgoyne — A Cross-Culture Music Experiment"
   date: 2027-01-25
   when: "Jan 25, 2027, 9:00 a.m. – 10:00 a.m. MST"
@@ -54,6 +89,16 @@
   description: >-
     The fourth talk in the lab’s 2026/2027 Monday Lecture Series. Ashley Burgoyne speaks
     on a cross-culture music experiment.
+
+- title: "Lab Member Presentations"
+  date: 2027-01-11
+  when: "Jan 11, 2027, 9:00 a.m. – 10:00 a.m. MST"
+  start_time: "09:00"
+  end_time: "10:00"
+  where: "University Hall, room B838, University of Lethbridge"
+  description: >-
+    Internal presentations by members of the Humanities Innovation Lab. These sessions are
+    not open to the public; anyone else who would like to attend should contact the lab to ask.
 
 - title: "Monday Lecture Series: Alexia Schneider — On the Proper Use of AI"
   date: 2026-12-14
@@ -86,6 +131,16 @@
     them. She advocates creating a data will to reduce the burden on successors
     and ensure that a lifetime’s research is preserved.
 
+- title: "Lab Member Presentations"
+  date: 2026-11-09
+  when: "Nov 9, 2026, 3:30 p.m. – 4:30 p.m. MST"
+  start_time: "15:30"
+  end_time: "16:30"
+  where: "University Hall, room B838, University of Lethbridge"
+  description: >-
+    Internal presentations by members of the Humanities Innovation Lab. These sessions are
+    not open to the public; anyone else who would like to attend should contact the lab to ask.
+
 - title: "Monday Lecture Series: Joey Takeda — Acid-Free Web Pages: Ending, Sustaining, and Preserving Digital Scholarship"
   date: 2026-10-26
   when: "Oct 26, 2026, 3:30 p.m. – 4:30 p.m. MDT"
@@ -101,6 +156,16 @@
     mean, and on whom we depend, when we invoke “sustainability”—as well as allied terms like
     “reproducibility” and “replicability”—in our discussions of preserving, archiving, and sharing
     digital scholarship.
+
+- title: "Lab Member Presentations"
+  date: 2026-10-05
+  when: "Oct 5, 2026, 3:30 p.m. – 4:30 p.m. MDT"
+  start_time: "15:30"
+  end_time: "16:30"
+  where: "University Hall, room B838, University of Lethbridge"
+  description: >-
+    Internal presentations by members of the Humanities Innovation Lab. These sessions are
+    not open to the public; anyone else who would like to attend should contact the lab to ask.
 
 - title: "Monday Lecture Series: Daniel O’Donnell — What is Fundamental about Academic Freedom?"
   date: 2026-09-28
