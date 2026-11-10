@@ -17,7 +17,7 @@
         <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} class="is-current"{% endif %}>Home</a>
         <a href="{{ '/about-hil/' | relative_url }}"{% if page.url contains '/about-hil' %} class="is-current"{% endif %}>Projects</a>
         <a href="{{ '/about-us/' | relative_url }}"{% if page.url contains '/about-us' %} class="is-current"{% endif %}>About us</a>
-        <a href="{{ '/blog/' | relative_url }}"{% if page.url contains '/blog' or page.layout == 'post' %} class="is-current"{% endif %}>Blog</a>
+        <a href="{{ '/blog/' | relative_url }}"{% if page.url contains '/blog' or page.layout == 'post' %} class="is-current"{% endif %}>Posts</a>
         <a href="{{ '/publications/' | relative_url }}"{% if page.url contains '/publications' %} class="is-current"{% endif %}>Publications</a>
         <a href="{{ '/events/' | relative_url }}"{% if page.url contains '/events' %} class="is-current"{% endif %}>Events</a>
         <a href="{{ '/contact/' | relative_url }}"{% if page.url contains '/contact' %} class="is-current"{% endif %}>Contact</a>
