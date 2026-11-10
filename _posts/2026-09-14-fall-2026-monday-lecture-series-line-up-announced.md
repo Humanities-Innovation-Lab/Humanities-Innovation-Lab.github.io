@@ -13,6 +13,6 @@ The line-up for the fall term of the lab’s 2026/2027 Monday Lecture Series is 
 - **Monday, 28 September:** Daniel O’Donnell (University of Lethbridge) — Academic Freedom
 - **Monday, 26 October:** Joey Takeda (Simon Fraser University) — The Endings Project
 - **Monday, 23 November:** Inge Genee (University of Lethbridge) — The Don Frantz Blackfoot Language Archive
-- **Monday, 14 December:** Alexia Schneider (University of Montreal) — On the Proper Use of AI (full title to come)
+- **Monday, 14 December:** Alexia Schneider (University of Montreal) — On the Proper Use of AI
 
 The series continues in the winter term, when talks move to 9:00 a.m. Titles, abstracts, and Zoom links will be posted on the [events page]({{ "/events/" | relative_url }}) as each date approaches.
