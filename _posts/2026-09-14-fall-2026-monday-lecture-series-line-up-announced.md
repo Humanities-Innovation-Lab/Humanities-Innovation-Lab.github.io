@@ -3,7 +3,7 @@ layout: post
 title: "Fall 2026 Monday Lecture Series Line-up Announced"
 date: 2026-09-14 06:00:00 +0000
 categories: ["Events"]
-image: "/assets/img/2026-fall-mls-lineup.png"
+image: "/assets/img/2026-fall-mls-schedule.jpg"
 description: "The line-up for the fall term of the lab’s 2026/2027 Monday Lecture Series is now set, with talks from Daniel O’Donnell, Joey Takeda, Inge Genee, and Alexia Schneider."
 author: "Humanities Innovation Lab"
 ---

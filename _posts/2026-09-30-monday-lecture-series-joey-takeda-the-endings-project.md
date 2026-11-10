@@ -3,7 +3,7 @@ layout: post
 title: "Monday Lecture Series: Joey Takeda — Acid-Free Web Pages: Ending, Sustaining, and Preserving Digital Scholarship"
 date: 2026-09-30 06:00:00 +0000
 categories: ["Events"]
-image: "/assets/img/2026-10-26-takeda-mls-poster.jpg"
+image: "/assets/img/2026-10-26-takeda-mls-landscape.jpg"
 description: "Joey Takeda of Simon Fraser University gives the second talk in the lab’s 2026/2027 Monday Lecture Series, on what comes after a digital project ends."
 author: "Humanities Innovation Lab"
 ---
