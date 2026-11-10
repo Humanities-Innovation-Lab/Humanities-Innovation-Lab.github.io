@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Monday Lecture Series: Daniel O’Donnell — What is Fundamental about Academic Freedom?"
-date: 2026-08-28 06:00:00 +0000
+date: 2026-09-15 06:00:00 +0000
 categories: ["Events"]
 image: "/assets/img/2026-09-28-odonnell-mls-landscape.jpg"
 description: "Daniel O’Donnell of the University of Lethbridge gave the first talk in the lab’s 2026/2027 Monday Lecture Series, on what is fundamental about academic freedom. The slides are available on Zenodo."
