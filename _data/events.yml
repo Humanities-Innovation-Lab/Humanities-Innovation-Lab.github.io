@@ -10,14 +10,15 @@
 # publish future-dated posts.
 
 # 2026/2027 Monday Lecture Series: the fourth Monday of each month from
-# September 2026 to April 2027, plus an additional talk on 14 December 2026.
+# September 2026 to April 2027, plus additional talks on 14 December 2026 and
+# 8 March 2027.
 # The 2026 talks run at 3:30 p.m.; from January 2027 the series moves to
 # 9:00 a.m. Speakers and titles are announced closer to each date — update the
 # title and description as they are confirmed.
 #
 # Lab Member Presentations: internal sessions on the second Monday of each month
-# from November 2026 to April 2027 (none in December, when it clashes with the
-# 14 December lecture), plus 5 October 2026. Same times and room as the lectures;
+# from November 2026 to April 2027 (none in December or March, when they clash
+# with the 14 December and 8 March lectures), plus 5 October 2026. Same times and room as the lectures;
 # no Zoom stream or blog post.
 
 - title: "Monday Lecture Series: Barbara Bordalejo — Title TBA"
@@ -27,7 +28,7 @@
   end_time: "10:00"
   where: "University Hall, room B838, University of Lethbridge — also streamed on Zoom"
   description: >-
-    The seventh talk in the lab’s 2026/2027 Monday Lecture Series. Barbara Bordalejo
+    The eighth talk in the lab’s 2026/2027 Monday Lecture Series. Barbara Bordalejo
     (University of Lethbridge). The title will be announced closer to the date.
 
 - title: "Lab Member Presentations"
@@ -47,18 +48,18 @@
   end_time: "10:00"
   where: "University Hall, room B838, University of Lethbridge — also streamed on Zoom"
   description: >-
-    The sixth talk in the lab’s 2026/2027 Monday Lecture Series. Peter Ives
+    The seventh talk in the lab’s 2026/2027 Monday Lecture Series. Peter Ives
     (University of Winnipeg) speaks on freedom of speech.
 
-- title: "Lab Member Presentations: Sidney Shapiro — Topic TBA"
+- title: "Monday Lecture Series: Sidney Shapiro — Title TBA"
   date: 2027-03-08
   when: "Mar 8, 2027, 9:00 a.m. – 10:00 a.m. MST"
   start_time: "09:00"
   end_time: "10:00"
-  where: "University Hall, room B838, University of Lethbridge"
+  where: "University Hall, room B838, University of Lethbridge — also streamed on Zoom"
   description: >-
-    Sidney Shapiro presents. The topic will be announced closer to the date. If you are
-    interested in attending, send us an email at humanitiesinnovationlab@gmail.com.
+    The sixth talk in the lab’s 2026/2027 Monday Lecture Series. Sidney Shapiro.
+    The title will be announced closer to the date.
 
 - title: "Monday Lecture Series: Sanjaya Mishra — Education and Technology"
   date: 2027-02-22
