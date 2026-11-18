@@ -33,4 +33,4 @@ Smythe Kung, Susan, Ryan Sullivant, Elena Pojman & Alicia Niwagaba. N.d. Archivi
 
 ### About the speaker
 
-Inge Genee is at the University of Lethbridge. A fuller biography will be posted closer to the date.
+Inge Genee is a Professor of Linguistics and a member of the Department of Modern Languages and Linguistics and the Department of Indigenous Studies at Iniskim University of Lethbridge. Her current research interests are in documentary linguistics, language revitalization, linguistic typology, historical linguistics, and non-generative approaches to grammar. She works on Algonquian languages, in particular on Niitsí’powahsini (Blackfoot language) documentation and revitalization. She directs the SSHRC-funded Blackfoot Language Resources project and is a co-applicant for the 21st Century Tools for Indigenous Languages project. She is the editor of the Blackfoot Online Dictionary and co-edits the annual Papers of the Algonquian Conference.
